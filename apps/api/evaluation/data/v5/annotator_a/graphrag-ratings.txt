@@ -1,0 +1,132 @@
+GRAPHRAG RETRIEVAL RELEVANCE JUDGING
+For each query, read the retrieved decisions and rate:
+  3 = Relevant (the results answer the query)
+  2 = Partially relevant (some useful results but incomplete)
+  1 = Irrelevant (results don't match the query)
+Write your rating on the blank line for each query.
+
+============================================================
+
+Query 1: Why was Go chosen over Rust for the CLI tool?
+Found: 16 decisions, 23 entities
+
+  Decision 1:
+    Trigger:   Choosing between Rust and Go for a CLI tool that processes large log files with requirements for speed and single binary distribution.
+    Decision:  Go
+    Rationale: Go is significantly faster to learn, with most developers becoming productive within a week. While Rust offers better performance for CPU-bound tasks 
+
+  Decision 2:
+    Trigger:   Need to verify actual infrastructure behavior, such as connectivity to databases, after provisioning.
+    Decision:  Terratest
+    Rationale: Terratest provisions infrastructure, runs tests, and verifies actual behavior, which is necessary for integration testing.
+
+  Decision 3:
+    Trigger:   High memory usage and GC pauses in Go service
+    Decision:  Do not switch allocators in Go; use Go-specific optimizations instead
+    Rationale: Go allocator is tightly integrated with its GC, making external allocator swaps infeasible
+
+  Related entities: ripgrep, bufio, cobra, rayon, clap, Go, Rust, Echo
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 2
+============================================================
+
+============================================================
+
+Query 2: What database was selected for the SaaS application?
+Found: 21 decisions, 22 entities
+
+  Decision 1:
+    Trigger:   Need for content-based event routing with schema management and SaaS integrations
+    Decision:  EventBridge
+    Rationale: Provides event routing rules, schema registry, event replay, and native SaaS integrations like Stripe/Twilio
+
+  Decision 2:
+    Trigger:   Need for intelligent event routing with durable message queuing
+    Decision:  EventBridge -> SQS
+    Rationale: Combines EventBridge content-based routing with SQS durable message queueing for reliable consumption
+
+  Decision 3:
+    Trigger:   Requirement for combining fan-out with durable message consumption
+    Decision:  SNS -> SQS
+    Rationale: SNS handles fan-out distribution while SQS provides per-consumer message buffering and durability
+
+  Related entities: Amazon SNS, Amazon SQS, EventBridge, Stripe, HubSpot, Salesforce, Airbyte, Fivetran
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 1
+============================================================
+
+============================================================
+
+Query 3: Why was Grafana Cloud picked for observability instead of Datadog?
+Found: 27 decisions, 23 entities
+
+  Decision 1:
+    Trigger:   Need observability for services with logs, metrics, traces
+    Decision:  Grafana Cloud
+    Rationale: Managed service reduces operational overhead, cost-effective compared to Datadog, open-source compatibility avoids vendor lock-in
+
+  Decision 2:
+    Trigger:   Setting up alerting for k8s cluster with existing Grafana dashboards
+    Decision:  Use both Prometheus Alertmanager and Grafana OnCall together
+    Rationale: Prometheus Alertmanager handles alert routing and deduplication, while Grafana OnCall provides on-call management and escalation
+
+  Decision 3:
+    Trigger:   Standardizing on OpenTelemetry given current mix of Datadog, Prometheus, and custom logging
+    Decision:  Adopt OpenTelemetry (OTel) as the standardized observability framework
+    Rationale: OpenTelemetry provides vendor-neutral instrumentation, supports traces, metrics, and logs with correlation
+
+  Related entities: Grafana, Grafana Loki, Prometheus, Grafana Cloud, Datadog, OpenTelemetry, Alloy, OpenTelemetry SDKs
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 3
+============================================================
+
+============================================================
+
+Query 4: What message broker was recommended for microservices?
+Found: 13 decisions, 6 entities
+
+  Decision 1:
+    Trigger:   Need for a message broker with async communication, audit trails, and handling 10k messages/sec peak
+    Decision:  Apache Kafka
+    Rationale: Kafka log-based persistence supports audit trails and replay capability, high throughput (millions/sec), and ecosystem tools (Kafka Streams, ksqlDB)
+
+  Decision 2:
+    Trigger:   Need to serve real-time features (user last 5 actions in the past hour) at low latency
+    Decision:  Redis directly
+    Rationale: Simplest solution for maintaining a capped list of recent actions with TTL, providing sub-millisecond reads
+
+  Decision 3:
+    Trigger:   Need to join user events from Kafka with user profiles from Postgres in real-time for personalization
+    Decision:  Apache Flink
+    Rationale: Flink supports direct querying of Postgres as a lookup table with temporal joins
+
+  Related entities: NATS JetStream, RabbitMQ, Apache Kafka, EventBridge, Amazon SNS, Amazon SQS
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 2
+============================================================
+
+============================================================
+
+Query 5: Why was Playwright chosen over Cypress for E2E testing?
+Found: 26 decisions, 10 entities
+
+  Decision 1:
+    Trigger:   Setting up E2E testing for a Next.js app with complex user flows
+    Decision:  Playwright
+    Rationale: Playwright offers multi-browser support, auto-waiting, parallel execution, combined API/UI testing, code generation, trace debugging
+
+  Decision 2:
+    Trigger:   Need to balance personalization and speed in a Next.js app serving personalized content
+    Decision:  Static shell (ISR) + Client-side personalization (React Query)
+    Rationale: Provides CDN-fast initial load with full personalization through client-side data fetching after page mount
+
+  Decision 3:
+    Trigger:   Handling inline scripts injected by Next.js
+    Decision:  Use nonce strategy for inline scripts
+    Rationale: Next.js dynamically injects scripts requiring dynamic nonces
+
+  Related entities: Next.js, Cypress, Playwright, React Server Components, Qwik, Pydantic v2, Alembic, asyncpg
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 2
+============================================================
+

@@ -1,0 +1,2026 @@
+{
+  "conversations": 200,
+  "conversations_with_decisions": 165,
+  "total_decisions": 364,
+  "total_entity_links": 1292,
+  "extraction_success_rate": 0.825,
+  "avg_decisions_per_conv": 1.82,
+  "avg_extraction_time_s": 28.51,
+  "total_pipeline_time_s": 5837.1,
+  "decisions_by_domain": {
+    "web-development": 58,
+    "backend": 58,
+    "devops": 41,
+    "ml": 50,
+    "mobile": 43,
+    "data-engineering": 30,
+    "systems": 36,
+    "security": 21,
+    "cloud-architecture": 27
+  },
+  "decisions_per_conv": [
+    0,
+    2,
+    0,
+    3,
+    2,
+    1,
+    3,
+    1,
+    4,
+    4,
+    1,
+    2,
+    4,
+    0,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    0,
+    5,
+    1,
+    1,
+    2,
+    3,
+    0,
+    2,
+    1,
+    5,
+    0,
+    5,
+    1,
+    1,
+    5,
+    2,
+    1,
+    1,
+    0,
+    2,
+    0,
+    0,
+    2,
+    2,
+    4,
+    0,
+    5,
+    1,
+    3,
+    0,
+    1,
+    2,
+    5,
+    1,
+    0,
+    3,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    2,
+    3,
+    0,
+    1,
+    4,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    1,
+    6,
+    4,
+    2,
+    4,
+    3,
+    2,
+    1,
+    1,
+    1,
+    2,
+    0,
+    3,
+    3,
+    2,
+    2,
+    1,
+    0,
+    5,
+    5,
+    0,
+    1,
+    0,
+    1,
+    6,
+    2,
+    4,
+    1,
+    3,
+    2,
+    1,
+    7,
+    1,
+    2,
+    3,
+    1,
+    1,
+    5,
+    1,
+    2,
+    1,
+    2,
+    0,
+    3,
+    3,
+    1,
+    1,
+    3,
+    1,
+    2,
+    1,
+    2,
+    2,
+    0,
+    1,
+    2,
+    4,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    3,
+    3,
+    3,
+    1,
+    0,
+    3,
+    2,
+    4,
+    7,
+    1,
+    0,
+    0,
+    4,
+    2,
+    1,
+    2,
+    0,
+    2,
+    2,
+    0,
+    2,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    0,
+    1,
+    0,
+    2,
+    5,
+    3,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    4
+  ],
+  "failed_conversations": [],
+  "per_conv_results": [
+    {
+      "conv_id": "conv-001",
+      "domain": "web-development",
+      "topic": "Choosing React state management (Redux vs Zustand vs Jotai)",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.37
+    },
+    {
+      "conv_id": "conv-002",
+      "domain": "web-development",
+      "topic": "Next.js vs Remix for a new project",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 10,
+      "extraction_time_s": 32.56
+    },
+    {
+      "conv_id": "conv-003",
+      "domain": "backend",
+      "topic": "FastAPI vs Django for REST API",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 54.2
+    },
+    {
+      "conv_id": "conv-004",
+      "domain": "backend",
+      "topic": "PostgreSQL vs MySQL for a SaaS app",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 7,
+      "extraction_time_s": 36.72
+    },
+    {
+      "conv_id": "conv-005",
+      "domain": "devops",
+      "topic": "Docker Compose vs Kubernetes for staging",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 10,
+      "extraction_time_s": 42.22
+    },
+    {
+      "conv_id": "conv-006",
+      "domain": "devops",
+      "topic": "GitHub Actions vs CircleCI for CI/CD",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 15.78
+    },
+    {
+      "conv_id": "conv-007",
+      "domain": "ml",
+      "topic": "PyTorch vs TensorFlow for a CV project",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 20,
+      "extraction_time_s": 21.52
+    },
+    {
+      "conv_id": "conv-008",
+      "domain": "ml",
+      "topic": "Choosing a vector database",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 14.74
+    },
+    {
+      "conv_id": "conv-009",
+      "domain": "mobile",
+      "topic": "React Native vs Flutter for cross-platform",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 11,
+      "extraction_time_s": 43.97
+    },
+    {
+      "conv_id": "conv-010",
+      "domain": "mobile",
+      "topic": "SwiftUI vs UIKit for iOS",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 11,
+      "extraction_time_s": 23.04
+    },
+    {
+      "conv_id": "conv-011",
+      "domain": "data-engineering",
+      "topic": "Apache Kafka vs RabbitMQ for event streaming",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 6,
+      "extraction_time_s": 13.27
+    },
+    {
+      "conv_id": "conv-012",
+      "domain": "data-engineering",
+      "topic": "dbt vs Airflow for data transformations",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 8,
+      "extraction_time_s": 12.89
+    },
+    {
+      "conv_id": "conv-013",
+      "domain": "systems",
+      "topic": "Rust vs Go for a CLI tool",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 5,
+      "extraction_time_s": 50.08
+    },
+    {
+      "conv_id": "conv-014",
+      "domain": "security",
+      "topic": "JWT vs session-based auth",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.5
+    },
+    {
+      "conv_id": "conv-015",
+      "domain": "web-development",
+      "topic": "TailwindCSS vs styled-components vs CSS Modules",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 10,
+      "extraction_time_s": 17.36
+    },
+    {
+      "conv_id": "conv-016",
+      "domain": "backend",
+      "topic": "Express.js vs Fastify vs Hono for Node API",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 5,
+      "extraction_time_s": 18.65
+    },
+    {
+      "conv_id": "conv-017",
+      "domain": "devops",
+      "topic": "Terraform vs Pulumi for IaC",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 9,
+      "extraction_time_s": 17.78
+    },
+    {
+      "conv_id": "conv-018",
+      "domain": "ml",
+      "topic": "LangChain vs LlamaIndex for RAG pipeline",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 10,
+      "extraction_time_s": 12.52
+    },
+    {
+      "conv_id": "conv-019",
+      "domain": "mobile",
+      "topic": "Expo vs bare React Native workflow",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 16,
+      "extraction_time_s": 14.28
+    },
+    {
+      "conv_id": "conv-020",
+      "domain": "data-engineering",
+      "topic": "Spark vs DuckDB for analytics",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 9,
+      "extraction_time_s": 21.8
+    },
+    {
+      "conv_id": "conv-021",
+      "domain": "backend",
+      "topic": "Redis vs Memcached for caching",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 13.19
+    },
+    {
+      "conv_id": "conv-022",
+      "domain": "web-development",
+      "topic": "Vite vs Turbopack for frontend bundling",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 8,
+      "extraction_time_s": 15.49
+    },
+    {
+      "conv_id": "conv-023",
+      "domain": "devops",
+      "topic": "ArgoCD vs FluxCD for GitOps",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 4,
+      "extraction_time_s": 11.92
+    },
+    {
+      "conv_id": "conv-024",
+      "domain": "systems",
+      "topic": "C++ vs Rust for game engine",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 62.71
+    },
+    {
+      "conv_id": "conv-025",
+      "domain": "security",
+      "topic": "OAuth2 vs SAML for enterprise SSO",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 12,
+      "extraction_time_s": 22.96
+    },
+    {
+      "conv_id": "conv-101",
+      "domain": "web-development",
+      "topic": "React 19 features and migration from React 18",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 3.14
+    },
+    {
+      "conv_id": "conv-102",
+      "domain": "web-development",
+      "topic": "Angular vs Vue vs React for enterprise app",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 18,
+      "extraction_time_s": 52.79
+    },
+    {
+      "conv_id": "conv-103",
+      "domain": "web-development",
+      "topic": "Auth.js (NextAuth) vs Clerk vs Lucia for auth",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 4,
+      "extraction_time_s": 8.27
+    },
+    {
+      "conv_id": "conv-104",
+      "domain": "backend",
+      "topic": "PostgREST vs Hasura vs Supabase for instant API",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 3,
+      "extraction_time_s": 10.37
+    },
+    {
+      "conv_id": "conv-105",
+      "domain": "backend",
+      "topic": "Exploring Python 3.13 features",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 9,
+      "extraction_time_s": 45.83
+    },
+    {
+      "conv_id": "conv-106",
+      "domain": "backend",
+      "topic": "Connection pooling: PgBouncer vs pgcat vs Supavisor",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 9,
+      "extraction_time_s": 23.52
+    },
+    {
+      "conv_id": "conv-107",
+      "domain": "backend",
+      "topic": "Go 1.22+ range over func and iterators",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 57.28
+    },
+    {
+      "conv_id": "conv-108",
+      "domain": "devops",
+      "topic": "Kubernetes networking: Cilium vs Calico vs Flannel",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 16.73
+    },
+    {
+      "conv_id": "conv-109",
+      "domain": "devops",
+      "topic": "Secret management in CI/CD pipelines",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 8,
+      "extraction_time_s": 11.7
+    },
+    {
+      "conv_id": "conv-110",
+      "domain": "devops",
+      "topic": "Kubernetes cost optimization",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 7,
+      "extraction_time_s": 33.01
+    },
+    {
+      "conv_id": "conv-111",
+      "domain": "data-engineering",
+      "topic": "Exploring data lakehouse without clear decision",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 55.03
+    },
+    {
+      "conv_id": "conv-112",
+      "domain": "data-engineering",
+      "topic": "Polars vs Pandas for data processing",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 13,
+      "extraction_time_s": 37.43
+    },
+    {
+      "conv_id": "conv-113",
+      "domain": "data-engineering",
+      "topic": "CDC with Debezium for real-time data sync",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 4,
+      "extraction_time_s": 27.32
+    },
+    {
+      "conv_id": "conv-114",
+      "domain": "systems",
+      "topic": "Leptos vs Yew for Rust WASM frontend",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 10.48
+    },
+    {
+      "conv_id": "conv-115",
+      "domain": "systems",
+      "topic": "Lock-free data structures in Rust",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 11,
+      "extraction_time_s": 56.38
+    },
+    {
+      "conv_id": "conv-116",
+      "domain": "systems",
+      "topic": "QUIC vs TCP for real-time game networking",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 10,
+      "extraction_time_s": 17.03
+    },
+    {
+      "conv_id": "conv-117",
+      "domain": "systems",
+      "topic": "eBPF for production observability",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 13.8
+    },
+    {
+      "conv_id": "conv-118",
+      "domain": "mobile",
+      "topic": "SQLite vs Realm vs WatermelonDB for React Native offline-first",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 9,
+      "extraction_time_s": 19.5
+    },
+    {
+      "conv_id": "conv-119",
+      "domain": "mobile",
+      "topic": "App size optimization for mobile",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.15
+    },
+    {
+      "conv_id": "conv-120",
+      "domain": "mobile",
+      "topic": "Biometric authentication on mobile",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 4,
+      "extraction_time_s": 27.85
+    },
+    {
+      "conv_id": "conv-121",
+      "domain": "security",
+      "topic": "Supply chain security for npm packages",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 59.77
+    },
+    {
+      "conv_id": "conv-122",
+      "domain": "security",
+      "topic": "Zero trust architecture for microservices",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 64.75
+    },
+    {
+      "conv_id": "conv-123",
+      "domain": "security",
+      "topic": "Encryption at rest for PostgreSQL",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 29.39
+    },
+    {
+      "conv_id": "conv-124",
+      "domain": "cloud-architecture",
+      "topic": "Serverless patterns: Step Functions vs EventBridge Pipes",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 4,
+      "extraction_time_s": 9.85
+    },
+    {
+      "conv_id": "conv-125",
+      "domain": "cloud-architecture",
+      "topic": "Edge computing patterns with Cloudflare Workers",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 7,
+      "extraction_time_s": 41.09
+    },
+    {
+      "conv_id": "conv-126",
+      "domain": "cloud-architecture",
+      "topic": "Database per service vs shared database in microservices",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 64.91
+    },
+    {
+      "conv_id": "conv-127",
+      "domain": "web-development",
+      "topic": "Exploring Tailwind CSS v4 changes",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 3,
+      "extraction_time_s": 48.04
+    },
+    {
+      "conv_id": "conv-128",
+      "domain": "web-development",
+      "topic": "Internationalization: next-intl vs react-i18next",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 8.06
+    },
+    {
+      "conv_id": "conv-129",
+      "domain": "web-development",
+      "topic": "Web Components vs framework components for design system",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 16,
+      "extraction_time_s": 45.7
+    },
+    {
+      "conv_id": "conv-130",
+      "domain": "backend",
+      "topic": "Rate limiting strategies comparison",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.15
+    },
+    {
+      "conv_id": "conv-131",
+      "domain": "backend",
+      "topic": "Database migration strategies for zero-downtime",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 10.93
+    },
+    {
+      "conv_id": "conv-132",
+      "domain": "ml",
+      "topic": "Evaluation framework for RAG systems",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 24.46
+    },
+    {
+      "conv_id": "conv-133",
+      "domain": "ml",
+      "topic": "GPU infrastructure: on-prem vs cloud for ML training",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 15,
+      "extraction_time_s": 34.9
+    },
+    {
+      "conv_id": "conv-134",
+      "domain": "devops",
+      "topic": "Exploring platform engineering with Backstage",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 27.93
+    },
+    {
+      "conv_id": "conv-135",
+      "domain": "devops",
+      "topic": "Monorepo CI optimization with Turborepo",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 57.29
+    },
+    {
+      "conv_id": "conv-136",
+      "domain": "data-engineering",
+      "topic": "Apache Beam vs Spark for unified batch/stream",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 12,
+      "extraction_time_s": 13.27
+    },
+    {
+      "conv_id": "conv-137",
+      "domain": "data-engineering",
+      "topic": "Real-time analytics with Apache Druid vs ClickHouse",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 12.5
+    },
+    {
+      "conv_id": "conv-138",
+      "domain": "systems",
+      "topic": "Exploration of RISC-V for embedded systems",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 4,
+      "extraction_time_s": 30.46
+    },
+    {
+      "conv_id": "conv-139",
+      "domain": "systems",
+      "topic": "Exploring async Rust patterns with Tokio",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 3,
+      "extraction_time_s": 15.63
+    },
+    {
+      "conv_id": "conv-140",
+      "domain": "web-development",
+      "topic": "Server-sent events vs WebSockets for real-time updates",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 20.34
+    },
+    {
+      "conv_id": "conv-141",
+      "domain": "backend",
+      "topic": "ES2024 features in Node.js 24",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 10.03
+    },
+    {
+      "conv_id": "conv-142",
+      "domain": "devops",
+      "topic": "GitOps for database migrations",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 15.38
+    },
+    {
+      "conv_id": "conv-143",
+      "domain": "ml",
+      "topic": "Prompt engineering vs fine-tuning vs RAG decision framework",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 4,
+      "extraction_time_s": 13.76
+    },
+    {
+      "conv_id": "conv-144",
+      "domain": "cloud-architecture",
+      "topic": "Multi-cloud strategy: genuine need vs complexity",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 28.36
+    },
+    {
+      "conv_id": "conv-145",
+      "domain": "cloud-architecture",
+      "topic": "Serverless database options comparison",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 17.53
+    },
+    {
+      "conv_id": "conv-146",
+      "domain": "web-development",
+      "topic": "Monorepo component sharing between Next.js apps",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 55.09
+    },
+    {
+      "conv_id": "conv-147",
+      "domain": "backend",
+      "topic": "OpenAPI spec-first vs code-first API design",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 51.78
+    },
+    {
+      "conv_id": "conv-148",
+      "domain": "ml",
+      "topic": "Exploring quantization for LLM deployment",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 55.24
+    },
+    {
+      "conv_id": "conv-149",
+      "domain": "devops",
+      "topic": "Feature flags: LaunchDarkly vs Unleash vs Flagsmith",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 6,
+      "extraction_time_s": 8.97
+    },
+    {
+      "conv_id": "conv-150",
+      "domain": "data-engineering",
+      "topic": "Data contracts between teams",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 7,
+      "extraction_time_s": 13.91
+    },
+    {
+      "conv_id": "conv-151",
+      "domain": "web-development",
+      "topic": "Exploring View Transitions API for page navigation",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 11,
+      "extraction_time_s": 10.09
+    },
+    {
+      "conv_id": "conv-152",
+      "domain": "web-development",
+      "topic": "Zod vs Valibot vs ArkType for TypeScript validation",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 9,
+      "extraction_time_s": 20.16
+    },
+    {
+      "conv_id": "conv-153",
+      "domain": "backend",
+      "topic": "Event sourcing with Marten or EventStoreDB",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 54.85
+    },
+    {
+      "conv_id": "conv-154",
+      "domain": "backend",
+      "topic": "Exploring WebTransport vs WebSocket for real-time",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 10,
+      "extraction_time_s": 8.2
+    },
+    {
+      "conv_id": "conv-155",
+      "domain": "mobile",
+      "topic": "KMM shared logic with Swift and Kotlin UI",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 12,
+      "extraction_time_s": 29.65
+    },
+    {
+      "conv_id": "conv-156",
+      "domain": "mobile",
+      "topic": "App Store review optimization",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 57.26
+    },
+    {
+      "conv_id": "conv-157",
+      "domain": "data-engineering",
+      "topic": "Exploring data mesh architecture",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 57.51
+    },
+    {
+      "conv_id": "conv-158",
+      "domain": "data-engineering",
+      "topic": "Choosing between Redshift, BigQuery, and Snowflake",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 59.26
+    },
+    {
+      "conv_id": "conv-159",
+      "domain": "systems",
+      "topic": "Building a distributed key-value store",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 9,
+      "extraction_time_s": 15.05
+    },
+    {
+      "conv_id": "conv-160",
+      "domain": "systems",
+      "topic": "Exploring memory-mapped I/O for database storage",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 28,
+      "extraction_time_s": 30.37
+    },
+    {
+      "conv_id": "conv-161",
+      "domain": "security",
+      "topic": "API security: OWASP API Top 10",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 2,
+      "extraction_time_s": 15.0
+    },
+    {
+      "conv_id": "conv-162",
+      "domain": "security",
+      "topic": "Passkeys vs passwords for web authentication",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 11,
+      "extraction_time_s": 19.57
+    },
+    {
+      "conv_id": "conv-163",
+      "domain": "ml",
+      "topic": "Vector search: pgvector vs dedicated vector DB",
+      "decisions_extracted": 6,
+      "decisions_stored": 6,
+      "entities_linked": 13,
+      "extraction_time_s": 18.92
+    },
+    {
+      "conv_id": "conv-164",
+      "domain": "ml",
+      "topic": "AI agents: LangGraph vs CrewAI vs AutoGen",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 8,
+      "extraction_time_s": 48.86
+    },
+    {
+      "conv_id": "conv-165",
+      "domain": "devops",
+      "topic": "Blue-green vs canary vs rolling deployments",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 9,
+      "extraction_time_s": 52.28
+    },
+    {
+      "conv_id": "conv-166",
+      "domain": "devops",
+      "topic": "Infrastructure testing with Terratest vs Checkov",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 8,
+      "extraction_time_s": 39.82
+    },
+    {
+      "conv_id": "conv-167",
+      "domain": "web-development",
+      "topic": "Streaming SSR patterns in Next.js",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 11,
+      "extraction_time_s": 31.49
+    },
+    {
+      "conv_id": "conv-168",
+      "domain": "web-development",
+      "topic": "Form handling: React Hook Form vs Conform",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 8,
+      "extraction_time_s": 16.14
+    },
+    {
+      "conv_id": "conv-169",
+      "domain": "backend",
+      "topic": "Exploring Rust for Python-heavy team",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 9,
+      "extraction_time_s": 35.41
+    },
+    {
+      "conv_id": "conv-170",
+      "domain": "backend",
+      "topic": "API versioning strategies",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 3,
+      "extraction_time_s": 8.53
+    },
+    {
+      "conv_id": "conv-171",
+      "domain": "ml",
+      "topic": "Synthetic data generation for ML training",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 11.92
+    },
+    {
+      "conv_id": "conv-172",
+      "domain": "data-engineering",
+      "topic": "Data lineage: tracking data flow across systems",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 11.39
+    },
+    {
+      "conv_id": "conv-173",
+      "domain": "systems",
+      "topic": "Exploring WebAssembly System Interface (WASI)",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 54.09
+    },
+    {
+      "conv_id": "conv-174",
+      "domain": "cloud-architecture",
+      "topic": "Choosing between SQS, SNS, and EventBridge",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 5,
+      "extraction_time_s": 17.16
+    },
+    {
+      "conv_id": "conv-175",
+      "domain": "mobile",
+      "topic": "Deep linking and universal links setup",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 10,
+      "extraction_time_s": 14.79
+    },
+    {
+      "conv_id": "conv-176",
+      "domain": "web-development",
+      "topic": "React Server Components data fetching patterns",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 22.23
+    },
+    {
+      "conv_id": "conv-177",
+      "domain": "web-development",
+      "topic": "Micro-frontends: worth the complexity?",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 5,
+      "extraction_time_s": 16.46
+    },
+    {
+      "conv_id": "conv-178",
+      "domain": "backend",
+      "topic": "Implementing CQRS pattern",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 6,
+      "extraction_time_s": 8.76
+    },
+    {
+      "conv_id": "conv-179",
+      "domain": "backend",
+      "topic": "Webhook delivery reliability",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.72
+    },
+    {
+      "conv_id": "conv-180",
+      "domain": "mobile",
+      "topic": "React Native performance optimization",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 13,
+      "extraction_time_s": 32.86
+    },
+    {
+      "conv_id": "conv-181",
+      "domain": "mobile",
+      "topic": "Exploring Expo Router for file-based navigation",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 10,
+      "extraction_time_s": 47.63
+    },
+    {
+      "conv_id": "conv-182",
+      "domain": "data-engineering",
+      "topic": "Medallion architecture for data lakehouse",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 4.66
+    },
+    {
+      "conv_id": "conv-183",
+      "domain": "data-engineering",
+      "topic": "Real-time feature store for ML",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 5,
+      "extraction_time_s": 17.68
+    },
+    {
+      "conv_id": "conv-184",
+      "domain": "systems",
+      "topic": "Debugging production Rust panics",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 56.78
+    },
+    {
+      "conv_id": "conv-185",
+      "domain": "systems",
+      "topic": "Choosing a message serialization format",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 21.62
+    },
+    {
+      "conv_id": "conv-186",
+      "domain": "security",
+      "topic": "Implementing Content Security Policy",
+      "decisions_extracted": 6,
+      "decisions_stored": 6,
+      "entities_linked": 10,
+      "extraction_time_s": 25.02
+    },
+    {
+      "conv_id": "conv-187",
+      "domain": "cloud-architecture",
+      "topic": "Choosing between EKS, ECS, and Lambda for new service",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 5,
+      "extraction_time_s": 10.13
+    },
+    {
+      "conv_id": "conv-188",
+      "domain": "ml",
+      "topic": "A/B testing for ML models",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 3,
+      "extraction_time_s": 24.4
+    },
+    {
+      "conv_id": "conv-189",
+      "domain": "ml",
+      "topic": "Exploring multimodal AI: vision + language",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 8,
+      "extraction_time_s": 40.53
+    },
+    {
+      "conv_id": "conv-190",
+      "domain": "devops",
+      "topic": "Incident management: PagerDuty vs Opsgenie vs Rootly",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 5,
+      "extraction_time_s": 29.31
+    },
+    {
+      "conv_id": "conv-191",
+      "domain": "devops",
+      "topic": "Container registry: ECR vs GitHub Container Registry vs Harbor",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 26.57
+    },
+    {
+      "conv_id": "conv-192",
+      "domain": "web-development",
+      "topic": "Edge rendering vs SSR vs ISR for dynamic content",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 5,
+      "extraction_time_s": 8.69
+    },
+    {
+      "conv_id": "conv-193",
+      "domain": "backend",
+      "topic": "Idempotency in API design",
+      "decisions_extracted": 7,
+      "decisions_stored": 7,
+      "entities_linked": 8,
+      "extraction_time_s": 21.6
+    },
+    {
+      "conv_id": "conv-194",
+      "domain": "data-engineering",
+      "topic": "Exploring lakehouse with DuckDB for local analytics",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 6,
+      "extraction_time_s": 12.06
+    },
+    {
+      "conv_id": "conv-195",
+      "domain": "systems",
+      "topic": "Exploring CRDTs for collaborative editing",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 5,
+      "extraction_time_s": 18.43
+    },
+    {
+      "conv_id": "conv-196",
+      "domain": "cloud-architecture",
+      "topic": "API Gateway patterns: Kong vs AWS API Gateway vs Envoy",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 9,
+      "extraction_time_s": 29.73
+    },
+    {
+      "conv_id": "conv-197",
+      "domain": "backend",
+      "topic": "Exploring Effect-TS for TypeScript error handling",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 6,
+      "extraction_time_s": 15.5
+    },
+    {
+      "conv_id": "conv-198",
+      "domain": "devops",
+      "topic": "Observability: OpenTelemetry adoption",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 7.07
+    },
+    {
+      "conv_id": "conv-199",
+      "domain": "ml",
+      "topic": "Building an AI code review assistant",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 11,
+      "extraction_time_s": 14.17
+    },
+    {
+      "conv_id": "conv-200",
+      "domain": "web-development",
+      "topic": "Exploring signals as universal reactive primitive",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 3,
+      "extraction_time_s": 10.75
+    },
+    {
+      "conv_id": "conv-026",
+      "domain": "backend",
+      "topic": "GraphQL vs REST for mobile API",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 15.47
+    },
+    {
+      "conv_id": "conv-027",
+      "domain": "web-development",
+      "topic": "Prisma vs Drizzle vs TypeORM for Node.js ORM",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 3,
+      "extraction_time_s": 12.4
+    },
+    {
+      "conv_id": "conv-028",
+      "domain": "devops",
+      "topic": "AWS Lambda vs Cloudflare Workers for serverless",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 13,
+      "extraction_time_s": 24.77
+    },
+    {
+      "conv_id": "conv-029",
+      "domain": "ml",
+      "topic": "Fine-tuning vs RAG for domain-specific chatbot",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 71.61
+    },
+    {
+      "conv_id": "conv-030",
+      "domain": "data-engineering",
+      "topic": "Postgres vs ClickHouse for analytics",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 8,
+      "extraction_time_s": 43.4
+    },
+    {
+      "conv_id": "conv-031",
+      "domain": "backend",
+      "topic": "Monorepo vs polyrepo for microservices",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 9,
+      "extraction_time_s": 20.19
+    },
+    {
+      "conv_id": "conv-032",
+      "domain": "web-development",
+      "topic": "SvelteKit vs Next.js for content site",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 12,
+      "extraction_time_s": 19.93
+    },
+    {
+      "conv_id": "conv-033",
+      "domain": "security",
+      "topic": "Argon2 vs bcrypt for password hashing",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 5,
+      "extraction_time_s": 9.7
+    },
+    {
+      "conv_id": "conv-034",
+      "domain": "mobile",
+      "topic": "Kotlin Multiplatform vs Flutter",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 17,
+      "extraction_time_s": 37.09
+    },
+    {
+      "conv_id": "conv-035",
+      "domain": "systems",
+      "topic": "tokio vs async-std in Rust",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 8,
+      "extraction_time_s": 11.17
+    },
+    {
+      "conv_id": "conv-036",
+      "domain": "devops",
+      "topic": "Datadog vs Grafana stack for observability",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 42.75
+    },
+    {
+      "conv_id": "conv-037",
+      "domain": "ml",
+      "topic": "OpenAI API vs self-hosted Llama for production",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 30.65
+    },
+    {
+      "conv_id": "conv-038",
+      "domain": "web-development",
+      "topic": "Playwright vs Cypress for E2E testing",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 28.84
+    },
+    {
+      "conv_id": "conv-039",
+      "domain": "backend",
+      "topic": "gRPC vs REST for service-to-service",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 9,
+      "extraction_time_s": 11.63
+    },
+    {
+      "conv_id": "conv-040",
+      "domain": "data-engineering",
+      "topic": "Snowflake vs BigQuery for data warehouse",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 5.26
+    },
+    {
+      "conv_id": "conv-041",
+      "domain": "web-development",
+      "topic": "Shadcn/ui vs Radix vs Chakra UI for components",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 4,
+      "extraction_time_s": 14.35
+    },
+    {
+      "conv_id": "conv-042",
+      "domain": "devops",
+      "topic": "Nix vs Docker for dev environments",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 12,
+      "extraction_time_s": 47.05
+    },
+    {
+      "conv_id": "conv-043",
+      "domain": "backend",
+      "topic": "SQLAlchemy vs SQLModel for Python ORM",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 10,
+      "extraction_time_s": 15.96
+    },
+    {
+      "conv_id": "conv-044",
+      "domain": "ml",
+      "topic": "Weights & Biases vs MLflow for experiment tracking",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 24.61
+    },
+    {
+      "conv_id": "conv-045",
+      "domain": "mobile",
+      "topic": "Realm vs SQLite for local mobile storage",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 6,
+      "extraction_time_s": 10.54
+    },
+    {
+      "conv_id": "conv-046",
+      "domain": "security",
+      "topic": "mTLS vs API keys for service auth",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 18,
+      "extraction_time_s": 68.52
+    },
+    {
+      "conv_id": "conv-047",
+      "domain": "web-development",
+      "topic": "pnpm vs yarn vs npm for package management",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 3,
+      "extraction_time_s": 8.94
+    },
+    {
+      "conv_id": "conv-048",
+      "domain": "systems",
+      "topic": "WebAssembly vs native for browser compute",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 8,
+      "extraction_time_s": 30.95
+    },
+    {
+      "conv_id": "conv-049",
+      "domain": "data-engineering",
+      "topic": "Apache Flink vs Kafka Streams for stream processing",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 5,
+      "extraction_time_s": 12.41
+    },
+    {
+      "conv_id": "conv-050",
+      "domain": "backend",
+      "topic": "Supabase vs Firebase for BaaS",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 9,
+      "extraction_time_s": 32.32
+    },
+    {
+      "conv_id": "conv-051",
+      "domain": "web-development",
+      "topic": "Astro vs Next.js for content-driven site",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 6,
+      "extraction_time_s": 11.94
+    },
+    {
+      "conv_id": "conv-052",
+      "domain": "web-development",
+      "topic": "SolidJS vs React for performance-critical dashboard",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 13,
+      "extraction_time_s": 22.67
+    },
+    {
+      "conv_id": "conv-053",
+      "domain": "web-development",
+      "topic": "htmx vs React SPA for internal tool",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 7,
+      "extraction_time_s": 17.53
+    },
+    {
+      "conv_id": "conv-054",
+      "domain": "web-development",
+      "topic": "Qwik framework for resumability",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 10.71
+    },
+    {
+      "conv_id": "conv-055",
+      "domain": "web-development",
+      "topic": "Svelte 5 runes vs React hooks",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 6.35
+    },
+    {
+      "conv_id": "conv-056",
+      "domain": "backend",
+      "topic": "Axum vs Actix Web for Rust API",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 13,
+      "extraction_time_s": 11.67
+    },
+    {
+      "conv_id": "conv-057",
+      "domain": "backend",
+      "topic": "Gin vs Echo vs Fiber for Go API",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 13.46
+    },
+    {
+      "conv_id": "conv-058",
+      "domain": "backend",
+      "topic": "Bun vs Node vs Deno runtime choice",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 15,
+      "extraction_time_s": 16.33
+    },
+    {
+      "conv_id": "conv-059",
+      "domain": "backend",
+      "topic": "Java 21 LTS virtual threads for microservices",
+      "decisions_extracted": 7,
+      "decisions_stored": 7,
+      "entities_linked": 18,
+      "extraction_time_s": 22.34
+    },
+    {
+      "conv_id": "conv-060",
+      "domain": "backend",
+      "topic": "Celery vs Dramatiq vs Temporal for task queues in Python",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 4,
+      "extraction_time_s": 10.96
+    },
+    {
+      "conv_id": "conv-061",
+      "domain": "devops",
+      "topic": "Terraform vs OpenTofu after BSL license change",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 12.09
+    },
+    {
+      "conv_id": "conv-062",
+      "domain": "devops",
+      "topic": "Podman vs Docker for container development",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 59.39
+    },
+    {
+      "conv_id": "conv-063",
+      "domain": "devops",
+      "topic": "Pulumi vs AWS CDK for TypeScript infrastructure",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 10,
+      "extraction_time_s": 50.42
+    },
+    {
+      "conv_id": "conv-064",
+      "domain": "devops",
+      "topic": "Tailscale vs WireGuard vs OpenVPN for team VPN",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 13.26
+    },
+    {
+      "conv_id": "conv-065",
+      "domain": "devops",
+      "topic": "Prometheus + Alertmanager vs Grafana OnCall for alerting",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 9,
+      "extraction_time_s": 7.76
+    },
+    {
+      "conv_id": "conv-066",
+      "domain": "ml",
+      "topic": "vLLM vs TGI vs Triton for LLM serving",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 7,
+      "extraction_time_s": 48.89
+    },
+    {
+      "conv_id": "conv-067",
+      "domain": "ml",
+      "topic": "Embedding models: OpenAI vs open-source for RAG",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 55.85
+    },
+    {
+      "conv_id": "conv-068",
+      "domain": "ml",
+      "topic": "MLflow vs DVC for model versioning",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 58.78
+    },
+    {
+      "conv_id": "conv-069",
+      "domain": "ml",
+      "topic": "LoRA fine-tuning vs full fine-tuning for domain adaptation",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 20.43
+    },
+    {
+      "conv_id": "conv-070",
+      "domain": "ml",
+      "topic": "Feature store: Feast vs Tecton",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 55.48
+    },
+    {
+      "conv_id": "conv-071",
+      "domain": "mobile",
+      "topic": "Tauri vs Electron for desktop app",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 5,
+      "extraction_time_s": 286.71
+    },
+    {
+      "conv_id": "conv-072",
+      "domain": "mobile",
+      "topic": "Capacitor vs React Native for existing web app",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 9.37
+    },
+    {
+      "conv_id": "conv-073",
+      "domain": "mobile",
+      "topic": "Swift Concurrency vs Combine for async iOS",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 10,
+      "extraction_time_s": 13.91
+    },
+    {
+      "conv_id": "conv-074",
+      "domain": "mobile",
+      "topic": "Jetpack Compose vs XML layouts for Android",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 8,
+      "extraction_time_s": 10.57
+    },
+    {
+      "conv_id": "conv-075",
+      "domain": "mobile",
+      "topic": "Push notification services comparison",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 6,
+      "extraction_time_s": 24.7
+    },
+    {
+      "conv_id": "conv-076",
+      "domain": "data-engineering",
+      "topic": "Apache Iceberg vs Delta Lake for data lakehouse",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 8,
+      "extraction_time_s": 11.07
+    },
+    {
+      "conv_id": "conv-077",
+      "domain": "data-engineering",
+      "topic": "Airbyte vs Fivetran for data ingestion",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 9,
+      "extraction_time_s": 10.48
+    },
+    {
+      "conv_id": "conv-078",
+      "domain": "data-engineering",
+      "topic": "dbt vs SQLMesh for SQL transformations",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 8,
+      "extraction_time_s": 13.66
+    },
+    {
+      "conv_id": "conv-079",
+      "domain": "data-engineering",
+      "topic": "Dagster vs Prefect vs Airflow for orchestration",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 54.96
+    },
+    {
+      "conv_id": "conv-080",
+      "domain": "data-engineering",
+      "topic": "Great Expectations vs Soda for data quality",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 10.94
+    },
+    {
+      "conv_id": "conv-081",
+      "domain": "systems",
+      "topic": "Zig vs Rust for systems programming",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.32
+    },
+    {
+      "conv_id": "conv-082",
+      "domain": "systems",
+      "topic": "gRPC vs Cap'n Proto vs FlatBuffers for IPC",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 10,
+      "extraction_time_s": 11.53
+    },
+    {
+      "conv_id": "conv-083",
+      "domain": "systems",
+      "topic": "io_uring vs epoll for high-performance Linux networking",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 4,
+      "extraction_time_s": 9.73
+    },
+    {
+      "conv_id": "conv-084",
+      "domain": "systems",
+      "topic": "LLVM vs Cranelift for compiler backend",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 5,
+      "extraction_time_s": 26.35
+    },
+    {
+      "conv_id": "conv-085",
+      "domain": "systems",
+      "topic": "Memory allocators: jemalloc vs mimalloc vs tcmalloc",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 8,
+      "extraction_time_s": 11.01
+    },
+    {
+      "conv_id": "conv-086",
+      "domain": "security",
+      "topic": "HashiCorp Vault vs AWS Secrets Manager for secrets",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 9,
+      "extraction_time_s": 30.56
+    },
+    {
+      "conv_id": "conv-087",
+      "domain": "security",
+      "topic": "SAST tools: Semgrep vs SonarQube vs CodeQL",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 11,
+      "extraction_time_s": 11.23
+    },
+    {
+      "conv_id": "conv-088",
+      "domain": "security",
+      "topic": "Web app penetration testing approach",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.49
+    },
+    {
+      "conv_id": "conv-089",
+      "domain": "security",
+      "topic": "Container image scanning in CI",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 7,
+      "extraction_time_s": 11.27
+    },
+    {
+      "conv_id": "conv-090",
+      "domain": "cloud-architecture",
+      "topic": "Multi-region deployment strategy",
+      "decisions_extracted": 0,
+      "decisions_stored": 0,
+      "entities_linked": 0,
+      "extraction_time_s": 53.05
+    },
+    {
+      "conv_id": "conv-091",
+      "domain": "cloud-architecture",
+      "topic": "Serverless vs containers for API at scale",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 8,
+      "extraction_time_s": 8.58
+    },
+    {
+      "conv_id": "conv-092",
+      "domain": "cloud-architecture",
+      "topic": "AWS cost optimization strategies",
+      "decisions_extracted": 5,
+      "decisions_stored": 5,
+      "entities_linked": 7,
+      "extraction_time_s": 55.84
+    },
+    {
+      "conv_id": "conv-093",
+      "domain": "cloud-architecture",
+      "topic": "Event-driven architecture with EventBridge vs SNS",
+      "decisions_extracted": 3,
+      "decisions_stored": 3,
+      "entities_linked": 7,
+      "extraction_time_s": 35.42
+    },
+    {
+      "conv_id": "conv-094",
+      "domain": "cloud-architecture",
+      "topic": "Disaster recovery: RTO/RPO strategies on AWS",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 14,
+      "extraction_time_s": 8.94
+    },
+    {
+      "conv_id": "conv-095",
+      "domain": "cloud-architecture",
+      "topic": "CDN strategy: CloudFront vs Cloudflare vs Fastly",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 9,
+      "extraction_time_s": 60.8
+    },
+    {
+      "conv_id": "conv-096",
+      "domain": "ml",
+      "topic": "Data labeling: Label Studio vs Argilla vs Prodigy",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 8,
+      "extraction_time_s": 11.36
+    },
+    {
+      "conv_id": "conv-097",
+      "domain": "ml",
+      "topic": "Guardrails for LLM outputs",
+      "decisions_extracted": 2,
+      "decisions_stored": 2,
+      "entities_linked": 4,
+      "extraction_time_s": 9.84
+    },
+    {
+      "conv_id": "conv-098",
+      "domain": "ml",
+      "topic": "MLOps: model deployment with BentoML vs Ray Serve",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 2,
+      "extraction_time_s": 34.67
+    },
+    {
+      "conv_id": "conv-099",
+      "domain": "ml",
+      "topic": "Exploring LLM structured output without clear decision",
+      "decisions_extracted": 1,
+      "decisions_stored": 1,
+      "entities_linked": 6,
+      "extraction_time_s": 28.33
+    },
+    {
+      "conv_id": "conv-100",
+      "domain": "web-development",
+      "topic": "Next.js App Router migration from Pages Router",
+      "decisions_extracted": 4,
+      "decisions_stored": 4,
+      "entities_linked": 9,
+      "extraction_time_s": 19.65
+    }
+  ]
+}

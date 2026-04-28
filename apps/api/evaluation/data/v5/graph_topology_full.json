@@ -1,0 +1,106 @@
+{
+  "node_counts": {
+    "Entity": 1192,
+    "DecisionTrace": 1092
+  },
+  "total_nodes": 2284,
+  "relationship_counts": {
+    "INVOLVES": 3773
+  },
+  "total_relationships": 3773,
+  "graph_density": 0.000724,
+  "avg_entities_per_decision": 3.5,
+  "max_entities_per_decision": 14,
+  "min_entities_per_decision": 1,
+  "std_entities_per_decision": 2.29,
+  "avg_decisions_per_entity": 3.17,
+  "max_decisions_per_entity": 46,
+  "min_decisions_per_entity": 1,
+  "std_decisions_per_entity": 3.37,
+  "top_entities": [
+    {
+      "name": "PostgreSQL",
+      "type": "technology",
+      "decisions": 46
+    },
+    {
+      "name": "React",
+      "type": "technology",
+      "decisions": 31
+    },
+    {
+      "name": "Next.js",
+      "type": "technology",
+      "decisions": 29
+    },
+    {
+      "name": "AWS",
+      "type": "technology",
+      "decisions": 26
+    },
+    {
+      "name": "Docker",
+      "type": "technology",
+      "decisions": 23
+    },
+    {
+      "name": "Amazon SQS",
+      "type": "technology",
+      "decisions": 19
+    },
+    {
+      "name": "Rust",
+      "type": "technology",
+      "decisions": 19
+    },
+    {
+      "name": "Kubernetes",
+      "type": "technology",
+      "decisions": 19
+    },
+    {
+      "name": "FastAPI",
+      "type": "technology",
+      "decisions": 19
+    },
+    {
+      "name": "Expo Router",
+      "type": "technology",
+      "decisions": 19
+    },
+    {
+      "name": "Redis",
+      "type": "technology",
+      "decisions": 18
+    },
+    {
+      "name": "Terraform",
+      "type": "technology",
+      "decisions": 18
+    },
+    {
+      "name": "Claude",
+      "type": "technology",
+      "decisions": 17
+    },
+    {
+      "name": "Snowflake",
+      "type": "technology",
+      "decisions": 17
+    },
+    {
+      "name": "Zod",
+      "type": "technology",
+      "decisions": 17
+    }
+  ],
+  "entity_type_distribution": {
+    "technology": 1192
+  },
+  "avg_confidence": 0.945,
+  "isolated_entities": 0,
+  "total_entities": 1192,
+  "entities_with_embeddings": 1192,
+  "decisions_with_embeddings": 1092,
+  "total_decisions": 1092
+}

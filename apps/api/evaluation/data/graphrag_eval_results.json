@@ -1,0 +1,27 @@
+{
+  "queries": 40,
+  "query_types": {
+    "entity_lookup": 15,
+    "decision_search": 15,
+    "comparison": 10
+  },
+  "metrics": {
+    "entity_recall": 0.2,
+    "entity_hits": 3,
+    "entity_total": 15,
+    "decision_recall": 1.0,
+    "decision_hits": 15,
+    "decision_total": 15,
+    "comparison_recall": 1.0,
+    "comparison_hits": 10,
+    "comparison_total": 10,
+    "mrr": 0.6333333333333333,
+    "latency_p50": 13.3260830771178,
+    "latency_p95": 611.6986251436174,
+    "latency_mean": 221.0138573893346
+  },
+  "context_pipeline": {
+    "tested": 10,
+    "successful": 10
+  }
+}

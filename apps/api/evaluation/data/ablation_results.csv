@@ -1,0 +1,8 @@
+Configuration,Description,Accuracy,B3-Precision,B3-Recall,B3-F1,Total,Disabled
+Full pipeline,All stages enabled,0.7358,0.9918,0.6012,0.7487,2438,none
+-Cache,Disable stage 1 (cache lookup),0.7358,0.9918,0.6012,0.7487,2438,cache
+-Canonical,Disable stage 3 (canonical lookup),0.7358,0.9918,0.6012,0.7487,2438,canonical
+-Alias,Disable stage 4 (alias search),0.7358,0.9918,0.6012,0.7487,2438,alias
+-Fuzzy,Disable stage 5/6 (fuzzy matching),0.3146,0.9967,0.1972,0.3293,2438,fuzzy
+-Embedding,Disable stage 7 (embedding similarity),0.7358,0.9918,0.6012,0.7487,2438,embedding
+-Canonical-Fuzzy,Disable stages 3 and 5/6 (canonical + fuzzy),0.3146,0.9967,0.1972,0.3293,2438,"canonical, fuzzy"

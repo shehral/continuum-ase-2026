@@ -1,0 +1,8 @@
+{
+  "evaluable_mentions": 833,
+  "predicted_clusters": 126,
+  "true_clusters": 135,
+  "bcubed_precision": 0.9409,
+  "bcubed_recall": 0.9739,
+  "bcubed_f1": 0.9571
+}

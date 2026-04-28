@@ -1,0 +1,26 @@
+{
+  "bootstrap_ci": {
+    "pipeline": [
+      0.9623,
+      0.9827
+    ],
+    "exact": [
+      0.7197,
+      0.7727
+    ],
+    "fuzzy": [
+      0.7421,
+      0.7931
+    ]
+  },
+  "mcnemar": {
+    "pipeline_vs_exact": {
+      "chi2": 220.0,
+      "p_value": 0.0
+    },
+    "pipeline_vs_fuzzy": {
+      "chi2": 200.0,
+      "p_value": 0.0
+    }
+  }
+}

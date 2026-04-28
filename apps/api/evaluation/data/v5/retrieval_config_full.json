@@ -1,0 +1,23 @@
+{
+  "fulltext_only": {
+    "entity_recall": 0.1333,
+    "decision_recall": 1.0,
+    "comparison_recall": 1.0,
+    "mrr": 0.4598,
+    "latency_mean_ms": 2.4
+  },
+  "hybrid_rrf": {
+    "entity_recall": 1.0,
+    "decision_recall": 1.0,
+    "comparison_recall": 1.0,
+    "mrr": 0.6425,
+    "latency_mean_ms": 267.3
+  },
+  "hybrid_rrf_expansion": {
+    "success_rate": 1.0,
+    "avg_nodes": 41.3,
+    "avg_edges": 54.8,
+    "avg_context_chars": 20591.0,
+    "avg_latency_ms": 18.5
+  }
+}

@@ -1,0 +1,18 @@
+\begin{table}[ht]
+\centering
+\caption{Entity Resolution Ablation Study}
+\label{tab:ablation}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{B$^3$ Precision} & \textbf{B$^3$ Recall} & \textbf{B$^3$ F1} \\
+\midrule
+\textbf{Full pipeline} & \textbf{0.7358} & \textbf{0.9918} & \textbf{0.6012} & \textbf{0.7487} \\
+\textminus Cache & 0.7358 & 0.9918 & 0.6012 & 0.7487 \\
+\textminus Canonical & 0.7358 & 0.9918 & 0.6012 & 0.7487 \\
+\textminus Alias & 0.7358 & 0.9918 & 0.6012 & 0.7487 \\
+\textminus Fuzzy & 0.3146 & 0.9967 & 0.1972 & 0.3293 \\
+\textminus Embedding & 0.7358 & 0.9918 & 0.6012 & 0.7487 \\
+\textminus Canonical\textminus Fuzzy & 0.3146 & 0.9967 & 0.1972 & 0.3293 \\
+\bottomrule
+\end{tabular}
+\end{table}

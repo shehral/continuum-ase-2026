@@ -1,0 +1,28 @@
+{
+  "tool_results": {
+    "summary": {
+      "pass": 1,
+      "total": 1,
+      "note": "383 decisions found"
+    },
+    "search": {
+      "pass": 11,
+      "total": 12
+    },
+    "context": {
+      "pass": 10,
+      "total": 10
+    },
+    "check": {
+      "pass": 5,
+      "total": 5
+    },
+    "remember": {
+      "pass": 3,
+      "total": 3
+    }
+  },
+  "total_pass": 30,
+  "total_tests": 31,
+  "overall_accuracy": 96.8
+}

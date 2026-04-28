@@ -1,0 +1,982 @@
+mention_id,conversation_id,mention_text,pipeline_predicted,pipeline_stage,pipeline_confidence,resolved_name,resolved_confidence,resolved_method,resolved_is_new,latency_ms,annotator_judgment
+d78918c7,conv-002,js,JavaScript,canonical,0.95,JavaScript,0.95,canonical,False,43.73187501914799,WRONG: Next.js
+14787e7a,conv-002,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.3154999576508999,WRONG: Next.js
+106f7c2e,conv-002,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.3482089377939701,WRONG: Next.js
+9df23c30,conv-002,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.3107080701738596,WRONG: Next.js
+e8bab01a,conv-002,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.28887507505714893,WRONG: Next.js
+03957247,conv-002,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.3182501532137394,WRONG: Next.js
+93dc920b,conv-002,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.33425004221498966,WRONG: Next.js
+aeed9721,conv-002,go,Go,exact,1.00,Go,1.0,exact,False,1.3965838588774204,CORRECT
+3215f9ae,conv-002,React,React,exact,1.00,React,1.0,exact,False,1.3632078189402819,CORRECT
+d2874d17,conv-002,React,React,exact,1.00,React,1.0,cached,False,0.39208284579217434,CORRECT
+c15c3fea,conv-002,nextjs,Next.js,canonical,0.95,Next.js,0.95,canonical,False,3.437875071540475,CORRECT
+386369dc,conv-002,nextjs,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.30916603282094,CORRECT
+a83a2ec0,conv-002,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.3247498534619808,CORRECT
+3ddd395c,conv-002,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.2838331274688244,CORRECT
+264e5ac4,conv-002,next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.29404088854789734,CORRECT
+84479795,conv-002,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.2822501119226217,CORRECT
+dc80f926,conv-002,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.34325011074543,CORRECT
+22d3c58c,conv-002,Next,Next.js,canonical,0.95,Next.js,0.95,canonical,False,4.189874976873398,CORRECT
+c3f70d96,conv-002,Next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.31295791268348694,CORRECT
+83f8be06,conv-002,next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.3022500313818455,CORRECT
+71559615,conv-002,Next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.3003338351845741,CORRECT
+d9afaaba,conv-002,Next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.3033331595361233,CORRECT
+281c3e10,conv-002,next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.28429110534489155,CORRECT
+d3ed351f,conv-002,remix,Remix,exact,1.00,Remix,1.0,exact,False,1.4089159667491913,CORRECT
+4b55310a,conv-002,Remix,Remix,exact,1.00,Remix,1.0,cached,False,0.31287502497434616,CORRECT
+71edacc7,conv-007,tensorflow,TensorFlow,exact,1.00,TensorFlow,1.0,exact,False,1.3764169998466969,CORRECT
+157c3235,conv-007,TensorFlow,TensorFlow,exact,1.00,TensorFlow,1.0,cached,False,1.608208054676652,CORRECT
+eca043cc,conv-007,TF,TensorFlow,canonical,0.95,TensorFlow,0.95,canonical,False,5.186334019526839,CORRECT
+ac32bae8,conv-007,TF,TensorFlow,canonical,0.95,TensorFlow,1.0,cached,False,0.3422501031309366,CORRECT
+86bdc19d,conv-007,pytorch,PyTorch,exact,1.00,PyTorch,1.0,exact,False,1.603374956175685,CORRECT
+d600adf0,conv-007,PyTorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.3135411534458399,CORRECT
+d5974362,conv-007,PyTorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.36225002259016037,CORRECT
+f99a6fce,conv-007,PyTorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.3407909534871578,CORRECT
+978412a0,conv-007,PyTorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.3219160716980696,CORRECT
+7cd37707,conv-007,PyTorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.31804200261831284,CORRECT
+356fd5bf,conv-007,PyTorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.2887500450015068,CORRECT
+1bc6e951,conv-007,PyTorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.295042060315609,CORRECT
+0e4c049d,conv-007,pytorch,PyTorch,exact,1.00,PyTorch,1.0,cached,False,0.3109578974545002,CORRECT
+d735794c,conv-007,Keras,Keras,exact,1.00,Keras,1.0,new,True,958.6342500988394,CORRECT
+9968be6d,conv-007,TorchScript,torchscript,new,1.00,TorchScript,1.0,new,True,698.0574578046799,CORRECT
+8e885f01,conv-007,DeepStream,deepstream,new,1.00,DeepStream,1.0,new,True,641.0508339758962,CORRECT
+36181245,conv-008,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,exact,False,4.20299987308681,CORRECT
+90c5edb1,conv-008,Rust,Rust,exact,1.00,Rust,1.0,exact,False,3.5262079909443855,CORRECT
+94819207,conv-008,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.7992498576641083,CORRECT
+0939cc71,conv-008,API,API,exact,1.00,API,1.0,exact,False,3.4145000390708447,CORRECT
+2e2f0eb9,conv-008,API,API,exact,1.00,API,1.0,cached,False,0.6278341170400381,CORRECT
+a5052cb6,conv-008,REST,REST API,canonical,0.95,REST API,0.95,canonical,False,7.55570805631578,CORRECT
+c61404ed,conv-008,GraphQL,GraphQL,exact,1.00,GraphQL,1.0,exact,False,2.672750037163496,CORRECT
+59b64292,conv-008,gRPC,gRPC,exact,1.00,gRPC,1.0,exact,False,3.2919999212026596,CORRECT
+9d35f279,conv-008,AWS,AWS,exact,1.00,AWS,1.0,exact,False,2.6885829865932465,CORRECT
+d745f2f9,conv-008,Docker,Docker,exact,1.00,Docker,1.0,exact,False,2.279458800330758,CORRECT
+aa35a120,conv-008,OpenAI,OpenAI,exact,1.00,OpenAI,1.0,exact,False,2.1085841581225395,CORRECT
+ad4ebc8d,conv-008,Cohere,Cohere,exact,1.00,Cohere,1.0,new,True,638.9930408913642,CORRECT
+5dd8803d,conv-008,HuggingFace,Hugging Face,canonical,0.95,Hugging Face,0.95,canonical,False,7.1580419316887856,CORRECT
+84ee8478,conv-008,pinecone,Pinecone,exact,1.00,Pinecone,1.0,exact,False,3.056083107367158,CORRECT
+55331ac9,conv-008,Pinecone,Pinecone,exact,1.00,Pinecone,1.0,cached,False,0.6497499998658895,CORRECT
+39f9a1bd,conv-008,weaviate,Weaviate,exact,1.00,Weaviate,1.0,exact,False,3.1909579411149025,CORRECT
+c381c93b,conv-008,Weaviate,Weaviate,exact,1.00,Weaviate,1.0,cached,False,0.650834059342742,CORRECT
+d19a2f77,conv-008,qdrant,Qdrant,exact,1.00,Qdrant,1.0,exact,False,3.998250002041459,CORRECT
+008d6d17,conv-008,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.5992080550640821,CORRECT
+c35952f6,conv-008,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.5591250956058502,CORRECT
+16e67b11,conv-008,qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.6545830983668566,CORRECT
+b568f89c,conv-008,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.5539159756153822,CORRECT
+6925afbe,conv-008,pgvector,pgvector,exact,1.00,pgvector,1.0,exact,False,2.5162079837173223,CORRECT
+3d5cd76b,conv-009,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.6361249834299088,WRONG: Next.js
+1373432c,conv-009,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.503583112731576,WRONG: Next.js
+46d60a87,conv-009,typescript,TypeScript,exact,1.00,TypeScript,1.0,exact,False,3.5503339022397995,CORRECT
+4cb4cd7b,conv-009,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.49249990843236446,CORRECT
+6dd84548,conv-009,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.5388329736888409,CORRECT
+8e162f2a,conv-009,typescript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.4939169157296419,CORRECT
+83dc2ac0,conv-009,React,React,exact,1.00,React,1.0,cached,False,0.4872088320553303,CORRECT
+e7d1d781,conv-009,React,React,exact,1.00,React,1.0,cached,False,0.6333331111818552,CORRECT
+a63652a1,conv-009,React,React,exact,1.00,React,1.0,cached,False,0.48325001262128353,CORRECT
+882e3ad5,conv-009,React,React,exact,1.00,React,1.0,cached,False,0.4979579243808985,CORRECT
+2d08e1b6,conv-009,React,React,exact,1.00,React,1.0,cached,False,0.44312491081655025,CORRECT
+85d06747,conv-009,React,React,exact,1.00,React,1.0,cached,False,0.46658399514853954,CORRECT
+24b91a70,conv-009,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.45766704715788364,CORRECT
+23e516ae,conv-009,Next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.4269578494131565,CORRECT
+04c755b0,conv-009,API,API,exact,1.00,API,1.0,cached,False,0.45862491242587566,CORRECT
+35dee5c2,conv-009,Zustand,Zustand,exact,1.00,Zustand,1.0,exact,False,2.091374946758151,CORRECT
+01e0a0f2,conv-009,Zustand,Zustand,exact,1.00,Zustand,1.0,cached,False,0.46404218301177025,CORRECT
+123a1a48,conv-009,Jotai,Jotai,exact,1.00,Jotai,1.0,exact,False,2.7042911387979984,CORRECT
+34c64b9e,conv-009,npm,npm,exact,1.00,npm,1.0,exact,False,2.3134590592235327,CORRECT
+e5d9d7fe,conv-009,npm,npm,exact,1.00,npm,1.0,cached,False,0.500332796946168,CORRECT
+800a1b06,conv-009,TanStack,tanstack,new,1.00,tanstack,1.0,exact,False,2.195625100284815,
+1c1bd01a,conv-009,AsyncStorage,asyncstorage,new,1.00,AsyncStorage,1.0,new,True,646.6606250032783,
+75112cab,conv-009,TanStack,tanstack,new,1.00,tanstack,1.0,cached,False,1.1519589461386204,
+54b1c2f1,conv-012,Python,Python,exact,1.00,Python,1.0,exact,False,2.82679102383554,CORRECT
+182e1319,conv-012,Python,Python,exact,1.00,Python,1.0,cached,False,0.45616691932082176,CORRECT
+18211aed,conv-012,Do,DigitalOcean,canonical,0.95,DigitalOcean,0.95,canonical,False,6.697584176436067,NOT_ENTITY
+90c0288c,conv-018,Python,Python,exact,1.00,Python,1.0,cached,False,0.6426658947020769,CORRECT
+4d42648a,conv-018,Python,Python,exact,1.00,Python,1.0,cached,False,0.6390828639268875,CORRECT
+05b964df,conv-018,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.5905420985072851,CORRECT
+8b6ef019,conv-018,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.557625200599432,CORRECT
+d775c567,conv-018,ts,TypeScript,canonical,0.95,TypeScript,0.95,canonical,False,6.655958015471697,WRONG: LlamaIndex.TS
+c11b99ad,conv-018,TS,TypeScript,canonical,0.95,TypeScript,1.0,cached,False,0.5398748908191919,WRONG: LlamaIndex.TS
+94ede15e,conv-018,API,API,exact,1.00,API,1.0,cached,False,0.548332929611206,CORRECT
+ea2f5843,conv-018,API,API,exact,1.00,API,1.0,cached,False,0.5528749898076057,CORRECT
+f8e42b24,conv-018,vercel,Vercel,exact,1.00,Vercel,1.0,exact,False,3.0182080809026957,CORRECT
+e78b069d,conv-018,Vercel,Vercel,exact,1.00,Vercel,1.0,cached,False,0.5566671025007963,CORRECT
+97159d68,conv-018,LangChain,LangChain,exact,1.00,LangChain,1.0,exact,False,2.5885419454425573,CORRECT
+01de8f1a,conv-018,LangChain,LangChain,exact,1.00,LangChain,1.0,cached,False,0.5477080121636391,CORRECT
+8e5611f4,conv-018,LangChain,LangChain,exact,1.00,LangChain,1.0,cached,False,0.5678748711943626,CORRECT
+0216b857,conv-018,LangChain,LangChain,exact,1.00,LangChain,1.0,cached,False,0.6504158955067396,CORRECT
+be0248f5,conv-018,LangChain,LangChain,exact,1.00,LangChain,1.0,cached,False,0.5538330879062414,CORRECT
+e5df3065,conv-018,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,exact,False,2.370750065892935,CORRECT
+51536615,conv-018,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,cached,False,0.5300419870764017,CORRECT
+8e7c5c67,conv-018,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,cached,False,0.6267500575631857,CORRECT
+2fb6181f,conv-018,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,cached,False,0.5096669774502516,CORRECT
+9bd4f50c,conv-018,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,cached,False,0.4746250342577696,CORRECT
+669aacfd,conv-018,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,cached,False,0.5082499701529741,CORRECT
+cb18a9cb,conv-018,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,cached,False,0.5233751144260168,CORRECT
+91d1229c,conv-018,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.4823340568691492,CORRECT
+278597b0,conv-018,pgvector,pgvector,exact,1.00,pgvector,1.0,cached,False,0.5499168764799833,CORRECT
+fa63d5e8,conv-018,less,Less,exact,1.00,Less,1.0,exact,False,2.1724579855799675,CORRECT
+402a1c55,conv-021,Redis,Redis,exact,1.00,Redis,1.0,exact,False,2.0797501783818007,CORRECT
+48153888,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4996662028133869,CORRECT
+6a5ab701,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.45629218220710754,CORRECT
+a5c9a487,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4308749921619892,CORRECT
+65dfe85a,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4628750029951334,CORRECT
+aeb02d85,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4664999432861805,CORRECT
+8180895e,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4502090159803629,CORRECT
+976346af,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4683749284595251,CORRECT
+ae2df9c0,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4180839750915766,CORRECT
+7bb30b6b,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4214160144329071,CORRECT
+ab632f61,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.43137487955391407,CORRECT
+4eedd07c,conv-021,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4006249364465475,CORRECT
+3fd2984e,conv-021,API,API,exact,1.00,API,1.0,cached,False,0.40050013922154903,CORRECT
+1054d35d,conv-021,API,API,exact,1.00,API,1.0,cached,False,0.4079171922057867,CORRECT
+67a80415,conv-021,API,API,exact,1.00,API,1.0,cached,False,0.401125056669116,CORRECT
+450bdcc7,conv-021,API,API,exact,1.00,API,1.0,cached,False,0.4341669846326113,CORRECT
+d52ed59f,conv-021,API,API,exact,1.00,API,1.0,cached,False,0.42037502862513065,CORRECT
+7ef23d71,conv-021,REST,REST API,canonical,0.95,REST API,1.0,cached,False,1.7909999005496502,CORRECT
+f7ee5085,conv-021,REST API,REST API,exact,1.00,REST API,1.0,cached,False,0.4342501051723957,CORRECT
+222d8679,conv-021,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.41066715493798256,CORRECT
+4d1d383b,conv-021,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,644.5297501049936,CORRECT
+cc8514cb,conv-021,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,31.012084102258086,CORRECT
+72707830,conv-021,ElastiCache,elasticache,new,1.00,ElastiCache,1.0,new,True,633.6147908587009,
+e293313e,conv-021,ElastiCache,elasticache,new,1.00,ElastiCache,1.0,new,True,34.75654101930559,
+6236913a,conv-021,ElastiCache,elasticache,new,1.00,ElastiCache,1.0,new,True,29.764833860099316,
+1318abce,conv-023,k8s,Kubernetes,canonical,0.95,Kubernetes,0.95,canonical,False,4.9258749932050705,CORRECT
+c3780933,conv-023,kind,KinD,exact,1.00,KinD,1.0,exact,False,2.0163750741630793,CORRECT
+8f341da9,conv-023,helm,Helm,exact,1.00,Helm,1.0,exact,False,1.924250042065978,CORRECT
+39bd3913,conv-023,ArgoCD,Argo CD,canonical,0.95,Argo CD,0.95,canonical,False,4.37712506391108,CORRECT
+9f631eef,conv-023,ArgoCD,Argo CD,canonical,0.95,Argo CD,1.0,cached,False,0.43458305299282074,CORRECT
+c21b85f3,conv-023,ArgoCD,Argo CD,canonical,0.95,Argo CD,1.0,cached,False,0.44187484309077263,CORRECT
+1e58032b,conv-023,ArgoCD,Argo CD,canonical,0.95,Argo CD,1.0,cached,False,0.46129198744893074,CORRECT
+6c169140,conv-023,ArgoCD,Argo CD,canonical,0.95,Argo CD,1.0,cached,False,0.45725004747509956,CORRECT
+9761ac9e,conv-023,ArgoCD,Argo CD,canonical,0.95,Argo CD,1.0,cached,False,0.44120801612734795,CORRECT
+2c61f95d,conv-023,Flux,Flux CD,canonical,0.95,Flux CD,1.0,new,True,630.836124997586,CORRECT
+35ca3aca,conv-023,Flux,Flux CD,canonical,0.95,Flux CD,1.0,new,True,27.88399998098612,CORRECT
+5fd21f0a,conv-023,Flux,Flux CD,canonical,0.95,Flux CD,1.0,new,True,17.33683282509446,CORRECT
+1efbae59,conv-023,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,0.95,canonical,False,3.212708979845047,CORRECT
+9e1b9946,conv-023,SAML,SAML,exact,1.00,SAML,1.0,exact,False,2.558165928348899,CORRECT
+20f5a779,conv-023,GitOps,GitOps,exact,1.00,GitOps,1.0,new,True,620.9787498228252,CORRECT
+0e4ae833,conv-023,GitOps,GitOps,exact,1.00,GitOps,1.0,new,True,29.672208009287715,CORRECT
+3b58f652,conv-023,ApplicationSet,applicationset,new,1.00,ApplicationSet,1.0,new,True,633.6001250892878,CORRECT
+58a0d266,conv-023,AppProject,appproject,new,1.00,AppProject,1.0,new,True,627.5744170416147,CORRECT
+5de89081,conv-023,ApplicationSet,applicationset,new,1.00,ApplicationSet,1.0,new,True,33.735041972249746,CORRECT
+a39f6c70,conv-024,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.4721670411527157,CORRECT
+0260e4c1,conv-024,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.4398748278617859,CORRECT
+280c1129,conv-024,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.4558749496936798,CORRECT
+9b29adc7,conv-024,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.4327921196818352,CORRECT
+cbd29f43,conv-024,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.48949988558888435,CORRECT
+1b508a6b,conv-024,rust,Rust,exact,1.00,Rust,1.0,cached,False,0.7879170589148998,CORRECT
+ba1deddd,conv-024,C++,C++,exact,1.00,C++,1.0,exact,False,2.0058751106262207,CORRECT
+9f539ac9,conv-024,C++,C++,exact,1.00,C++,1.0,cached,False,0.43662521056830883,CORRECT
+75100c24,conv-024,C++,C++,exact,1.00,C++,1.0,cached,False,0.4119579680263996,CORRECT
+db504de7,conv-024,C++,C++,exact,1.00,C++,1.0,cached,False,0.3894160035997629,CORRECT
+2bd242ef,conv-024,C++,C++,exact,1.00,C++,1.0,cached,False,0.38212514482438564,CORRECT
+80eb6a46,conv-024,do,DigitalOcean,canonical,0.95,DigitalOcean,1.0,cached,False,0.38579199463129044,NOT_ENTITY
+d5553d7a,conv-024,do,DigitalOcean,canonical,0.95,DigitalOcean,1.0,cached,False,0.3725830465555191,NOT_ENTITY
+73a8e16e,conv-024,Cargo,Cargo,exact,1.00,Cargo,1.0,new,True,630.8015829417855,CORRECT
+db0157d6,conv-025,javascript,JavaScript,exact,1.00,JavaScript,1.0,cached,False,0.5482081323862076,CORRECT
+f9a80c6c,conv-025,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5020829848945141,WRONG: Passport.js
+9a0787f6,conv-025,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.760124996304512,WRONG: Passport.js
+dceff506,conv-025,react,React,exact,1.00,React,1.0,cached,False,0.9987079538404942,CORRECT
+e36119c8,conv-025,express,Express.js,canonical,0.95,Express.js,0.95,canonical,False,9.650332853198051,CORRECT
+80e6b4dc,conv-025,API,API,exact,1.00,API,1.0,cached,False,0.6588329561054707,CORRECT
+3aebd13d,conv-025,REST,REST API,canonical,0.95,REST API,1.0,cached,False,0.7582497783005238,CORRECT
+180be70a,conv-025,Azure,Azure,exact,1.00,Azure,1.0,exact,False,2.418374875560403,CORRECT
+a2a6419c,conv-025,Azure,Azure,exact,1.00,Azure,1.0,cached,False,0.5743340589106083,CORRECT
+5bbcd879,conv-025,do,DigitalOcean,canonical,0.95,DigitalOcean,1.0,cached,False,0.5422078538686037,NOT_ENTITY
+d187a4e5,conv-025,JWT,JWT,exact,1.00,JWT,1.0,exact,False,4.459290998056531,CORRECT
+84afa7ae,conv-025,OAuth,OAuth,exact,1.00,OAuth,1.0,exact,False,2.7803750708699226,CORRECT
+ef8ba690,conv-025,OAuth2,OAuth 2.0,canonical,0.95,OAuth 2.0,0.95,canonical,False,5.62845915555954,CORRECT
+f3b721ea,conv-025,OAuth 2,OAuth 2.0,canonical,0.95,OAuth 2.0,0.95,canonical,False,5.032042041420937,CORRECT
+fcdf6c79,conv-025,OAuth 2.0,OAuth 2.0,exact,1.00,OAuth 2.0,1.0,cached,False,0.4886249080300331,CORRECT
+00e7fb78,conv-025,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,1.0,cached,False,0.4789580125361681,CORRECT
+f47abfe3,conv-025,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,1.0,cached,False,0.4978750366717577,CORRECT
+70622a4a,conv-025,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,1.0,cached,False,0.47945789992809296,CORRECT
+8489886a,conv-025,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,1.0,cached,False,0.5080001428723335,CORRECT
+601a459f,conv-025,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,1.0,cached,False,0.46466710045933723,CORRECT
+53d97a6c,conv-025,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,1.0,cached,False,0.4867499228566885,CORRECT
+7bd5ea96,conv-025,OIDC,OpenID Connect,canonical,0.95,OpenID Connect,1.0,cached,False,0.4480420611798763,CORRECT
+f9a89643,conv-025,SAML,SAML,exact,1.00,SAML,1.0,cached,False,0.4354999400675297,CORRECT
+a4d9e0bb,conv-025,SAML,SAML,exact,1.00,SAML,1.0,cached,False,0.431290827691555,CORRECT
+d737468f,conv-025,SAML,SAML,exact,1.00,SAML,1.0,cached,False,0.40566595271229744,CORRECT
+5c3b1967,conv-027,postgres,PostgreSQL,canonical,0.95,PostgreSQL,0.95,canonical,False,4.95804101228714,CORRECT
+67bb881e,conv-027,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.46012504026293755,CORRECT
+d49b667a,conv-027,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.46300003305077553,CORRECT
+2581300a,conv-027,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.4224588628858328,CORRECT
+a08d5519,conv-027,typescript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.45366701669991016,CORRECT
+7620d224,conv-027,TS,TypeScript,canonical,0.95,TypeScript,1.0,cached,False,0.4564998671412468,CORRECT
+3288c2b2,conv-027,TS,TypeScript,canonical,0.95,TypeScript,1.0,cached,False,0.47370814718306065,CORRECT
+6c93dac3,conv-027,Angular,Angular,exact,1.00,Angular,1.0,new,True,622.0451248809695,CORRECT
+60908869,conv-027,API,API,exact,1.00,API,1.0,cached,False,0.961249927058816,CORRECT
+62c1eedd,conv-027,API,API,exact,1.00,API,1.0,cached,False,0.7905410602688789,CORRECT
+39788b53,conv-027,API,API,exact,1.00,API,1.0,cached,False,1.2763331178575754,CORRECT
+c9855f51,conv-027,Prisma,Prisma,exact,1.00,Prisma,1.0,exact,False,4.299916094169021,CORRECT
+599cf4c8,conv-027,Prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.7013750728219748,CORRECT
+8e255060,conv-027,Prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.5792081356048584,CORRECT
+7463c4bb,conv-027,prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.5514158401638269,CORRECT
+9d130d9c,conv-027,Prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.5176658742129803,CORRECT
+fb321b19,conv-027,Prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.49308291636407375,CORRECT
+07e5c339,conv-027,TypeORM,TypeORM,exact,1.00,TypeORM,1.0,new,True,632.042916957289,CORRECT
+8684a8ff,conv-027,TypeORM,TypeORM,exact,1.00,TypeORM,1.0,new,True,25.49462509341538,CORRECT
+70b10327,conv-027,Drizzle,Drizzle ORM,canonical,0.95,Drizzle ORM,0.95,canonical,False,4.134458024054766,CORRECT
+c3c1a0ac,conv-027,Drizzle,Drizzle ORM,canonical,0.95,Drizzle ORM,1.0,cached,False,0.4119160585105419,CORRECT
+cc093e4f,conv-027,Drizzle,Drizzle ORM,canonical,0.95,Drizzle ORM,1.0,cached,False,0.42154197581112385,CORRECT
+e19f4a8f,conv-027,Drizzle,Drizzle ORM,canonical,0.95,Drizzle ORM,1.0,cached,False,0.4036668688058853,CORRECT
+fa8e46f1,conv-027,drizzle,Drizzle ORM,canonical,0.95,Drizzle ORM,1.0,cached,False,0.3926660865545273,CORRECT
+8c71f617,conv-027,Drizzle,Drizzle ORM,canonical,0.95,Drizzle ORM,1.0,cached,False,0.37237489596009254,CORRECT
+b77080c1,conv-029,Postgres,PostgreSQL,canonical,0.95,PostgreSQL,1.0,cached,False,0.3644160460680723,CORRECT
+27a20f93,conv-029,python,Python,exact,1.00,Python,1.0,cached,False,0.381499994546175,CORRECT
+2ef6b8ed,conv-029,Python,Python,exact,1.00,Python,1.0,cached,False,0.36558392457664013,CORRECT
+ec511817,conv-029,OpenAI,OpenAI,exact,1.00,OpenAI,1.0,cached,False,0.4192090127617121,CORRECT
+0eb1998a,conv-029,GPT,GPT,exact,1.00,GPT,1.0,exact,False,1.8227919936180115,CORRECT
+c3899bb9,conv-029,GPT,GPT,exact,1.00,GPT,1.0,cached,False,0.3944169729948044,CORRECT
+8912ce64,conv-029,GPT-4,GPT-4,exact,1.00,GPT-4,1.0,exact,False,1.6139999497681856,CORRECT
+c19d0a66,conv-029,GPT-4,GPT-4,exact,1.00,GPT-4,1.0,cached,False,0.403375132009387,CORRECT
+51f56a0d,conv-029,Claude,Claude,exact,1.00,Claude,1.0,exact,False,1.5521668829023838,CORRECT
+d1305b50,conv-029,Claude,Claude,exact,1.00,Claude,1.0,cached,False,0.3629999700933695,CORRECT
+6d74b89e,conv-029,Llama,LLaMA,exact,1.00,LLaMA,1.0,exact,False,1.5074580442160368,CORRECT
+e268de26,conv-029,LangChain,LangChain,exact,1.00,LangChain,1.0,cached,False,0.3435828257352114,CORRECT
+b8f258e4,conv-029,LangChain,LangChain,exact,1.00,LangChain,1.0,cached,False,0.33666682429611683,CORRECT
+5e4344be,conv-029,LlamaIndex,LlamaIndex,exact,1.00,LlamaIndex,1.0,cached,False,0.34616608172655106,CORRECT
+c5eebbdc,conv-029,transformers,Hugging Face Transformers,canonical,0.95,Hugging Face Transformers,0.95,canonical,False,3.369250101968646,NOT_ENTITY
+c61984e0,conv-029,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.34620799124240875,CORRECT
+5eda65d2,conv-029,ChromaDB,Chroma,canonical,0.95,Chroma,1.0,new,True,626.2569171376526,CORRECT
+70f9c9c2,conv-029,ChromaDB,Chroma,canonical,0.95,Chroma,1.0,new,True,27.288249926641583,CORRECT
+14d17ba1,conv-029,pgvector,pgvector,exact,1.00,pgvector,1.0,cached,False,0.4782918840646744,CORRECT
+6237e5e7,conv-029,RecursiveCharacterTextSplitter,recursivecharactertextsplitter,new,1.00,RecursiveCharacterTextSplitter,1.0,new,True,621.1775420233607,CORRECT
+bc03f127,conv-029,SentenceSplitter,sentencesplitter,new,1.00,SentenceSplitter,1.0,new,True,628.0709160491824,
+9f8e50ae,conv-032,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5271669942885637,WRONG: Next.js
+2e4cafb9,conv-032,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.8744169026613235,WRONG: Next.js
+a74418bd,conv-032,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.6490841042250395,WRONG: Next.js
+2ca3d71a,conv-032,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.7026251405477524,WRONG: Next.js
+330f2de7,conv-032,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.6464999169111252,WRONG: Next.js
+34d6f39a,conv-032,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.6052500102669001,WRONG: Next.js
+6e364b9a,conv-032,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5640001036226749,WRONG: Next.js
+fd37fc2d,conv-032,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5333328153938055,WRONG: Next.js
+8c96141f,conv-032,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5996250547468662,WRONG: Next.js
+47a820a8,conv-032,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5335421301424503,WRONG: Next.js
+459551de,conv-032,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5442500114440918,WRONG: Next.js
+e0c03bba,conv-032,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5516668315976858,WRONG: Next.js
+75ebccce,conv-032,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5188328213989735,WRONG: Next.js
+cebdf83c,conv-032,React,React,exact,1.00,React,1.0,cached,False,0.524834031239152,CORRECT
+b5c89ee1,conv-032,react,React,exact,1.00,React,1.0,cached,False,0.5590000655502081,CORRECT
+e58d27c2,conv-032,React,React,exact,1.00,React,1.0,cached,False,0.5481659900397062,CORRECT
+6ac53a1a,conv-032,Svelte,Svelte,exact,1.00,Svelte,1.0,exact,False,3.194791032001376,CORRECT
+a5ec5924,conv-032,svelte,Svelte,exact,1.00,Svelte,1.0,cached,False,0.5863329861313105,CORRECT
+5b667bb7,conv-032,SvelteKit,SvelteKit,exact,1.00,SvelteKit,1.0,exact,False,2.7212919667363167,CORRECT
+87b8a0a0,conv-032,SvelteKit,SvelteKit,exact,1.00,SvelteKit,1.0,cached,False,0.632875133305788,CORRECT
+9393fdaf,conv-032,SvelteKit,SvelteKit,exact,1.00,SvelteKit,1.0,cached,False,0.5221669562160969,CORRECT
+5745d83d,conv-032,SvelteKit,SvelteKit,exact,1.00,SvelteKit,1.0,cached,False,0.4846251104027033,CORRECT
+d597a288,conv-032,nextjs,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.502333976328373,
+339d222b,conv-032,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.4957919009029865,CORRECT
+c0b8fb35,conv-032,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.47133280895650387,CORRECT
+b72f7893,conv-036,Prometheus,Prometheus,exact,1.00,Prometheus,1.0,exact,False,2.450500149279833,CORRECT
+0b50f5f7,conv-036,Prometheus,Prometheus,exact,1.00,Prometheus,1.0,cached,False,0.5663749761879444,CORRECT
+d3e46df6,conv-036,Prometheus,Prometheus,exact,1.00,Prometheus,1.0,cached,False,0.5573329981416464,CORRECT
+303625db,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,exact,False,2.2236250806599855,CORRECT
+df0c9e04,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.4829170648008585,CORRECT
+31fd0144,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.5184169858694077,CORRECT
+8dd55389,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.4913338925689459,CORRECT
+aa9c709d,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.638249795883894,CORRECT
+2d5852d8,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.48095895908772945,CORRECT
+a7ee34c3,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.4812499973922968,CORRECT
+c9ece3cd,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.4562500398606062,CORRECT
+84229ad1,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.41874987073242664,CORRECT
+2a8c607f,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.45633292756974697,CORRECT
+97c78fa7,conv-036,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.5275411531329155,CORRECT
+95f117b7,conv-036,Datadog,Datadog,exact,1.00,Datadog,1.0,exact,False,2.400415949523449,CORRECT
+0dd123ec,conv-036,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.452208099886775,CORRECT
+9f05f655,conv-036,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.4307499621063471,CORRECT
+e7ec5672,conv-036,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.5189171060919762,CORRECT
+f6b71c27,conv-036,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.43124984949827194,CORRECT
+d61d9364,conv-036,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.42154197581112385,CORRECT
+54da0b6c,conv-036,Loki,Grafana Loki,canonical,0.95,Grafana Loki,0.95,canonical,False,4.32037515565753,
+48fceb60,conv-036,Loki,Grafana Loki,canonical,0.95,Grafana Loki,1.0,cached,False,0.4142080433666706,
+367ae2da,conv-036,Loki,Grafana Loki,canonical,0.95,Grafana Loki,1.0,cached,False,0.4064999520778656,
+ebde890b,conv-036,Grafana Loki,Grafana Loki,exact,1.00,Grafana Loki,1.0,cached,False,0.4105840343981981,CORRECT
+71926590,conv-036,OpenTelemetry,OpenTelemetry,exact,1.00,OpenTelemetry,1.0,new,True,635.4453330859542,CORRECT
+d7454dbb,conv-040,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.5312501452863216,CORRECT
+eabff0f7,conv-040,GCP,GCP,exact,1.00,GCP,1.0,exact,False,2.6434999890625477,CORRECT
+69784297,conv-040,GCP,GCP,exact,1.00,GCP,1.0,cached,False,0.5193750839680433,CORRECT
+28a63913,conv-040,GCP,GCP,exact,1.00,GCP,1.0,cached,False,0.47187507152557373,CORRECT
+003f94d7,conv-040,GCP,GCP,exact,1.00,GCP,1.0,cached,False,0.45520905405282974,CORRECT
+e9e9771e,conv-040,GCP,GCP,exact,1.00,GCP,1.0,cached,False,0.4625408910214901,CORRECT
+722a4883,conv-040,GCP,GCP,exact,1.00,GCP,1.0,cached,False,1.155667006969452,CORRECT
+c5120cd2,conv-040,Azure,Azure,exact,1.00,Azure,1.0,cached,False,0.7724999450147152,CORRECT
+a224be79,conv-040,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,31.42737504094839,CORRECT
+6afece73,conv-040,serverless,Serverless,exact,1.00,serverless,1.0,new,True,620.8297908306122,CORRECT
+0fdf251e,conv-040,BigQuery,bigquery,new,1.00,bigquery,1.0,exact,False,3.0088750645518303,CORRECT
+2fd99a73,conv-040,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.7862499915063381,CORRECT
+a770fcea,conv-040,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.6559169851243496,CORRECT
+ec036e17,conv-040,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.5770828574895859,CORRECT
+c5ef70e7,conv-041,react,React,exact,1.00,React,1.0,cached,False,0.5619169678539038,CORRECT
+fd01a53d,conv-041,react,React,exact,1.00,React,1.0,cached,False,0.5738341715186834,CORRECT
+4234b4da,conv-041,Tailwind,Tailwind CSS,canonical,0.95,Tailwind CSS,0.95,canonical,False,6.028417032212019,CORRECT
+6ab70f11,conv-041,Tailwind,Tailwind CSS,canonical,0.95,Tailwind CSS,1.0,cached,False,0.5743750371038914,CORRECT
+bf66e3d0,conv-041,Tailwind,Tailwind CSS,canonical,0.95,Tailwind CSS,1.0,cached,False,0.5401659291237593,CORRECT
+110444a5,conv-041,Tailwind,Tailwind CSS,canonical,0.95,Tailwind CSS,1.0,cached,False,1.196207944303751,CORRECT
+5e0a74df,conv-041,Tailwind,Tailwind CSS,canonical,0.95,Tailwind CSS,1.0,cached,False,0.5652499385178089,CORRECT
+f39172e7,conv-041,tailwindcss,Tailwind CSS,canonical,0.95,Tailwind CSS,0.95,canonical,False,5.600249860435724,CORRECT
+bce28cd4,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,0.95,canonical,False,5.139708053320646,CORRECT
+8975cab5,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.4262079019099474,CORRECT
+6af4aa95,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.3966668155044317,CORRECT
+0d5e9d26,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.37841591984033585,CORRECT
+5dbcd5ff,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.3820830024778843,CORRECT
+10102a55,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.47716707922518253,CORRECT
+70702674,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.46258396469056606,CORRECT
+f5572be6,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.37216697819530964,CORRECT
+027c75da,conv-041,shadcn,shadcn/ui,canonical,0.95,shadcn/ui,1.0,cached,False,0.4000421613454819,CORRECT
+c345e86f,conv-041,shadcn/ui,shadcn/ui,exact,1.00,shadcn/ui,1.0,cached,False,0.3917079884558916,CORRECT
+e7527f77,conv-041,shadcn/ui,shadcn/ui,exact,1.00,shadcn/ui,1.0,cached,False,0.4045001696795225,CORRECT
+cf73c906,conv-041,shadcn/ui,shadcn/ui,exact,1.00,shadcn/ui,1.0,cached,False,0.3845419269055128,CORRECT
+430ec34c,conv-041,shadcn/ui,shadcn/ui,exact,1.00,shadcn/ui,1.0,cached,False,0.37554092705249786,CORRECT
+8161cad8,conv-041,Chakra,Chakra UI,canonical,0.95,Chakra UI,1.0,new,True,643.6897087842226,
+5eebbb5b,conv-041,Chakra,Chakra UI,canonical,0.95,Chakra UI,1.0,new,True,32.861500047147274,
+31a23c17,conv-041,Chakra UI,Chakra UI,exact,1.00,Chakra UI,1.0,new,True,617.3857499379665,CORRECT
+d87fb4b1,conv-041,Chakra UI,Chakra UI,exact,1.00,Chakra UI,1.0,new,True,25.356875034049153,CORRECT
+df5b70c0,conv-050,Postgres,PostgreSQL,canonical,0.95,PostgreSQL,1.0,cached,False,0.6290839519351721,CORRECT
+32eec3a4,conv-050,postgres,PostgreSQL,canonical,0.95,PostgreSQL,1.0,cached,False,0.6036669947206974,CORRECT
+c5d7106e,conv-050,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.5422919057309628,CORRECT
+4c4ad768,conv-050,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.5589579232037067,CORRECT
+17fbceda,conv-050,Firestore,Firestore,exact,1.00,Firestore,1.0,exact,False,2.9984579887241125,CORRECT
+59fe17c9,conv-050,Firestore,Firestore,exact,1.00,Firestore,1.0,cached,False,0.658542150631547,CORRECT
+5cf42ac5,conv-050,Supabase,Supabase,exact,1.00,Supabase,1.0,exact,False,2.6255419943481684,CORRECT
+050d5dd1,conv-050,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.564417103305459,CORRECT
+81f4c1a8,conv-050,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5340839270502329,CORRECT
+31b33c19,conv-050,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5519168917089701,CORRECT
+887b5de6,conv-050,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5487501621246338,CORRECT
+ca55325b,conv-050,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5388748832046986,CORRECT
+15517dab,conv-050,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5427910946309566,CORRECT
+5eb1be2e,conv-050,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.6432919763028622,CORRECT
+6300c36c,conv-050,SUPABASE,Supabase,exact,1.00,Supabase,1.0,cached,False,0.4548751749098301,CORRECT
+127a2aa6,conv-050,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5301251076161861,CORRECT
+817f4734,conv-050,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.4880409687757492,CORRECT
+972fc1ef,conv-050,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.48450008034706116,CORRECT
+680fdcea,conv-050,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.48779183998703957,CORRECT
+f7acb094,conv-050,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5106250755488873,CORRECT
+c32e331e,conv-050,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.4886658862233162,
+74a3835c,conv-050,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.49495790153741837,
+8b8102b1,conv-050,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.4700419958680868,
+312f152d,conv-050,typescript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.4732909146696329,CORRECT
+a206eda1,conv-050,React,React,exact,1.00,React,1.0,cached,False,0.4443749785423279,CORRECT
+afde6454,conv-051,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.4307499621063471,
+2a1be791,conv-051,React,React,exact,1.00,React,1.0,cached,False,0.41983299888670444,CORRECT
+cc4bc672,conv-051,React,React,exact,1.00,React,1.0,cached,False,0.4172499757260084,CORRECT
+d46d37ac,conv-051,React,React,exact,1.00,React,1.0,cached,False,0.4441251512616873,CORRECT
+ba15fef6,conv-051,React,React,exact,1.00,React,1.0,cached,False,0.42150006629526615,CORRECT
+55ea216f,conv-051,React,React,exact,1.00,React,1.0,cached,False,0.4593329504132271,CORRECT
+12143fa6,conv-051,React,React,exact,1.00,React,1.0,cached,False,0.43608294799923897,CORRECT
+d13beab5,conv-051,Vue,Vue.js,canonical,0.95,Vue.js,0.95,canonical,False,4.823792027309537,
+4f9a605e,conv-051,Vue,Vue.js,canonical,0.95,Vue.js,1.0,cached,False,0.45716692693531513,
+e3353668,conv-051,Vue,Vue.js,canonical,0.95,Vue.js,1.0,cached,False,0.42620906606316566,
+81b21f2f,conv-051,Svelte,Svelte,exact,1.00,Svelte,1.0,cached,False,0.4160830285400152,CORRECT
+5db8b0c6,conv-051,Astro,Astro,exact,1.00,Astro,1.0,exact,False,1.83029193431139,CORRECT
+a78961c9,conv-051,Astro,Astro,exact,1.00,Astro,1.0,cached,False,0.41662505827844143,CORRECT
+6b190456,conv-051,Astro,Astro,exact,1.00,Astro,1.0,cached,False,0.6003330927342176,CORRECT
+2923d2e8,conv-051,Astro,Astro,exact,1.00,Astro,1.0,cached,False,0.5550419446080923,CORRECT
+fbe65365,conv-051,Astro,Astro,exact,1.00,Astro,1.0,cached,False,0.46979193575680256,CORRECT
+5befb62d,conv-051,Astro,Astro,exact,1.00,Astro,1.0,cached,False,0.43604103848338127,CORRECT
+d16e2b27,conv-051,astro,Astro,exact,1.00,Astro,1.0,cached,False,0.42925006709992886,CORRECT
+128854ae,conv-051,Astro,Astro,exact,1.00,Astro,1.0,cached,False,0.3915419802069664,CORRECT
+b4384ddd,conv-051,Astro,Astro,exact,1.00,Astro,1.0,cached,False,0.3963750787079334,CORRECT
+741e1779,conv-051,GraphQL,GraphQL,exact,1.00,GraphQL,1.0,cached,False,0.38979086093604565,CORRECT
+57e35fec,conv-051,Vite,Vite,exact,1.00,Vite,1.0,new,True,641.9259579852223,CORRECT
+6647854a,conv-051,vite,Vite,exact,1.00,vite,1.0,new,True,619.2306659650058,CORRECT
+4280a695,conv-051,Vite,Vite,exact,1.00,Vite,1.0,new,True,27.178874937817454,CORRECT
+014ed97d,conv-051,Vite,Vite,exact,1.00,Vite,1.0,new,True,17.986000049859285,CORRECT
+5a146891,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4723339807242155,CORRECT
+3f912858,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4557089414447546,CORRECT
+f9c500d1,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4546248819679022,CORRECT
+45c2cb7c,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.45791687443852425,CORRECT
+dc3410e0,conv-056,redis,Redis,exact,1.00,Redis,1.0,cached,False,0.5115841049700975,CORRECT
+0e65ac24,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.5292920395731926,CORRECT
+75bf2c3b,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.5164998583495617,CORRECT
+96445110,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.6814580410718918,CORRECT
+089d9b52,conv-056,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.6102079059928656,CORRECT
+21c114a8,conv-056,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,0.95,canonical,False,5.4027908481657505,
+ef8bce6f,conv-056,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,1.0,cached,False,0.4687909968197346,
+47ce9d65,conv-056,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,1.0,cached,False,0.41595916263759136,
+169a9ea4,conv-056,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,1.0,cached,False,0.4548327997326851,
+bdf268d1,conv-056,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,1.0,cached,False,0.4511249717324972,
+6106f0c3,conv-056,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,1.0,cached,False,0.42945798486471176,
+a3e62251,conv-056,Apache Kafka,Apache Kafka,exact,1.00,Apache Kafka,1.0,cached,False,0.4721658769994974,CORRECT
+76402bb2,conv-056,RabbitMQ,RabbitMQ,exact,1.00,RabbitMQ,1.0,exact,False,1.984667032957077,CORRECT
+ff63f2b2,conv-056,RabbitMQ,RabbitMQ,exact,1.00,RabbitMQ,1.0,cached,False,0.4085840191692114,CORRECT
+5625b312,conv-056,RabbitMQ,RabbitMQ,exact,1.00,RabbitMQ,1.0,cached,False,0.42225001379847527,CORRECT
+fa7064cb,conv-056,RabbitMQ,RabbitMQ,exact,1.00,RabbitMQ,1.0,cached,False,0.43362495489418507,CORRECT
+0074c8ff,conv-056,NATS,NATS,exact,1.00,NATS,1.0,exact,False,2.0938338711857796,CORRECT
+75dad799,conv-056,NATS,NATS,exact,1.00,NATS,1.0,cached,False,0.4301250446587801,CORRECT
+5ae74d8c,conv-056,microservices,Microservices,exact,1.00,Microservices,1.0,exact,False,1.9638340454548597,CORRECT
+36c102b9,conv-056,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,exact,False,1.8155411817133427,CORRECT
+85f635b7,conv-056,ZooKeeper,zookeeper,new,1.00,ZooKeeper,1.0,new,True,632.4370829388499,
+cd0405db,conv-057,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,1.2863331940025091,CORRECT
+18eedca2,conv-057,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.7495409809052944,CORRECT
+52c4c31b,conv-057,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.6404579617083073,CORRECT
+baf85d6d,conv-057,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.6733748596161604,CORRECT
+1c6af205,conv-057,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.6253749597817659,CORRECT
+63c0d3e7,conv-057,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.6055831909179688,CORRECT
+a617887b,conv-057,MongoDB,MongoDB,exact,1.00,MongoDB,1.0,exact,False,3.242167178541422,CORRECT
+39133cb8,conv-057,MongoDB,MongoDB,exact,1.00,MongoDB,1.0,cached,False,0.8540409617125988,CORRECT
+8b67e182,conv-057,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,1.6990001313388348,CORRECT
+a8e8b674,conv-057,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.6330420728772879,CORRECT
+14205546,conv-057,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.6264159455895424,
+7100aec7,conv-057,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.6286671850830317,
+2f0d051f,conv-057,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.5541250575333834,CORRECT
+6f968104,conv-057,go,Go,exact,1.00,Go,1.0,cached,False,0.5170002114027739,CORRECT
+0a3410c5,conv-057,API,API,exact,1.00,API,1.0,cached,False,0.6436668336391449,CORRECT
+bf1fd406,conv-057,API,API,exact,1.00,API,1.0,cached,False,0.5538330879062414,CORRECT
+e3f3a264,conv-057,API,API,exact,1.00,API,1.0,cached,False,0.569875119253993,CORRECT
+e2be1356,conv-057,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.5842079408466816,CORRECT
+f59fb450,conv-057,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.49879192374646664,CORRECT
+9afcdf36,conv-057,Cloudflare,Cloudflare,exact,1.00,Cloudflare,1.0,exact,False,2.6615001261234283,CORRECT
+21a50cb0,conv-057,Cloudflare,Cloudflare,exact,1.00,Cloudflare,1.0,cached,False,0.4824581556022167,CORRECT
+be715097,conv-057,Prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.5012908950448036,CORRECT
+6a229c18,conv-057,Prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.5127501208335161,CORRECT
+1c5c7ea2,conv-057,Prisma,Prisma,exact,1.00,Prisma,1.0,cached,False,0.5086250603199005,CORRECT
+64a18fcf,conv-057,Drizzle,Drizzle ORM,canonical,0.95,Drizzle ORM,1.0,cached,False,0.4704578313976526,
+8f4f320b,conv-058,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.47220801934599876,CORRECT
+64dc6aeb,conv-058,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.5012911278754473,CORRECT
+b7c93ba9,conv-058,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.46829204075038433,CORRECT
+d8078fd1,conv-058,JavaScript,JavaScript,exact,1.00,JavaScript,1.0,cached,False,0.5009579472243786,CORRECT
+ba4fece3,conv-058,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.4846251104027033,
+9ac841e0,conv-058,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.48733409494161606,
+b5030178,conv-058,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.48566609621047974,
+d090db76,conv-058,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.41687488555908203,
+d4aa3694,conv-058,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.4656671080738306,
+fd63d1db,conv-058,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.460541108623147,
+75fcbe4b,conv-058,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.4632500931620598,CORRECT
+a770518c,conv-058,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.5318750627338886,CORRECT
+6db0988e,conv-058,go,Go,exact,1.00,Go,1.0,cached,False,0.4778329748660326,CORRECT
+023ad032,conv-058,Express,Express.js,canonical,0.95,Express.js,1.0,cached,False,0.44583319686353207,
+24a658d7,conv-058,Express,Express.js,canonical,0.95,Express.js,1.0,cached,False,0.42862514965236187,
+1612df7b,conv-058,Express,Express.js,canonical,0.95,Express.js,1.0,cached,False,0.4261659923940897,
+082ee57f,conv-058,Express,Express.js,canonical,0.95,Express.js,1.0,cached,False,0.41487510316073895,
+f1748014,conv-058,API,API,exact,1.00,API,1.0,cached,False,0.4452499561011791,CORRECT
+91c2d179,conv-058,API,API,exact,1.00,API,1.0,cached,False,0.4912500735372305,CORRECT
+330831c3,conv-058,API,API,exact,1.00,API,1.0,cached,False,0.45183300971984863,CORRECT
+33f821ad,conv-058,API,API,exact,1.00,API,1.0,cached,False,0.5179580766707659,CORRECT
+0bff844a,conv-058,GitHub,GitHub,exact,1.00,GitHub,1.0,exact,False,2.480959054082632,CORRECT
+0608d585,conv-058,JWT,JWT,exact,1.00,JWT,1.0,cached,False,0.4237499088048935,CORRECT
+a287e75a,conv-058,JWT,JWT,exact,1.00,JWT,1.0,cached,False,0.4238749388605356,CORRECT
+0ae4d57b,conv-058,JWT,JWT,exact,1.00,JWT,1.0,cached,False,0.44124992564320564,CORRECT
+738b0136,conv-059,go,Go,exact,1.00,Go,1.0,cached,False,0.41812495328485966,CORRECT
+caf5e825,conv-059,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.41966699063777924,CORRECT
+98c80984,conv-059,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.41562505066394806,CORRECT
+f17a90bd,conv-059,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.40445802733302116,CORRECT
+a7c753bf,conv-059,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.8092909120023251,CORRECT
+73476658,conv-059,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.5805420223623514,CORRECT
+a407c286,conv-059,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.5544580053538084,CORRECT
+da9a174d,conv-059,GCP,GCP,exact,1.00,GCP,1.0,cached,False,2.208583988249302,CORRECT
+c16e9309,conv-059,Docker,Docker,exact,1.00,Docker,1.0,cached,False,1.6984588000923395,CORRECT
+b5274c5b,conv-059,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.7157500367611647,CORRECT
+5c9f27c5,conv-059,docker,Docker,exact,1.00,Docker,1.0,cached,False,0.6229171995073557,CORRECT
+88370fe2,conv-059,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.4561671521514654,CORRECT
+b8979e95,conv-059,Docker,Docker,exact,1.00,Docker,1.0,cached,False,1.5606251545250416,CORRECT
+04d23823,conv-059,Docker Compose,Docker Compose,exact,1.00,Docker Compose,1.0,exact,False,3.7442089524120092,CORRECT
+6417bc51,conv-059,Docker Compose,Docker Compose,exact,1.00,Docker Compose,1.0,cached,False,0.5522500723600388,CORRECT
+e6e947d8,conv-059,docker compose,Docker Compose,exact,1.00,Docker Compose,1.0,cached,False,0.6178340408951044,CORRECT
+8a9cb344,conv-059,Compose,Docker Compose,canonical,0.95,Docker Compose,0.95,canonical,False,6.586166098713875,
+81828e4f,conv-059,compose,Docker Compose,canonical,0.95,Docker Compose,1.0,cached,False,0.46037486754357815,
+d7c50895,conv-059,Compose,Docker Compose,canonical,0.95,Docker Compose,1.0,cached,False,0.47862506471574306,
+0b888d92,conv-059,compose,Docker Compose,canonical,0.95,Docker Compose,1.0,cached,False,0.5185001064091921,
+6b800fc9,conv-059,Kubernetes,Kubernetes,exact,1.00,Kubernetes,1.0,cached,False,0.45250006951391697,CORRECT
+dd689dab,conv-059,K8s,Kubernetes,canonical,0.95,Kubernetes,1.0,cached,False,0.41566696017980576,
+7d182b67,conv-059,K8s,Kubernetes,canonical,0.95,Kubernetes,1.0,cached,False,0.4395840223878622,
+53aa0a09,conv-059,K8s,Kubernetes,canonical,0.95,Kubernetes,1.0,cached,False,0.4047499969601631,
+54ca30e7,conv-059,K8s,Kubernetes,canonical,0.95,Kubernetes,1.0,cached,False,0.4388748202472925,
+1b1e69f7,conv-060,JS,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.4205419681966305,
+2bf02bc3,conv-060,TS,TypeScript,canonical,0.95,TypeScript,1.0,cached,False,0.42979209683835506,
+67dcc1bc,conv-060,API,API,exact,1.00,API,1.0,cached,False,0.42437505908310413,CORRECT
+ae15b9e9,conv-060,api,API,exact,1.00,API,1.0,cached,False,0.40374998934566975,CORRECT
+341d2423,conv-060,api,API,exact,1.00,API,1.0,cached,False,0.36654085852205753,CORRECT
+a5b55bf1,conv-060,api,API,exact,1.00,API,1.0,cached,False,0.3675001207739115,CORRECT
+7f601468,conv-060,do,DigitalOcean,canonical,0.95,DigitalOcean,1.0,cached,False,0.3807919565588236,
+83fd841b,conv-060,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3975839354097843,CORRECT
+c3695a9b,conv-060,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3737499937415123,CORRECT
+c9e24c15,conv-060,pnpm,pnpm,exact,1.00,pnpm,1.0,exact,False,1.9494998268783092,CORRECT
+1541f54d,conv-060,pnpm,pnpm,exact,1.00,pnpm,1.0,cached,False,0.3875000402331352,CORRECT
+43f744f4,conv-060,GitHub,GitHub,exact,1.00,GitHub,1.0,cached,False,0.37954095751047134,CORRECT
+78f29401,conv-060,GitHub,GitHub,exact,1.00,GitHub,1.0,cached,False,0.4240002017468214,CORRECT
+70dd57ba,conv-060,GitHub,GitHub,exact,1.00,GitHub,1.0,cached,False,0.39262487553060055,CORRECT
+f581e36f,conv-060,GitHub,GitHub,exact,1.00,GitHub,1.0,cached,False,0.3698328509926796,CORRECT
+4f87838b,conv-060,GitHub,GitHub,exact,1.00,GitHub,1.0,cached,False,0.37370785139501095,CORRECT
+8bacd049,conv-060,GitHub,GitHub,exact,1.00,GitHub,1.0,cached,False,0.3771670162677765,CORRECT
+9bcf3e29,conv-060,GitHub,GitHub,exact,1.00,GitHub,1.0,cached,False,0.39433292113244534,CORRECT
+14adc37d,conv-060,GitLab,GitLab,exact,1.00,GitLab,1.0,new,True,619.0486249979585,CORRECT
+0acaff62,conv-060,GitLab,GitLab,exact,1.00,GitLab,1.0,new,True,20.588167011737823,CORRECT
+13876726,conv-060,GitHub Actions,GitHub Actions,exact,1.00,GitHub Actions,1.0,exact,False,1.1879170779138803,CORRECT
+19ef5393,conv-060,GitHub Actions,GitHub Actions,exact,1.00,GitHub Actions,1.0,cached,False,0.26524998247623444,CORRECT
+00dfc589,conv-060,GitHub Actions,GitHub Actions,exact,1.00,GitHub Actions,1.0,cached,False,0.27320883236825466,CORRECT
+df27f6ad,conv-060,GitHub Actions,GitHub Actions,exact,1.00,GitHub Actions,1.0,cached,False,0.3022090531885624,CORRECT
+5aaff0a4,conv-060,GitHub Actions,GitHub Actions,exact,1.00,GitHub Actions,1.0,cached,False,0.2656669821590185,CORRECT
+bf2ee423,conv-063,ClickHouse,ClickHouse,exact,1.00,ClickHouse,1.0,exact,False,1.0631668847054243,CORRECT
+5b6dc099,conv-063,go,Go,exact,1.00,Go,1.0,cached,False,0.21941703744232655,CORRECT
+78d81300,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.2335419412702322,CORRECT
+ad101c51,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.24004094302654266,CORRECT
+b9e1414d,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.252292025834322,CORRECT
+da653e4a,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.22858311422169209,CORRECT
+2cf37101,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.22858311422169209,CORRECT
+85559739,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.23308279924094677,CORRECT
+e52520fc,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.2601251471787691,CORRECT
+a904a736,conv-063,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.22891582921147346,CORRECT
+06f8d55f,conv-063,GCP,GCP,exact,1.00,GCP,1.0,cached,False,0.2316250465810299,CORRECT
+d36a1cce,conv-063,GCP,GCP,exact,1.00,GCP,1.0,cached,False,0.22675003856420517,CORRECT
+86b61d49,conv-063,Azure,Azure,exact,1.00,Azure,1.0,cached,False,0.22566597908735275,CORRECT
+988ef17c,conv-063,do,DigitalOcean,canonical,0.95,DigitalOcean,1.0,cached,False,0.22799987345933914,
+b524ab6d,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,12.859000125899911,CORRECT
+844c9780,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,12.340083019807935,CORRECT
+3035fb42,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,12.612042017281055,CORRECT
+60198a8e,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,12.018291978165507,CORRECT
+cceb3746,conv-063,serverless,Serverless,exact,1.00,serverless,1.0,new,True,11.983708012849092,CORRECT
+76c444cb,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,12.158457888290286,CORRECT
+5c9ffa4a,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,11.515334015712142,CORRECT
+0fbf49c9,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,11.524999979883432,CORRECT
+44bd51d8,conv-063,Serverless,Serverless,exact,1.00,Serverless,1.0,new,True,11.926832841709256,CORRECT
+e75f5be4,conv-063,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.23904209956526756,
+13f847f4,conv-063,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.23733405396342278,
+81bc74bb,conv-068,cpp,C++,canonical,0.95,C++,0.95,canonical,False,2.4877500254660845,
+b667424c,conv-068,API,API,exact,1.00,API,1.0,cached,False,0.25120796635746956,CORRECT
+25600f7c,conv-068,API,API,exact,1.00,API,1.0,cached,False,0.24495809338986874,CORRECT
+1e3f8c8b,conv-068,API,API,exact,1.00,API,1.0,cached,False,0.2401249948889017,CORRECT
+75b32f70,conv-068,API,API,exact,1.00,API,1.0,cached,False,0.22470811381936073,CORRECT
+2f29c583,conv-068,API,API,exact,1.00,API,1.0,cached,False,0.2335000317543745,CORRECT
+f6fcbb2e,conv-068,OpenAI,OpenAI,exact,1.00,OpenAI,1.0,cached,False,0.23366720415651798,CORRECT
+9d487fd1,conv-068,GPT,GPT,exact,1.00,GPT,1.0,cached,False,0.23491703905165195,CORRECT
+f76a61ec,conv-068,GPT,GPT,exact,1.00,GPT,1.0,cached,False,0.23175007663667202,CORRECT
+13beecb2,conv-068,Anthropic,Anthropic,exact,1.00,Anthropic,1.0,exact,False,1.1287080124020576,CORRECT
+fca95c24,conv-068,llama,LLaMA,exact,1.00,LLaMA,1.0,cached,False,0.23041712120175362,CORRECT
+975849cf,conv-068,Llama,LLaMA,exact,1.00,LLaMA,1.0,cached,False,0.22795796394348145,CORRECT
+78803748,conv-068,Llama,LLaMA,exact,1.00,LLaMA,1.0,cached,False,0.21804100833833218,CORRECT
+54951f7d,conv-068,Llama,LLaMA,exact,1.00,LLaMA,1.0,cached,False,0.24741701781749725,CORRECT
+029d0ba2,conv-068,Llama,LLaMA,exact,1.00,LLaMA,1.0,cached,False,0.22975006140768528,CORRECT
+809fc1eb,conv-068,Mistral,Mistral,exact,1.00,Mistral,1.0,new,True,610.8695000875741,CORRECT
+440d4893,conv-068,Ollama,Ollama,exact,1.00,LLaMA,0.9090909090909091,fuzzy,False,15.250458149239421,CORRECT
+ce90e64c,conv-068,vLLM,vLLM,exact,1.00,vLLM,1.0,exact,False,3.27241700142622,CORRECT
+68d735c2,conv-068,vLLM,vLLM,exact,1.00,vLLM,1.0,cached,False,0.5123750306665897,CORRECT
+e31c7c84,conv-068,vLLM,vLLM,exact,1.00,vLLM,1.0,cached,False,0.4668750334531069,CORRECT
+59a7b4b9,conv-071,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.43383287265896797,CORRECT
+75e89b3b,conv-071,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.44912518933415413,CORRECT
+162beea6,conv-071,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.38120802491903305,CORRECT
+1a8fd4cd,conv-071,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.39995787665247917,CORRECT
+fafb1c5a,conv-071,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.3975830040872097,CORRECT
+48b198b7,conv-071,Firestore,Firestore,exact,1.00,Firestore,1.0,cached,False,0.39920792914927006,CORRECT
+f4df0614,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.7323340978473425,CORRECT
+61af1a39,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.7036249153316021,CORRECT
+f2c643f9,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.6120000034570694,CORRECT
+9179a793,conv-071,supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.6039589643478394,CORRECT
+a76a0651,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5808330606669188,CORRECT
+c7b10533,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5387500859797001,CORRECT
+1286fe59,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5472500342875719,CORRECT
+297db170,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.5377079360187054,CORRECT
+4d6c47c9,conv-071,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.49420795403420925,CORRECT
+f8b1313c,conv-071,React,React,exact,1.00,React,1.0,cached,False,0.5311670247465372,CORRECT
+47f7ed7a,conv-071,FastAPI,FastAPI,exact,1.00,FastAPI,1.0,exact,False,2.3186670150607824,CORRECT
+9234c280,conv-071,FastAPI,FastAPI,exact,1.00,FastAPI,1.0,cached,False,0.533499987795949,CORRECT
+f7a5cd4f,conv-071,API,API,exact,1.00,API,1.0,cached,False,0.5014578346163034,CORRECT
+7a104660,conv-071,WebSocket,WebSocket,exact,1.00,WebSocket,1.0,exact,False,2.480250084772706,CORRECT
+7578b555,conv-071,NATS,NATS,exact,1.00,NATS,1.0,cached,False,0.5075410008430481,CORRECT
+fc7fc79e,conv-071,Firebase Auth,Firebase Auth,exact,1.00,Firebase Auth,1.0,new,True,622.3725411109626,CORRECT
+3cb4798c,conv-072,Go,Go,exact,1.00,Go,1.0,cached,False,0.7559999357908964,CORRECT
+16e0330e,conv-072,Go,Go,exact,1.00,Go,1.0,cached,False,0.6475828122347593,CORRECT
+208d67f2,conv-072,go,Go,exact,1.00,Go,1.0,cached,False,0.8930419571697712,CORRECT
+fb88b963,conv-072,Go,Go,exact,1.00,Go,1.0,cached,False,0.6812501233071089,CORRECT
+fcaa39ed,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.651791924610734,CORRECT
+e44e6a4e,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.6342919077724218,CORRECT
+7aa8f679,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.624750042334199,CORRECT
+246a85e0,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.6746670696884394,CORRECT
+a2f4e605,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.5246249493211508,CORRECT
+e86468ac,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.5362918600440025,CORRECT
+e7777ea4,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.5157499108463526,CORRECT
+6234ac9d,conv-072,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.5151249933987856,CORRECT
+7dccddb0,conv-072,docker,Docker,exact,1.00,Docker,1.0,cached,False,0.5350420251488686,CORRECT
+56b8eac7,conv-072,turbopack,Turbopack,exact,1.00,turbopack,1.0,new,True,610.3807089384645,CORRECT
+b9558a0f,conv-072,gh,GitHub,canonical,0.95,GitHub,0.95,canonical,False,4.781541181728244,
+40740864,conv-076,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.38362503983080387,CORRECT
+f13d68e7,conv-076,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.3521661274135113,CORRECT
+79745acf,conv-076,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.35379198379814625,CORRECT
+d011e049,conv-076,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,1.0,cached,False,0.35850005224347115,
+31855f33,conv-076,Kafka,Apache Kafka,canonical,0.95,Apache Kafka,1.0,cached,False,0.36162487231194973,
+9e389ad3,conv-076,CQRS,CQRS,exact,1.00,CQRS,1.0,new,True,615.730999968946,CORRECT
+b91de2ff,conv-076,CQRS,CQRS,exact,1.00,CQRS,1.0,new,True,28.74374995008111,CORRECT
+2b257572,conv-076,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.5339158233255148,CORRECT
+995333cb,conv-076,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.5069589242339134,CORRECT
+98d3f9e9,conv-076,Event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.49212505109608173,CORRECT
+d3087696,conv-076,Event Sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.5066671874374151,CORRECT
+c5f8444d,conv-076,Event Sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.5038331728428602,CORRECT
+daee90f2,conv-076,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.4719579592347145,CORRECT
+d17c95a1,conv-076,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.4735831171274185,CORRECT
+176e7d5d,conv-076,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.4734171088784933,CORRECT
+d87e63ec,conv-076,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,0.6662909872829914,CORRECT
+c3a94aba,conv-076,event sourcing,Event Sourcing,exact,1.00,Event Sourcing,1.0,cached,False,1.0506249964237213,CORRECT
+3a9b1c9b,conv-087,solid,SolidJS,canonical,0.95,SolidJS,0.95,canonical,False,5.680750124156475,
+90527f3b,conv-087,Less,Less,exact,1.00,Less,1.0,cached,False,0.47541712410748005,CORRECT
+4f6bfd63,conv-088,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.49037509597837925,
+26d7f5a6,conv-088,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.47929096035659313,
+55d15d6a,conv-088,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,1.780749997124076,CORRECT
+81dd3239,conv-088,Nextjs,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.5160418804734945,
+92ab37d6,conv-088,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,1.4792499132454395,CORRECT
+981d5600,conv-088,Next.js,Next.js,exact,1.00,Next.js,1.0,cached,False,0.5734171718358994,CORRECT
+1f17fabc,conv-088,Next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.5020408425480127,
+9bfc7add,conv-088,Next,Next.js,canonical,0.95,Next.js,1.0,cached,False,0.6092078983783722,
+8ff90c46,conv-088,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.6979589816182852,
+a86f9ce2,conv-088,Less,Less,exact,1.00,Less,1.0,cached,False,0.5809580907225609,CORRECT
+b76aefeb,conv-089,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.5886661820113659,CORRECT
+fcf593b3,conv-089,React,React,exact,1.00,React,1.0,cached,False,0.49979216419160366,CORRECT
+2fc158a0,conv-089,React,React,exact,1.00,React,1.0,cached,False,0.5147501360625029,CORRECT
+36bf3303,conv-089,React,React,exact,1.00,React,1.0,cached,False,0.43800007551908493,CORRECT
+54c1407d,conv-089,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.44712494127452374,
+9962edc3,conv-089,Less,Less,exact,1.00,Less,1.0,cached,False,0.4314999096095562,CORRECT
+a9af566d,conv-092,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4821671172976494,CORRECT
+5a4f42e3,conv-092,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.4506248515099287,CORRECT
+8d7e2172,conv-092,Python,Python,exact,1.00,Python,1.0,cached,False,0.41924999095499516,CORRECT
+242a05b6,conv-092,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.4164590500295162,CORRECT
+daa5db98,conv-092,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.4745831247419119,
+7bfbb5df,conv-092,RabbitMQ,RabbitMQ,exact,1.00,RabbitMQ,1.0,cached,False,0.4374580457806587,CORRECT
+781d99a5,conv-092,RabbitMQ,RabbitMQ,exact,1.00,RabbitMQ,1.0,cached,False,0.4579999949783087,CORRECT
+8f94d918,conv-092,RabbitMQ,RabbitMQ,exact,1.00,RabbitMQ,1.0,cached,False,0.5157499108463526,CORRECT
+f1300ae5,conv-092,Less,Less,exact,1.00,Less,1.0,cached,False,0.4322079475969076,CORRECT
+89dcf96c,conv-093,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5691249389201403,
+f4fed9d4,conv-093,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.5599171854555607,
+27f7fec7,conv-093,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.4385418724268675,
+33be5afa,conv-093,typescript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.45404210686683655,CORRECT
+fe8b1f0b,conv-093,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.44145784340798855,CORRECT
+4fd0ada5,conv-093,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.40924991481006145,CORRECT
+2450df66,conv-093,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.4127500578761101,
+b13a04b7,conv-093,API,API,exact,1.00,API,1.0,cached,False,0.5032089538872242,CORRECT
+c8799c9e,conv-093,API,API,exact,1.00,API,1.0,cached,False,0.4420001059770584,CORRECT
+591c67d4,conv-093,REST,REST API,canonical,0.95,REST API,1.0,cached,False,0.4092089366167784,
+fdf6f4ed,conv-093,REST,REST API,canonical,0.95,REST API,1.0,cached,False,0.41504204273223877,
+65b97189,conv-093,REST API,REST API,exact,1.00,REST API,1.0,cached,False,0.3826250322163105,CORRECT
+2f2ad0c3,conv-093,REST API,REST API,exact,1.00,REST API,1.0,cached,False,0.39704213850200176,CORRECT
+1a4525c1,conv-093,GraphQL,GraphQL,exact,1.00,GraphQL,1.0,cached,False,0.3867081832140684,CORRECT
+2e8863b7,conv-093,tRPC,tRPC,exact,1.00,tRPC,1.0,exact,False,2.148333005607128,CORRECT
+5abb13e9,conv-093,tRPC,tRPC,exact,1.00,tRPC,1.0,cached,False,0.37341704592108727,CORRECT
+9878fc42,conv-093,tRPC,tRPC,exact,1.00,tRPC,1.0,cached,False,0.37291692569851875,CORRECT
+a5ad8a09,conv-093,tRPC,tRPC,exact,1.00,tRPC,1.0,cached,False,0.43458398431539536,CORRECT
+9003937c,conv-093,Less,Less,exact,1.00,Less,1.0,cached,False,0.3730838652700186,CORRECT
+511d8c92,conv-093,Node.js,node.js,new,1.00,node.js,1.0,exact,False,2.7834170032292604,
+94715df0,conv-093,Node.js,node.js,new,1.00,node.js,1.0,cached,False,0.34304196015000343,
+c9af502a,conv-093,Node.js,node.js,new,1.00,node.js,1.0,cached,False,0.34070806577801704,
+7f2b9b4f,conv-097,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.392083078622818,CORRECT
+41c82814,conv-097,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.38312491960823536,
+19f5addc,conv-097,Less,Less,exact,1.00,Less,1.0,cached,False,0.41545811109244823,CORRECT
+d9baeb06,conv-097,SendGrid,sendgrid,new,1.00,SendGrid,1.0,new,True,629.313874989748,
+d827e326,conv-097,SendGrid,sendgrid,new,1.00,SendGrid,1.0,new,True,29.048166936263442,
+4562bae2,conv-097,SendGrid,sendgrid,new,1.00,SendGrid,1.0,new,True,26.103375013917685,
+89eb9c02,conv-097,SendGrid,sendgrid,new,1.00,SendGrid,1.0,new,True,24.2269579321146,
+d5b22131,conv-098,TimescaleDB,TimescaleDB,exact,1.00,TimescaleDB,1.0,exact,False,2.256083069369197,CORRECT
+ed2f7eb8,conv-098,TimescaleDB,TimescaleDB,exact,1.00,TimescaleDB,1.0,cached,False,0.5776251200586557,CORRECT
+31cc1e24,conv-098,TimescaleDB,TimescaleDB,exact,1.00,TimescaleDB,1.0,cached,False,0.4960419610142708,CORRECT
+66190a21,conv-098,TimescaleDB,TimescaleDB,exact,1.00,TimescaleDB,1.0,cached,False,0.49629202112555504,CORRECT
+854ffb64,conv-098,InfluxDB,InfluxDB,exact,1.00,InfluxDB,1.0,exact,False,2.1396251395344734,CORRECT
+35ccafa3,conv-098,InfluxDB,InfluxDB,exact,1.00,InfluxDB,1.0,cached,False,0.4424171056598425,CORRECT
+ade61de6,conv-098,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,1.2484998442232609,
+deee3f69,conv-098,Less,Less,exact,1.00,Less,1.0,cached,False,0.5008750595152378,CORRECT
+132fb066,conv-098,prometheus,Prometheus,exact,1.00,Prometheus,1.0,cached,False,0.5140418652445078,CORRECT
+4e5da104,conv-098,Prometheus,Prometheus,exact,1.00,Prometheus,1.0,cached,False,0.47433306463062763,CORRECT
+0f7a7668,conv-098,Prometheus,Prometheus,exact,1.00,Prometheus,1.0,cached,False,0.4581660032272339,CORRECT
+4d4059e1,conv-098,Grafana,Grafana,exact,1.00,Grafana,1.0,cached,False,0.4566248971968889,CORRECT
+54de982e,conv-108,Python,Python,exact,1.00,Python,1.0,cached,False,0.4385418724268675,CORRECT
+b251e37a,conv-108,Python,Python,exact,1.00,Python,1.0,cached,False,0.4264591261744499,CORRECT
+58c2beb2,conv-108,Python,Python,exact,1.00,Python,1.0,cached,False,0.47129206359386444,CORRECT
+a99d7a10,conv-108,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.4518341738730669,
+e83afe2d,conv-108,Less,Less,exact,1.00,Less,1.0,cached,False,0.4086662083864212,CORRECT
+dfa8636c,conv-109,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.44845789670944214,
+dd70e54c,conv-109,MLflow,MLflow,exact,1.00,MLflow,1.0,exact,False,2.1725830156356096,CORRECT
+55d9e954,conv-109,MLflow,MLflow,exact,1.00,MLflow,1.0,cached,False,0.5856670904904604,CORRECT
+5f9e835d,conv-109,MLflow,MLflow,exact,1.00,MLflow,1.0,cached,False,0.4358747974038124,CORRECT
+3fec77b5,conv-109,MLflow,MLflow,exact,1.00,MLflow,1.0,cached,False,0.40508294478058815,CORRECT
+2af15d1c,conv-109,Less,Less,exact,1.00,Less,1.0,cached,False,0.4136250354349613,CORRECT
+de5cb100,conv-115,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3922909963876009,CORRECT
+573d8107,conv-115,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.3926670178771019,CORRECT
+cf92e311,conv-115,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.41966699063777924,CORRECT
+220f4cfb,conv-115,Rust,Rust,exact,1.00,Rust,1.0,cached,False,0.40037487633526325,CORRECT
+171a8ad3,conv-115,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.4074580501765013,
+b5c90cdb,conv-115,Less,Less,exact,1.00,Less,1.0,cached,False,0.4241669084876776,CORRECT
+ab7cc9b5,conv-118,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.39366702549159527,
+33e58b81,conv-118,playwright,Playwright,exact,1.00,Playwright,1.0,exact,False,1.7296250443905592,CORRECT
+cfa2cd58,conv-118,Playwright,Playwright,exact,1.00,Playwright,1.0,cached,False,0.3712500911206007,CORRECT
+4d44cbb8,conv-118,Playwright,Playwright,exact,1.00,Playwright,1.0,cached,False,0.3708750009536743,CORRECT
+2eb4f96b,conv-118,Playwright,Playwright,exact,1.00,Playwright,1.0,cached,False,0.3626667894423008,CORRECT
+6669276d,conv-118,Less,Less,exact,1.00,Less,1.0,cached,False,0.42291590943932533,CORRECT
+a30c0e35,conv-130,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.5814589094370604,CORRECT
+02d8b0b8,conv-130,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.3875421825796366,CORRECT
+27ede395,conv-130,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.3614160232245922,CORRECT
+d046e8ed,conv-130,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.3911249805241823,CORRECT
+05d1c37e,conv-130,SQLite,SQLite,exact,1.00,SQLite,1.0,exact,False,1.587166916579008,CORRECT
+f3cdc38b,conv-130,SQLite,SQLite,exact,1.00,SQLite,1.0,cached,False,0.3552499692887068,CORRECT
+4ad2bb59,conv-130,SQLite,SQLite,exact,1.00,SQLite,1.0,cached,False,0.37158397026360035,CORRECT
+3bd11203,conv-130,SQLite,SQLite,exact,1.00,SQLite,1.0,cached,False,0.35866699181497097,CORRECT
+77f1c72e,conv-130,Python,Python,exact,1.00,Python,1.0,cached,False,0.35283295437693596,CORRECT
+36a1fe2b,conv-130,Python,Python,exact,1.00,Python,1.0,cached,False,0.37804199382662773,CORRECT
+c0aa7f97,conv-130,Python,Python,exact,1.00,Python,1.0,cached,False,0.36170799285173416,CORRECT
+9414096a,conv-130,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.36399997770786285,CORRECT
+321e8d7d,conv-130,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.3638749476522207,
+439bae22,conv-130,Less,Less,exact,1.00,Less,1.0,cached,False,0.36445795558393,CORRECT
+913cf10d,conv-138,Python,Python,exact,1.00,Python,1.0,cached,False,0.3629170823842287,CORRECT
+67b6933b,conv-138,Python,Python,exact,1.00,Python,1.0,cached,False,0.3629580605775118,CORRECT
+b9546c75,conv-138,Python,Python,exact,1.00,Python,1.0,cached,False,0.3743749111890793,CORRECT
+102830ca,conv-138,Python,Python,exact,1.00,Python,1.0,cached,False,0.35512493923306465,CORRECT
+a0ceb192,conv-138,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.37991697899997234,CORRECT
+63970a38,conv-138,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.33241696655750275,CORRECT
+502df4bf,conv-138,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.34445803612470627,CORRECT
+74e67956,conv-138,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3377918619662523,CORRECT
+f937ab41,conv-138,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.33537507988512516,
+be58cf89,conv-138,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.3337920643389225,CORRECT
+45bd95d2,conv-138,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.3012500237673521,CORRECT
+448ac8c1,conv-138,AWS,AWS,exact,1.00,AWS,1.0,cached,False,0.3196669276803732,CORRECT
+786bb95d,conv-138,Cloudflare,Cloudflare,exact,1.00,Cloudflare,1.0,cached,False,0.30733412131667137,CORRECT
+fef2043b,conv-138,Cloudflare,Cloudflare,exact,1.00,Cloudflare,1.0,cached,False,0.31062494963407516,CORRECT
+a3eebd45,conv-138,Less,Less,exact,1.00,Less,1.0,cached,False,0.3143749199807644,CORRECT
+98fdf532,conv-140,python,Python,exact,1.00,Python,1.0,cached,False,0.34104217775166035,CORRECT
+efe0b3e8,conv-140,Python,Python,exact,1.00,Python,1.0,cached,False,0.31037512235343456,CORRECT
+6f01e112,conv-140,Python,Python,exact,1.00,Python,1.0,cached,False,0.30375015921890736,CORRECT
+636593bb,conv-140,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.4287920892238617,CORRECT
+405f7344,conv-140,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3238748759031296,CORRECT
+f2514a89,conv-140,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.32654195092618465,CORRECT
+ebacbf18,conv-140,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3355001099407673,CORRECT
+3b0b5189,conv-140,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3161251079291105,CORRECT
+4bebd41b,conv-140,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.3111669793725014,
+3cfc2534,conv-140,Less,Less,exact,1.00,Less,1.0,cached,False,0.3286250866949558,CORRECT
+9a4d712f,conv-140,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.3095839638262987,
+d764146c,conv-140,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.34041679464280605,
+a2781297,conv-140,BigQuery,bigquery,new,1.00,bigquery,1.0,cached,False,0.3088749945163727,
+29d45186,conv-142,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.31137512996792793,CORRECT
+bccce9eb,conv-142,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.3107499796897173,CORRECT
+f9554b85,conv-142,Python,Python,exact,1.00,Python,1.0,cached,False,0.3047080244868994,CORRECT
+629ea1d8,conv-142,Python,Python,exact,1.00,Python,1.0,cached,False,0.30570803210139275,CORRECT
+d2878543,conv-142,Python,Python,exact,1.00,Python,1.0,cached,False,0.31341612339019775,CORRECT
+88d49ff6,conv-142,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3279999364167452,CORRECT
+05b5242b,conv-142,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3269580192863941,CORRECT
+0ed718f8,conv-142,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.30516600236296654,CORRECT
+875d0f53,conv-142,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.3238329663872719,CORRECT
+17dcbe82,conv-142,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.31966716051101685,
+e605047b,conv-142,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3080840688198805,CORRECT
+04471f03,conv-142,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3360828850418329,CORRECT
+c3f9a401,conv-142,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.30708289705216885,CORRECT
+fec87b7c,conv-142,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3267501015216112,CORRECT
+0ea4fb81,conv-142,Less,Less,exact,1.00,Less,1.0,cached,False,0.31345803290605545,CORRECT
+0bcb8c45,conv-144,Python,Python,exact,1.00,Python,1.0,cached,False,0.3061671741306782,CORRECT
+1a5bbae2,conv-144,Python,Python,exact,1.00,Python,1.0,cached,False,0.29766582883894444,CORRECT
+29f577e7,conv-144,Python,Python,exact,1.00,Python,1.0,cached,False,0.28683384880423546,CORRECT
+804a48c2,conv-144,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.30320812948048115,CORRECT
+fc65ee25,conv-144,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2964588347822428,CORRECT
+3fd42c76,conv-144,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.29433309100568295,CORRECT
+c1729017,conv-144,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.298874918371439,
+9b4547ec,conv-144,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.30995788984000683,CORRECT
+f6bacb59,conv-144,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.290165888145566,CORRECT
+9315a7b6,conv-144,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3013748209923506,CORRECT
+5ac21963,conv-144,Less,Less,exact,1.00,Less,1.0,cached,False,0.2922080457210541,CORRECT
+93291126,conv-151,Python,Python,exact,1.00,Python,1.0,cached,False,0.31912513077259064,CORRECT
+d9ba692a,conv-151,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.28866715729236603,CORRECT
+76728bb8,conv-151,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2801248338073492,CORRECT
+a877c715,conv-151,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.29470911249518394,CORRECT
+b55d060c,conv-151,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.29212492518126965,
+73c02d63,conv-151,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.28683291748166084,CORRECT
+a4758f03,conv-151,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2811660524457693,CORRECT
+8537533f,conv-151,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2864161506295204,CORRECT
+dce86df2,conv-151,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2997498959302902,CORRECT
+03e931c2,conv-151,TailwindCSS,Tailwind CSS,canonical,0.95,Tailwind CSS,1.0,cached,False,0.28833397664129734,
+5aa20ab4,conv-151,TailwindCSS,Tailwind CSS,canonical,0.95,Tailwind CSS,1.0,cached,False,0.29900018125772476,
+9cf23226,conv-151,Less,Less,exact,1.00,Less,1.0,cached,False,0.3008751664310694,CORRECT
+ff253ec8,conv-152,Python,Python,exact,1.00,Python,1.0,cached,False,0.2973328810185194,CORRECT
+310cc114,conv-152,typescript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2906660083681345,CORRECT
+4ce55ec6,conv-152,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.28062518686056137,CORRECT
+d8dea461,conv-152,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2837090287357569,CORRECT
+bf950c98,conv-152,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2801672089844942,
+f0525869,conv-152,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2762500662356615,CORRECT
+c73b720c,conv-152,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.29033306054770947,CORRECT
+965cfb69,conv-152,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.26008300483226776,CORRECT
+fc2a0da0,conv-152,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.271917087957263,CORRECT
+c679b434,conv-152,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.27316692285239697,CORRECT
+e4a41c38,conv-152,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.25683315470814705,CORRECT
+ebf0b4de,conv-152,Kubernetes,Kubernetes,exact,1.00,Kubernetes,1.0,cached,False,0.27125002816319466,CORRECT
+18e17c34,conv-152,Kubernetes,Kubernetes,exact,1.00,Kubernetes,1.0,cached,False,0.27312501333653927,CORRECT
+3a80d9da,conv-152,Kubernetes,Kubernetes,exact,1.00,Kubernetes,1.0,cached,False,0.2691249828785658,CORRECT
+2a6e2ba5,conv-152,Less,Less,exact,1.00,Less,1.0,cached,False,0.36150007508695126,CORRECT
+a899d2e1,conv-153,Python,Python,exact,1.00,Python,1.0,cached,False,0.27883308939635754,CORRECT
+19e84268,conv-153,Python,Python,exact,1.00,Python,1.0,cached,False,0.3459998406469822,CORRECT
+9f2a8ad0,conv-153,Python,Python,exact,1.00,Python,1.0,cached,False,0.2783748786896467,CORRECT
+39af1d76,conv-153,Python,Python,exact,1.00,Python,1.0,cached,False,0.2783748786896467,CORRECT
+722715ca,conv-153,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.30783284455537796,CORRECT
+3936352b,conv-153,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2874580677598715,CORRECT
+b72b1506,conv-153,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2900410909205675,CORRECT
+a90b47c3,conv-153,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2738749608397484,CORRECT
+0e9b5eb1,conv-153,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2799578942358494,
+eaca0014,conv-153,Less,Less,exact,1.00,Less,1.0,cached,False,0.2792088780552149,CORRECT
+7216f03c,conv-153,datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.28966693207621574,CORRECT
+71113aea,conv-153,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.2677908632904291,CORRECT
+ee701478,conv-153,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.29024994000792503,CORRECT
+a1713dc6,conv-153,Datadog,Datadog,exact,1.00,Datadog,1.0,cached,False,0.2739168703556061,CORRECT
+a1bb7db7,conv-155,Python,Python,exact,1.00,Python,1.0,cached,False,0.27908291667699814,CORRECT
+2d2d8424,conv-155,Python,Python,exact,1.00,Python,1.0,cached,False,0.27979095466434956,CORRECT
+cc53ab12,conv-155,Python,Python,exact,1.00,Python,1.0,cached,False,0.2851670142263174,CORRECT
+c91a2c6c,conv-155,Python,Python,exact,1.00,Python,1.0,cached,False,0.2762919757515192,CORRECT
+6ce77696,conv-155,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2777909394353628,CORRECT
+580a38d9,conv-155,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2730421256273985,CORRECT
+d1b0e356,conv-155,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.25366712361574173,CORRECT
+c6362107,conv-155,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.26070792227983475,
+0ee9cdb6,conv-155,Less,Less,exact,1.00,Less,1.0,cached,False,0.2746658865362406,CORRECT
+0a52f427,conv-164,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.2889579627662897,CORRECT
+ffefc4fd,conv-164,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.27062511071562767,CORRECT
+63c8cb76,conv-164,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.26558293029665947,CORRECT
+73e8ba18,conv-164,Supabase,Supabase,exact,1.00,Supabase,1.0,cached,False,0.2685419749468565,CORRECT
+a4780435,conv-164,Python,Python,exact,1.00,Python,1.0,cached,False,0.2736249007284641,CORRECT
+613a4996,conv-164,Python,Python,exact,1.00,Python,1.0,cached,False,0.2712090499699116,CORRECT
+8e5296be,conv-164,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.26108301244676113,CORRECT
+a71cb41f,conv-164,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.26429188437759876,CORRECT
+60defc77,conv-164,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.26599992997944355,CORRECT
+35ab3cec,conv-164,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.27412502095103264,
+08ff9e92,conv-164,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2752079162746668,CORRECT
+5e8a2b33,conv-164,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.26087486185133457,CORRECT
+729772bf,conv-164,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.27541699819266796,CORRECT
+bb8dd2be,conv-164,Less,Less,exact,1.00,Less,1.0,cached,False,0.26862509548664093,CORRECT
+554bb1ac,conv-167,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2755420282483101,CORRECT
+23b3f79b,conv-167,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2717080060392618,CORRECT
+0557ad5c,conv-167,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2618751022964716,
+76fc8643,conv-167,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2626250497996807,CORRECT
+88eed164,conv-167,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3450000658631325,CORRECT
+e5ad25b5,conv-167,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2739168703556061,CORRECT
+a3537e4b,conv-167,Less,Less,exact,1.00,Less,1.0,cached,False,0.26929215528070927,CORRECT
+0f7ee9ac,conv-167,Terraform,Terraform,exact,1.00,Terraform,1.0,exact,False,1.317333895713091,CORRECT
+2ebfe6f5,conv-167,Terraform,Terraform,exact,1.00,Terraform,1.0,cached,False,0.2584580797702074,CORRECT
+85eb4274,conv-167,Terraform,Terraform,exact,1.00,Terraform,1.0,cached,False,0.25170808658003807,CORRECT
+1b51a292,conv-167,Terraform,Terraform,exact,1.00,Terraform,1.0,cached,False,0.2564159221947193,CORRECT
+e83dee3c,conv-167,Pulumi,Pulumi,exact,1.00,Pulumi,1.0,exact,False,1.15837506018579,CORRECT
+94fd9c83,conv-169,Python,Python,exact,1.00,Python,1.0,cached,False,0.24970807135105133,CORRECT
+96ccd611,conv-169,Python,Python,exact,1.00,Python,1.0,cached,False,0.24920795112848282,CORRECT
+96b2ee29,conv-169,typescript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2632499672472477,CORRECT
+cc0d173e,conv-169,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.28562499210238457,CORRECT
+813c1e12,conv-169,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.24533295072615147,CORRECT
+487e1cd1,conv-169,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2496668603271246,
+0fe00eaa,conv-169,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3793751820921898,CORRECT
+ee280954,conv-169,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2868750598281622,CORRECT
+e65b1a5c,conv-169,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.28033414855599403,CORRECT
+356acd3a,conv-169,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3012500237673521,CORRECT
+449f0a0b,conv-169,cypress,Cypress,exact,1.00,Cypress,1.0,exact,False,1.2914580292999744,CORRECT
+dc3f8e97,conv-169,Cypress,Cypress,exact,1.00,Cypress,1.0,cached,False,0.28024986386299133,CORRECT
+b9987437,conv-169,Cypress,Cypress,exact,1.00,Cypress,1.0,cached,False,0.3459160216152668,CORRECT
+28219358,conv-169,Playwright,Playwright,exact,1.00,Playwright,1.0,cached,False,0.34091691486537457,CORRECT
+6336b493,conv-169,Less,Less,exact,1.00,Less,1.0,cached,False,0.2884168643504381,CORRECT
+a32b6538,conv-174,MongoDB,MongoDB,exact,1.00,MongoDB,1.0,cached,False,0.2836668863892555,CORRECT
+f1c27ed3,conv-174,MongoDB,MongoDB,exact,1.00,MongoDB,1.0,cached,False,0.2986658364534378,CORRECT
+fbfc6184,conv-174,MongoDB,MongoDB,exact,1.00,MongoDB,1.0,cached,False,0.2765841782093048,CORRECT
+e5e3ea9d,conv-174,MongoDB,MongoDB,exact,1.00,MongoDB,1.0,cached,False,0.2670418471097946,CORRECT
+fa7405f1,conv-174,DynamoDB,DynamoDB,exact,1.00,DynamoDB,1.0,exact,False,1.4223749749362469,CORRECT
+a471e350,conv-174,DynamoDB,DynamoDB,exact,1.00,DynamoDB,1.0,cached,False,0.2660420723259449,CORRECT
+41047dcd,conv-174,DynamoDB,DynamoDB,exact,1.00,DynamoDB,1.0,cached,False,0.2847500145435333,CORRECT
+0bfbe816,conv-174,Python,Python,exact,1.00,Python,1.0,cached,False,0.3199998755007982,CORRECT
+8b183548,conv-174,Python,Python,exact,1.00,Python,1.0,cached,False,0.3354582004249096,CORRECT
+b79d0998,conv-174,Python,Python,exact,1.00,Python,1.0,cached,False,0.26204087771475315,CORRECT
+6ea6fb86,conv-174,Python,Python,exact,1.00,Python,1.0,cached,False,0.25749998167157173,CORRECT
+0484e26a,conv-174,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2946658059954643,CORRECT
+251afeb1,conv-174,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2657079603523016,
+3a8c187c,conv-174,Less,Less,exact,1.00,Less,1.0,cached,False,0.2810419537127018,CORRECT
+3753c855,conv-182,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.2743750810623169,CORRECT
+503be3b0,conv-182,PostgreSQL,PostgreSQL,exact,1.00,PostgreSQL,1.0,cached,False,0.2779581118375063,CORRECT
+22c1cfd2,conv-182,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.2751669380813837,CORRECT
+b180e8ae,conv-182,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.26012491434812546,CORRECT
+ad8187a9,conv-182,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.2794160973280668,CORRECT
+35db1f25,conv-182,Redis,Redis,exact,1.00,Redis,1.0,cached,False,0.2923340070992708,CORRECT
+cb7426eb,conv-182,Python,Python,exact,1.00,Python,1.0,cached,False,0.2738330513238907,CORRECT
+2398a2ac,conv-182,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.3298749215900898,
+1ee23284,conv-182,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.28712511993944645,CORRECT
+e4ae819a,conv-182,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2571661025285721,CORRECT
+27b531ba,conv-182,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2734160516411066,CORRECT
+7322678c,conv-182,Less,Less,exact,1.00,Less,1.0,cached,False,0.2785420510917902,CORRECT
+e1b66c6a,conv-183,python,Python,exact,1.00,Python,1.0,cached,False,0.266415998339653,CORRECT
+b3617b2d,conv-183,Python,Python,exact,1.00,Python,1.0,cached,False,0.2709170803427696,CORRECT
+e594936e,conv-183,Python,Python,exact,1.00,Python,1.0,cached,False,0.2612089738249779,CORRECT
+1e5ba5f5,conv-183,Python,Python,exact,1.00,Python,1.0,cached,False,0.26875012554228306,CORRECT
+806b2d16,conv-183,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.261915847659111,CORRECT
+d7508f2f,conv-183,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2627498470246792,CORRECT
+620139b9,conv-183,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2758749760687351,CORRECT
+5bf82d24,conv-183,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.273499870672822,CORRECT
+a33c311a,conv-183,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2583328168839216,
+f2efd3a2,conv-183,API,API,exact,1.00,API,1.0,cached,False,0.2641251776367426,CORRECT
+58ba772c,conv-183,API,API,exact,1.00,API,1.0,cached,False,0.26162504218518734,CORRECT
+896458cb,conv-183,REST,REST API,canonical,0.95,REST API,1.0,cached,False,0.2603749744594097,
+1d0db351,conv-183,REST,REST API,canonical,0.95,REST API,1.0,cached,False,0.2609998919069767,
+754e6854,conv-183,REST API,REST API,exact,1.00,REST API,1.0,cached,False,0.27112499810755253,CORRECT
+916c2f04,conv-183,REST API,REST API,exact,1.00,REST API,1.0,cached,False,0.2595412079244852,CORRECT
+6aaa1602,conv-183,GraphQL,GraphQL,exact,1.00,GraphQL,1.0,cached,False,0.26412494480609894,CORRECT
+4dcd0e07,conv-183,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2597910352051258,CORRECT
+4e3cec96,conv-183,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2745829988270998,CORRECT
+21f38653,conv-183,Less,Less,exact,1.00,Less,1.0,cached,False,0.2756670583039522,CORRECT
+002f948e,conv-186,Python,Python,exact,1.00,Python,1.0,cached,False,0.28154184110462666,CORRECT
+7ca01b57,conv-186,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.28741592541337013,CORRECT
+532e629a,conv-186,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.30291685834527016,CORRECT
+5bf21027,conv-186,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2723338548094034,CORRECT
+defdb2f6,conv-186,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.26520807296037674,
+7fe66922,conv-186,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.26016682386398315,CORRECT
+fbc0f693,conv-186,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2739999908953905,CORRECT
+a21f4c78,conv-186,pinecone,Pinecone,exact,1.00,Pinecone,1.0,cached,False,0.26316684670746326,CORRECT
+7dc34f73,conv-186,Pinecone,Pinecone,exact,1.00,Pinecone,1.0,cached,False,0.2665421925485134,CORRECT
+d4d2edc4,conv-186,Pinecone,Pinecone,exact,1.00,Pinecone,1.0,cached,False,0.27995905838906765,CORRECT
+032087c9,conv-186,Pinecone,Pinecone,exact,1.00,Pinecone,1.0,cached,False,0.25566713884472847,CORRECT
+44644e04,conv-186,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.25533302687108517,CORRECT
+5d6f964d,conv-186,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.24708406999707222,CORRECT
+61634d8c,conv-186,Qdrant,Qdrant,exact,1.00,Qdrant,1.0,cached,False,0.2645421773195267,CORRECT
+682bdab1,conv-186,Less,Less,exact,1.00,Less,1.0,cached,False,0.25383313186466694,CORRECT
+874f0c30,conv-189,Python,Python,exact,1.00,Python,1.0,cached,False,0.279582804068923,CORRECT
+032306bc,conv-189,Python,Python,exact,1.00,Python,1.0,cached,False,0.2591249067336321,CORRECT
+ce1dcfad,conv-189,Python,Python,exact,1.00,Python,1.0,cached,False,0.25579100474715233,CORRECT
+4138c67f,conv-189,Python,Python,exact,1.00,Python,1.0,cached,False,0.266792019829154,CORRECT
+aec5a225,conv-189,typescript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2756661269813776,CORRECT
+08a05e28,conv-189,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.7925000973045826,CORRECT
+f5b0102b,conv-189,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2589169889688492,CORRECT
+db33d3b6,conv-189,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.25958381593227386,CORRECT
+034bde67,conv-189,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.25312486104667187,CORRECT
+0e1e4fa8,conv-189,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.24508312344551086,
+bcf8b70f,conv-189,Less,Less,exact,1.00,Less,1.0,cached,False,0.26104110293090343,CORRECT
+a045eef7,conv-190,Python,Python,exact,1.00,Python,1.0,cached,False,0.25633303448557854,CORRECT
+650bf8d2,conv-190,Python,Python,exact,1.00,Python,1.0,cached,False,0.24945801123976707,CORRECT
+fe36c5ef,conv-190,Python,Python,exact,1.00,Python,1.0,cached,False,0.24062488228082657,CORRECT
+2f4e15ad,conv-190,Python,Python,exact,1.00,Python,1.0,cached,False,0.2517912071198225,CORRECT
+d08ad76d,conv-190,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.23804092779755592,CORRECT
+c10c6f02,conv-190,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.24391710758209229,CORRECT
+f2b5194c,conv-190,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2401669044047594,CORRECT
+1de5271d,conv-190,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.25041704066097736,
+f5e3db3d,conv-190,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.282833119854331,CORRECT
+ee33dca4,conv-190,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.24704099632799625,CORRECT
+1c1c7ef8,conv-190,Vitest,Vitest,exact,1.00,Vitest,1.0,exact,False,1.4204580802470446,CORRECT
+1c1efd90,conv-190,Less,Less,exact,1.00,Less,1.0,cached,False,0.2590829972177744,CORRECT
+ab449653,conv-191,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.24666707031428814,CORRECT
+c950d19d,conv-191,TypeScript,TypeScript,exact,1.00,TypeScript,1.0,cached,False,0.2700418699532747,CORRECT
+5d3b2c6b,conv-191,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2586671616882086,
+6699a737,conv-191,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.25958288460969925,CORRECT
+c1443d7a,conv-191,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2579169813543558,CORRECT
+d2ba42f7,conv-191,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2564589958637953,CORRECT
+fa3c1be7,conv-191,TailwindCSS,Tailwind CSS,canonical,0.95,Tailwind CSS,1.0,cached,False,0.24808291345834732,
+62c0a5e5,conv-191,styled-components,styled-components,exact,1.00,styled-components,1.0,exact,False,1.2509578373283148,CORRECT
+0cde8918,conv-191,styled-components,styled-components,exact,1.00,styled-components,1.0,cached,False,0.25666598230600357,CORRECT
+1ddd74dc,conv-191,styled-components,styled-components,exact,1.00,styled-components,1.0,cached,False,0.28541614301502705,CORRECT
+62d7722e,conv-191,styled-components,styled-components,exact,1.00,styled-components,1.0,cached,False,0.26329210959374905,CORRECT
+26efa87f,conv-191,Less,Less,exact,1.00,Less,1.0,cached,False,0.26350002735853195,CORRECT
+c1ecb587,conv-192,python,Python,exact,1.00,Python,1.0,cached,False,0.2922078128904104,CORRECT
+67747aba,conv-192,Python,Python,exact,1.00,Python,1.0,cached,False,0.26729097589850426,CORRECT
+98a27dea,conv-192,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.25124987587332726,
+fbeeae0f,conv-192,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2904580906033516,CORRECT
+3accdf89,conv-192,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.3403339069336653,CORRECT
+eabfacdb,conv-192,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.24604215286672115,CORRECT
+358c6e1f,conv-192,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.23591704666614532,CORRECT
+02c1d73a,conv-192,Kubernetes,Kubernetes,exact,1.00,Kubernetes,1.0,cached,False,0.24700001813471317,CORRECT
+76a941b1,conv-192,Kubernetes,Kubernetes,exact,1.00,Kubernetes,1.0,cached,False,0.2514161169528961,CORRECT
+026cf936,conv-192,Kubernetes,Kubernetes,exact,1.00,Kubernetes,1.0,cached,False,0.34783314913511276,CORRECT
+c31e7ff5,conv-192,Less,Less,exact,1.00,Less,1.0,cached,False,0.2510841004550457,CORRECT
+079fd02c,conv-198,Python,Python,exact,1.00,Python,1.0,cached,False,0.43591693975031376,CORRECT
+8c19a6f4,conv-198,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,1.0828750673681498,
+ef27e0da,conv-198,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.24704099632799625,
+7a21f5b6,conv-198,js,JavaScript,canonical,0.95,JavaScript,1.0,cached,False,0.24500000290572643,
+5a945550,conv-198,React,React,exact,1.00,React,1.0,cached,False,0.24283421225845814,CORRECT
+bc562789,conv-198,React,React,exact,1.00,React,1.0,cached,False,0.3102088812738657,CORRECT
+1a02e274,conv-198,Vue,Vue.js,canonical,0.95,Vue.js,1.0,cached,False,0.2584580797702074,
+65485226,conv-198,Vue,Vue.js,canonical,0.95,Vue.js,1.0,cached,False,0.24029193446040154,
+8fed80b2,conv-198,Vue,Vue.js,canonical,0.95,Vue.js,1.0,cached,False,0.25199982337653637,
+63e4882e,conv-198,Vue.js,Vue.js,exact,1.00,Vue.js,1.0,cached,False,0.26637502014636993,CORRECT
+ae68c077,conv-198,Vue.js,Vue.js,exact,1.00,Vue.js,1.0,cached,False,0.24750013835728168,CORRECT
+986e12ba,conv-198,Vue.js,Vue.js,exact,1.00,Vue.js,1.0,cached,False,0.502042006701231,CORRECT
+9f8e5e21,conv-198,solid,SolidJS,canonical,0.95,SolidJS,1.0,cached,False,0.2650830429047346,
+1c8f5637,conv-198,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2429999876767397,CORRECT
+e64f9100,conv-198,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.23383297957479954,CORRECT
+62c3ae15,conv-198,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.2425829879939556,CORRECT
+2ec3b09e,conv-198,Docker,Docker,exact,1.00,Docker,1.0,cached,False,0.25049992837011814,CORRECT
+3bd4bc84,conv-198,Less,Less,exact,1.00,Less,1.0,cached,False,0.25354186072945595,CORRECT

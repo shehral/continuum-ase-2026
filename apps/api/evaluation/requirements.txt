@@ -1,0 +1,10 @@
+# Additional dependencies for the evaluation module.
+# Most dependencies should already be installed via the main apps/api requirements.
+#
+# Core dependency (already in main project):
+#   rapidfuzz>=3.0.0
+#
+# No additional packages required beyond what the main project installs.
+# This file exists for documentation and isolated installation if needed.
+
+rapidfuzz>=3.0.0

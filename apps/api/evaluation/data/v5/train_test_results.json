@@ -1,0 +1,35 @@
+{
+  "train_conversations": 140,
+  "test_conversations": 60,
+  "train_mentions": 2089,
+  "test_mentions": 981,
+  "train_entities_seeded": 178,
+  "pipeline": {
+    "correct": 954,
+    "total": 981,
+    "accuracy": 0.9725
+  },
+  "exact_baseline": {
+    "correct": 732,
+    "total": 981,
+    "accuracy": 0.7462
+  },
+  "fuzzy_baseline": {
+    "correct": 752,
+    "total": 981,
+    "accuracy": 0.7666
+  },
+  "stage_distribution": {
+    "canonical": 27,
+    "cached": 817,
+    "exact": 78,
+    "new": 58,
+    "fuzzy": 1
+  },
+  "latency": {
+    "p50_ms": 0.4,
+    "p95_ms": 17.3,
+    "p99_ms": 633.6,
+    "mean_ms": 21.0
+  }
+}

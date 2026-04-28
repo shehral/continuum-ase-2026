@@ -1,0 +1,8 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "mentions_evaluated": 833,
+  "correct": 728,
+  "accuracy": 87.4,
+  "time_s": 6.5,
+  "ms_per_mention": 8.0
+}

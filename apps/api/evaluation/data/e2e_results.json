@@ -1,0 +1,140 @@
+{
+  "conversations": 50,
+  "total_decisions": 55,
+  "avg_decisions_per_conv": 1.1,
+  "total_entity_links": 230,
+  "avg_extraction_time_s": 18.3,
+  "graph_nodes": 357,
+  "graph_relationships": 422,
+  "node_breakdown": {
+    "Entity": 261,
+    "DecisionTrace": 96
+  },
+  "relationship_breakdown": {
+    "INVOLVES": 422
+  },
+  "decisions_by_domain": {
+    "web-development": 11,
+    "backend": 18,
+    "devops": 4,
+    "ml": 1,
+    "data-engineering": 7,
+    "systems": 4,
+    "security": 6,
+    "mobile": 4
+  },
+  "top_entities": [
+    {
+      "name": "Rust",
+      "decisions": 6
+    },
+    {
+      "name": "AWS",
+      "decisions": 6
+    },
+    {
+      "name": "Redis",
+      "decisions": 5
+    },
+    {
+      "name": "PostgreSQL",
+      "decisions": 5
+    },
+    {
+      "name": "shadcn/ui",
+      "decisions": 5
+    },
+    {
+      "name": "pnpm",
+      "decisions": 4
+    },
+    {
+      "name": "Turborepo",
+      "decisions": 4
+    },
+    {
+      "name": "Cloudflare Workers",
+      "decisions": 4
+    },
+    {
+      "name": "Next.js",
+      "decisions": 4
+    },
+    {
+      "name": "Zustand",
+      "decisions": 4
+    },
+    {
+      "name": "EAS Build",
+      "decisions": 4
+    },
+    {
+      "name": "Snowflake",
+      "decisions": 4
+    },
+    {
+      "name": "GitHub Actions",
+      "decisions": 4
+    },
+    {
+      "name": "Airflow",
+      "decisions": 4
+    },
+    {
+      "name": "AWS Lambda",
+      "decisions": 4
+    }
+  ],
+  "decisions_per_conv": [
+    2,
+    1,
+    5,
+    2,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    1,
+    3,
+    2,
+    1,
+    1,
+    0,
+    2,
+    1,
+    2,
+    0,
+    1,
+    1,
+    2,
+    2,
+    1,
+    0,
+    2,
+    0,
+    3,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+  ]
+}

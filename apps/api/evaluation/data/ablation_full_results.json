@@ -1,0 +1,113 @@
+[
+  {
+    "config": "full",
+    "total": 854,
+    "resolved": 854,
+    "new": 0,
+    "resolution_rate": "100.0",
+    "p50_ms": "0.2",
+    "p95_ms": "2.2",
+    "mean_ms": "0.5",
+    "stages": {
+      "exact": 107,
+      "cached": 710,
+      "canonical": 36,
+      "fuzzy": 1
+    }
+  },
+  {
+    "config": "-Cache",
+    "total": 854,
+    "resolved": 854,
+    "new": 0,
+    "resolution_rate": "100.0",
+    "p50_ms": "1.0",
+    "p95_ms": "2.3",
+    "mean_ms": "1.4",
+    "stages": {
+      "exact": 621,
+      "canonical": 225,
+      "fuzzy": 8
+    }
+  },
+  {
+    "config": "-Canonical",
+    "total": 854,
+    "resolved": 854,
+    "new": 0,
+    "resolution_rate": "100.0",
+    "p50_ms": "0.3",
+    "p95_ms": "2.3",
+    "mean_ms": "0.6",
+    "stages": {
+      "exact": 107,
+      "cached": 710,
+      "canonical": 36,
+      "fuzzy": 1
+    }
+  },
+  {
+    "config": "-Alias",
+    "total": 854,
+    "resolved": 854,
+    "new": 0,
+    "resolution_rate": "100.0",
+    "p50_ms": "0.3",
+    "p95_ms": "2.5",
+    "mean_ms": "0.6",
+    "stages": {
+      "exact": 107,
+      "cached": 710,
+      "canonical": 36,
+      "fuzzy": 1
+    }
+  },
+  {
+    "config": "-Fuzzy",
+    "total": 854,
+    "resolved": 846,
+    "new": 8,
+    "resolution_rate": "99.1",
+    "p50_ms": "0.3",
+    "p95_ms": "2.9",
+    "mean_ms": "1.4",
+    "stages": {
+      "exact": 107,
+      "cached": 703,
+      "canonical": 36,
+      "new": 8
+    }
+  },
+  {
+    "config": "-Embedding",
+    "total": 854,
+    "resolved": 854,
+    "new": 0,
+    "resolution_rate": "100.0",
+    "p50_ms": "0.3",
+    "p95_ms": "2.7",
+    "mean_ms": "0.6",
+    "stages": {
+      "exact": 107,
+      "cached": 710,
+      "canonical": 36,
+      "fuzzy": 1
+    }
+  },
+  {
+    "config": "-Canonical-Fuzzy",
+    "total": 854,
+    "resolved": 846,
+    "new": 8,
+    "resolution_rate": "99.1",
+    "p50_ms": "0.3",
+    "p95_ms": "2.8",
+    "mean_ms": "1.4",
+    "stages": {
+      "exact": 107,
+      "cached": 703,
+      "canonical": 36,
+      "new": 8
+    }
+  }
+]

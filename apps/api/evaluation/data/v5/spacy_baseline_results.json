@@ -1,0 +1,9 @@
+{
+  "total_mentions": 833,
+  "spacy_detected": 434,
+  "spacy_detection_rate": 52.1,
+  "spacy_missed": 399,
+  "pipeline_accuracy": 97.2,
+  "exact_baseline": 74.6,
+  "fuzzy_baseline": 76.7
+}

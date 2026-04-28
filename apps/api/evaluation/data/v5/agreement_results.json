@@ -1,0 +1,277 @@
+{
+  "entity_annotation": {
+    "overlap_n": 30,
+    "cohens_kappa": 0.762,
+    "percent_agreement": 0.867,
+    "confusion": [
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "WRONG"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "AMBIGUOUS"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "AMBIGUOUS",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "WRONG",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      },
+      {
+        "annotator_a": "NOT_ENTITY",
+        "annotator_b": "NOT_ENTITY"
+      }
+    ],
+    "annotator_a_distribution": {
+      "CORRECT": 134,
+      "WRONG": 32,
+      "AMBIGUOUS": 4,
+      "NOT_ENTITY": 63
+    },
+    "annotator_b_distribution": {
+      "CORRECT": 151,
+      "AMBIGUOUS": 1,
+      "NOT_ENTITY": 77,
+      "WRONG": 4
+    },
+    "annotator_a_accuracy": {
+      "correct": 134,
+      "denom": 166,
+      "accuracy": 0.8072
+    },
+    "annotator_b_accuracy": {
+      "correct": 151,
+      "denom": 155,
+      "accuracy": 0.9742
+    },
+    "combined_accuracy_range_pct": [
+      80.7,
+      97.4
+    ]
+  },
+  "decision_review": {
+    "overlap_n": 10,
+    "cohens_kappa": 0.07,
+    "percent_agreement": 0.2,
+    "confusion": [
+      {
+        "decision_id": "0eba7be5-d481-45bd-8838-805511dc685b",
+        "annotator_a": "CORRECT",
+        "annotator_b": "NOT_A_DECISION"
+      },
+      {
+        "decision_id": "3f89fe36-827d-4d32-bdfe-192eeac6ac49",
+        "annotator_a": "CORRECT",
+        "annotator_b": "WRONG"
+      },
+      {
+        "decision_id": "40f1dc36-6376-46b8-aae8-b6265d055d8c",
+        "annotator_a": "CORRECT",
+        "annotator_b": "CORRECT"
+      },
+      {
+        "decision_id": "4641025e-cac1-4f7c-abd4-5a37cbe085d9",
+        "annotator_a": "CORRECT",
+        "annotator_b": "PARTIAL"
+      },
+      {
+        "decision_id": "78268feb-8eb9-40d2-b496-86a0dc628034",
+        "annotator_a": "CORRECT",
+        "annotator_b": "NOT_A_DECISION"
+      },
+      {
+        "decision_id": "8ef8a58f-96b2-48a1-96c3-dbe0a35aea9a",
+        "annotator_a": "PARTIAL",
+        "annotator_b": "PARTIAL"
+      },
+      {
+        "decision_id": "91f7f9cf-afc7-40d6-baef-04ea250e6eca",
+        "annotator_a": "CORRECT",
+        "annotator_b": "PARTIAL"
+      },
+      {
+        "decision_id": "bfd084e3-302d-46ee-bccf-a703fa6a8b01",
+        "annotator_a": "PARTIAL",
+        "annotator_b": "NOT_A_DECISION"
+      },
+      {
+        "decision_id": "dea7863d-3806-4338-be35-84a7100d949a",
+        "annotator_a": "CORRECT",
+        "annotator_b": "NOT_A_DECISION"
+      },
+      {
+        "decision_id": "ed108764-17ac-4b0a-9e54-68d23100a1ed",
+        "annotator_a": "CORRECT",
+        "annotator_b": "NOT_A_DECISION"
+      }
+    ],
+    "annotator_a_distribution": {
+      "CORRECT": 19,
+      "PARTIAL": 5,
+      "NOT_A_DECISION": 1
+    },
+    "annotator_b_distribution": {
+      "PARTIAL": 7,
+      "NOT_A_DECISION": 10,
+      "CORRECT": 7,
+      "WRONG": 1
+    },
+    "annotator_a_precision": {
+      "n": 25,
+      "correct": 19,
+      "partial": 5,
+      "wrong": 0,
+      "not_a_decision": 1,
+      "strict_precision": 0.76,
+      "lenient_precision": 0.96,
+      "extraction_precision_excl_not_decision": 1.0
+    },
+    "annotator_b_precision": {
+      "n": 25,
+      "correct": 7,
+      "partial": 7,
+      "wrong": 1,
+      "not_a_decision": 10,
+      "strict_precision": 0.28,
+      "lenient_precision": 0.56,
+      "extraction_precision_excl_not_decision": 0.9333
+    },
+    "merged": {
+      "n_observations": 48,
+      "distribution": {
+        "CORRECT": 25,
+        "PARTIAL": 11,
+        "NOT_A_DECISION": 11,
+        "WRONG": 1
+      },
+      "correct_pct": 52.1,
+      "partial_pct": 22.9,
+      "wrong_pct": 2.1,
+      "not_a_decision_pct": 22.9,
+      "extraction_precision_pct": 97.3
+    }
+  },
+  "graphrag_ratings": {
+    "annotator_a_ratings": [
+      2,
+      1,
+      3,
+      2,
+      2
+    ],
+    "annotator_b_ratings": [
+      1,
+      2,
+      3,
+      3,
+      3
+    ],
+    "annotator_a_mean": 2,
+    "annotator_b_mean": 2.4,
+    "combined_mean": 2.2,
+    "n_total": 10
+  }
+}

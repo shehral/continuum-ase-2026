@@ -1,0 +1,132 @@
+GRAPHRAG RETRIEVAL RELEVANCE JUDGING
+For each query, read the retrieved decisions and rate:
+  3 = Relevant (the results answer the query)
+  2 = Partially relevant (some useful results but incomplete)
+  1 = Irrelevant (results don't match the query)
+Write your rating on the blank line for each query.
+
+============================================================
+
+Query 6: What framework was selected for the REST API in Python?
+Found: 17 decisions, 11 entities
+
+  Decision 1:
+    Trigger:   Latency issues with REST in microservices communication
+    Decision:  gRPC internal + REST external
+    Rationale: gRPC offers smaller payloads via Protobuf, HTTP/2 multiplexing, bidirectional streaming, and strongly typed contracts. REST remains for external APIs
+
+  Decision 2:
+    Trigger:   Need for cross-service data access mechanism
+    Decision:  Build explicit REST or gRPC APIs for cross-service data access
+    Rationale: Maintains schema boundaries while enabling controlled data exchange
+
+  Decision 3:
+    Trigger:   Building a system with multiple processes needing fast communication, sub-microsecond latency
+    Decision:  FlatBuffers or Cap n Proto
+    Rationale: gRPC is too slow due to HTTP/2 overhead; FlatBuffers and Cap n Proto offer zero-copy serialization and lower latency
+
+  Related entities: gRPC, REST API, Supabase, Hasura, PostgREST, Query parameter versioning, Header versioning, URL path versioning
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 1
+============================================================
+
+============================================================
+
+Query 7: Why was Qdrant selected as the vector database?
+Found: 33 decisions, 17 entities
+
+  Decision 1:
+    Trigger:   Need for efficient storage and retrieval of embeddings
+    Decision:  Qdrant or pgvector
+    Rationale: Both are suitable for vector storage and retrieval; Qdrant as a dedicated vector DB, pgvector as PostgreSQL extension
+
+  Decision 2:
+    Trigger:   User has PostgreSQL and needs vector search for 3M documents
+    Decision:  pgvector
+    Rationale: Already integrated with PostgreSQL, sufficient for <5M vectors and moderate QPS, simplifies infrastructure
+
+  Decision 3:
+    Trigger:   Considering Vercel AI SDK as an alternative to LangChain/LlamaIndex
+    Decision:  Use LlamaIndex (Python) for backend RAG pipeline and Vercel AI SDK for frontend
+    Rationale: Vercel AI SDK handles frontend/UI and tool calling but does not replace the RAG pipeline functionality provided by LlamaIndex
+
+  Related entities: pgvector, Qdrant, PostgreSQL, HNSW, Docker, AWS, Weaviate, Pinecone
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 2
+============================================================
+
+============================================================
+
+Query 8: What was the decision on using PyTorch vs TensorFlow for computer vision?
+Found: 6 decisions, 19 entities
+
+  Decision 1:
+    Trigger:   Choosing between PyTorch and TensorFlow for object detection on edge devices
+    Decision:  PyTorch
+    Rationale: NVIDIA Jetson native support for PyTorch via TensorRT, TorchScript, and ONNX export, along with PyTorch dominance in CV research
+
+  Decision 2:
+    Trigger:   Want to run Llama 3.3 70B on smaller GPUs. What quantization options are there? GPTQ, AWQ, GGUF?
+    Decision:  AWQ
+    Rationale: AWQ provides the fastest GPU inference and best quality at 4-bit, making it recommended for GPU serving.
+
+  Decision 3:
+    Trigger:   I have 2x RTX 4090 (24GB each). Can I run 70B?
+    Decision:  AWQ 4-bit
+    Rationale: AWQ 4-bit fits within the 48GB VRAM, works with vLLM, and provides realistic performance (~20 tokens/sec)
+
+  Related entities: YOLOv11, YOLOv8, ONNX, torch2trt, Jetson Inference, DeepStream, TensorRT, NVIDIA Jetson
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 3
+============================================================
+
+============================================================
+
+Query 9: What state management libraries were considered for React?
+Found: 34 decisions, 16 entities
+
+  Decision 1:
+    Trigger:   Need for state management with reduced boilerplate in a React app with complex shared state
+    Decision:  Zustand for UI state and React Query (TanStack Query) for API response caching
+    Rationale: Zustand reduces Redux boilerplate with a simpler API, while React Query handles API caching automatically
+
+  Decision 2:
+    Trigger:   Existing Redux knowledge and potential preference for staying within the Redux ecosystem
+    Decision:  RTK Query as an alternative for API caching within the Redux ecosystem
+    Rationale: RTK Query provides API caching capabilities while maintaining integration with Redux
+
+  Decision 3:
+    Trigger:   Need to balance personalization and speed in a Next.js app serving personalized content
+    Decision:  Static shell (ISR) + Client-side personalization (React Query)
+    Rationale: Provides CDN-fast initial load with full personalization through client-side data fetching after page mount
+
+  Related entities: RTK Query, Jotai, Redux, React Query, Zustand, OpenTofu, HCL, TypeScript
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 3
+============================================================
+
+============================================================
+
+Query 10: What CI/CD tools were discussed?
+Found: 9 decisions, 15 entities
+
+  Decision 1:
+    Trigger:   Need to set up CI/CD with no existing automation
+    Decision:  GitHub Actions
+    Rationale: Native GitHub integration, free tier for private repos, extensive marketplace, and features like matrix builds and OIDC
+
+  Decision 2:
+    Trigger:   Need to improve secret management in CI pipeline beyond GitHub Actions secrets
+    Decision:  OIDC with cloud provider (Level 2)
+    Rationale: Eliminates long-lived credentials, reduces risk of leaked credentials, integrates with major cloud providers (AWS/GCP/Azure)
+
+  Decision 3:
+    Trigger:   Need to scan Docker images for vulnerabilities in CI
+    Decision:  Trivy
+    Rationale: Trivy is free, open-source, fast (local DB, no API calls), supports SBOM generation
+
+  Related entities: CircleCI, GitHub Actions, Sweep, PR-Agent, CodeRabbit, Syft, Snyk Container, Grype
+
+  YOUR RATING (1=irrelevant, 2=partial, 3=relevant): 3
+============================================================
+

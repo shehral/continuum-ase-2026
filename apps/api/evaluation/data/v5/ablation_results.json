@@ -1,0 +1,72 @@
+[
+  {
+    "config": "Full pipeline",
+    "resolved": 923,
+    "new": 58,
+    "total": 981,
+    "resolution_rate": 0.9409,
+    "p50_ms": 0.4,
+    "stages": {
+      "canonical": 27,
+      "cached": 817,
+      "exact": 78,
+      "new": 58,
+      "fuzzy": 1
+    }
+  },
+  {
+    "config": "-Cache",
+    "resolved": 923,
+    "new": 58,
+    "total": 981,
+    "resolution_rate": 0.9409,
+    "p50_ms": 1.6,
+    "stages": {
+      "canonical": 190,
+      "exact": 732,
+      "new": 58,
+      "fuzzy": 1
+    }
+  },
+  {
+    "config": "-Canonical",
+    "resolved": 923,
+    "new": 58,
+    "total": 981,
+    "resolution_rate": 0.9409,
+    "p50_ms": 1.5,
+    "stages": {
+      "canonical": 190,
+      "exact": 732,
+      "new": 58,
+      "fuzzy": 1
+    }
+  },
+  {
+    "config": "-Fuzzy",
+    "resolved": 922,
+    "new": 59,
+    "total": 981,
+    "resolution_rate": 0.9399,
+    "p50_ms": 1.7,
+    "stages": {
+      "canonical": 190,
+      "exact": 732,
+      "new": 59
+    }
+  },
+  {
+    "config": "-Embedding",
+    "resolved": 923,
+    "new": 58,
+    "total": 981,
+    "resolution_rate": 0.9409,
+    "p50_ms": 1.5,
+    "stages": {
+      "canonical": 190,
+      "exact": 732,
+      "new": 58,
+      "fuzzy": 1
+    }
+  }
+]

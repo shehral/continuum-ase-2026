@@ -1,0 +1,1291 @@
+{
+  "run1_file": "apps/api/evaluation/data/v5/e2e_run1_results.json",
+  "run2_file": "apps/api/evaluation/data/v5/e2e_run2_results.json",
+  "summary": {
+    "run1_total_decisions": 364,
+    "run2_total_decisions": 383,
+    "decision_delta": 19,
+    "run1_extraction_rate": 0.825,
+    "run2_extraction_rate": 0.855,
+    "run1_convs_with_decisions": 165,
+    "run2_convs_with_decisions": 171,
+    "run1_avg_decisions_per_conv": 1.82,
+    "run2_avg_decisions_per_conv": 1.92,
+    "run1_total_entity_links": 1292,
+    "run2_total_entity_links": 1282,
+    "run1_avg_extraction_time_s": 28.51,
+    "run2_avg_extraction_time_s": 26.8,
+    "run1_total_pipeline_time_s": 5837.1,
+    "run2_total_pipeline_time_s": 5888.3
+  },
+  "reproducibility": {
+    "total_conversations": 200,
+    "exact_match_count": 111,
+    "exact_match_rate": 0.555,
+    "within_one_count": 155,
+    "within_one_rate": 0.775
+  },
+  "domain_comparison": {
+    "backend": {
+      "run1": 58,
+      "run2": 66,
+      "delta": 8
+    },
+    "cloud-architecture": {
+      "run1": 27,
+      "run2": 43,
+      "delta": 16
+    },
+    "data-engineering": {
+      "run1": 30,
+      "run2": 31,
+      "delta": 1
+    },
+    "devops": {
+      "run1": 41,
+      "run2": 41,
+      "delta": 0
+    },
+    "ml": {
+      "run1": 50,
+      "run2": 45,
+      "delta": -5
+    },
+    "mobile": {
+      "run1": 43,
+      "run2": 47,
+      "delta": 4
+    },
+    "security": {
+      "run1": 21,
+      "run2": 30,
+      "delta": 9
+    },
+    "systems": {
+      "run1": 36,
+      "run2": 29,
+      "delta": -7
+    },
+    "web-development": {
+      "run1": 58,
+      "run2": 51,
+      "delta": -7
+    }
+  },
+  "graph_topology_comparison": {
+    "run1_total_nodes": 2284,
+    "run2_total_nodes": 1230,
+    "run1_total_relationships": 3773,
+    "run2_total_relationships": 1271,
+    "run1_total_entities": 1192,
+    "run2_total_entities": 847,
+    "run1_total_decisions": 1092,
+    "run2_total_decisions": 383,
+    "run1_avg_entities_per_decision": 3.5,
+    "run2_avg_entities_per_decision": 3.36
+  },
+  "per_conversation_deltas": [
+    {
+      "conv_id": "conv-001",
+      "run1": 0,
+      "run2": 2,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-002",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-003",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-004",
+      "run1": 3,
+      "run2": 0,
+      "delta": -3
+    },
+    {
+      "conv_id": "conv-005",
+      "run1": 2,
+      "run2": 3,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-006",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-007",
+      "run1": 3,
+      "run2": 2,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-008",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-009",
+      "run1": 4,
+      "run2": 0,
+      "delta": -4
+    },
+    {
+      "conv_id": "conv-010",
+      "run1": 4,
+      "run2": 0,
+      "delta": -4
+    },
+    {
+      "conv_id": "conv-011",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-012",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-013",
+      "run1": 4,
+      "run2": 1,
+      "delta": -3
+    },
+    {
+      "conv_id": "conv-014",
+      "run1": 0,
+      "run2": 3,
+      "delta": 3
+    },
+    {
+      "conv_id": "conv-015",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-016",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-017",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-018",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-019",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-020",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-021",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-022",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-023",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-024",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-025",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-026",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-027",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-028",
+      "run1": 2,
+      "run2": 4,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-029",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-030",
+      "run1": 3,
+      "run2": 2,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-031",
+      "run1": 3,
+      "run2": 3,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-032",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-033",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-034",
+      "run1": 3,
+      "run2": 1,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-035",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-036",
+      "run1": 2,
+      "run2": 3,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-037",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-038",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-039",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-040",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-041",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-042",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-043",
+      "run1": 4,
+      "run2": 1,
+      "delta": -3
+    },
+    {
+      "conv_id": "conv-044",
+      "run1": 2,
+      "run2": 0,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-045",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-046",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-047",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-048",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-049",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-050",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-051",
+      "run1": 3,
+      "run2": 3,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-052",
+      "run1": 3,
+      "run2": 4,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-053",
+      "run1": 3,
+      "run2": 2,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-054",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-055",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-056",
+      "run1": 3,
+      "run2": 3,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-057",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-058",
+      "run1": 4,
+      "run2": 5,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-059",
+      "run1": 7,
+      "run2": 6,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-060",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-061",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-062",
+      "run1": 0,
+      "run2": 2,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-063",
+      "run1": 4,
+      "run2": 0,
+      "delta": -4
+    },
+    {
+      "conv_id": "conv-064",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-065",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-066",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-067",
+      "run1": 0,
+      "run2": 5,
+      "delta": 5
+    },
+    {
+      "conv_id": "conv-068",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-069",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-070",
+      "run1": 0,
+      "run2": 1,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-071",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-072",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-073",
+      "run1": 2,
+      "run2": 3,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-074",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-075",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-076",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-077",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-078",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-079",
+      "run1": 0,
+      "run2": 1,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-080",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-081",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-082",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-083",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-084",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-085",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-086",
+      "run1": 2,
+      "run2": 0,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-087",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-088",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-089",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-090",
+      "run1": 0,
+      "run2": 2,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-091",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-092",
+      "run1": 5,
+      "run2": 14,
+      "delta": 9
+    },
+    {
+      "conv_id": "conv-093",
+      "run1": 3,
+      "run2": 3,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-094",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-095",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-096",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-097",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-098",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-099",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-100",
+      "run1": 4,
+      "run2": 2,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-101",
+      "run1": 0,
+      "run2": 5,
+      "delta": 5
+    },
+    {
+      "conv_id": "conv-102",
+      "run1": 5,
+      "run2": 0,
+      "delta": -5
+    },
+    {
+      "conv_id": "conv-103",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-104",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-105",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-106",
+      "run1": 3,
+      "run2": 2,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-107",
+      "run1": 0,
+      "run2": 6,
+      "delta": 6
+    },
+    {
+      "conv_id": "conv-108",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-109",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-110",
+      "run1": 5,
+      "run2": 0,
+      "delta": -5
+    },
+    {
+      "conv_id": "conv-111",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-112",
+      "run1": 5,
+      "run2": 4,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-113",
+      "run1": 1,
+      "run2": 0,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-114",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-115",
+      "run1": 5,
+      "run2": 0,
+      "delta": -5
+    },
+    {
+      "conv_id": "conv-116",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-117",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-118",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-119",
+      "run1": 0,
+      "run2": 15,
+      "delta": 15
+    },
+    {
+      "conv_id": "conv-120",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-121",
+      "run1": 0,
+      "run2": 5,
+      "delta": 5
+    },
+    {
+      "conv_id": "conv-122",
+      "run1": 0,
+      "run2": 2,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-123",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-124",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-125",
+      "run1": 4,
+      "run2": 1,
+      "delta": -3
+    },
+    {
+      "conv_id": "conv-126",
+      "run1": 0,
+      "run2": 5,
+      "delta": 5
+    },
+    {
+      "conv_id": "conv-127",
+      "run1": 5,
+      "run2": 3,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-128",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-129",
+      "run1": 3,
+      "run2": 1,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-130",
+      "run1": 0,
+      "run2": 5,
+      "delta": 5
+    },
+    {
+      "conv_id": "conv-131",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-132",
+      "run1": 2,
+      "run2": 0,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-133",
+      "run1": 5,
+      "run2": 2,
+      "delta": -3
+    },
+    {
+      "conv_id": "conv-134",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-135",
+      "run1": 0,
+      "run2": 2,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-136",
+      "run1": 3,
+      "run2": 3,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-137",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-138",
+      "run1": 1,
+      "run2": 0,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-139",
+      "run1": 2,
+      "run2": 4,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-140",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-141",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-142",
+      "run1": 1,
+      "run2": 2,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-143",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-144",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-145",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-146",
+      "run1": 0,
+      "run2": 1,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-147",
+      "run1": 0,
+      "run2": 4,
+      "delta": 4
+    },
+    {
+      "conv_id": "conv-148",
+      "run1": 0,
+      "run2": 3,
+      "delta": 3
+    },
+    {
+      "conv_id": "conv-149",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-150",
+      "run1": 4,
+      "run2": 2,
+      "delta": -2
+    },
+    {
+      "conv_id": "conv-151",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-152",
+      "run1": 3,
+      "run2": 0,
+      "delta": -3
+    },
+    {
+      "conv_id": "conv-153",
+      "run1": 0,
+      "run2": 3,
+      "delta": 3
+    },
+    {
+      "conv_id": "conv-154",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-155",
+      "run1": 4,
+      "run2": 4,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-156",
+      "run1": 0,
+      "run2": 4,
+      "delta": 4
+    },
+    {
+      "conv_id": "conv-157",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-158",
+      "run1": 0,
+      "run2": 1,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-159",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-160",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-161",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-162",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-163",
+      "run1": 6,
+      "run2": 6,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-164",
+      "run1": 4,
+      "run2": 0,
+      "delta": -4
+    },
+    {
+      "conv_id": "conv-165",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-166",
+      "run1": 4,
+      "run2": 4,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-167",
+      "run1": 3,
+      "run2": 4,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-168",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-169",
+      "run1": 1,
+      "run2": 0,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-170",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-171",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-172",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-173",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-174",
+      "run1": 3,
+      "run2": 5,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-175",
+      "run1": 3,
+      "run2": 2,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-176",
+      "run1": 2,
+      "run2": 3,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-177",
+      "run1": 2,
+      "run2": 1,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-178",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-179",
+      "run1": 0,
+      "run2": 2,
+      "delta": 2
+    },
+    {
+      "conv_id": "conv-180",
+      "run1": 5,
+      "run2": 6,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-181",
+      "run1": 5,
+      "run2": 0,
+      "delta": -5
+    },
+    {
+      "conv_id": "conv-182",
+      "run1": 0,
+      "run2": 1,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-183",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-184",
+      "run1": 0,
+      "run2": 0,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-185",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-186",
+      "run1": 6,
+      "run2": 7,
+      "delta": 1
+    },
+    {
+      "conv_id": "conv-187",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-188",
+      "run1": 4,
+      "run2": 1,
+      "delta": -3
+    },
+    {
+      "conv_id": "conv-189",
+      "run1": 1,
+      "run2": 0,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-190",
+      "run1": 3,
+      "run2": 3,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-191",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-192",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-193",
+      "run1": 7,
+      "run2": 6,
+      "delta": -1
+    },
+    {
+      "conv_id": "conv-194",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-195",
+      "run1": 2,
+      "run2": 2,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-196",
+      "run1": 3,
+      "run2": 3,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-197",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-198",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-199",
+      "run1": 5,
+      "run2": 5,
+      "delta": 0
+    },
+    {
+      "conv_id": "conv-200",
+      "run1": 1,
+      "run2": 1,
+      "delta": 0
+    }
+  ],
+  "run1_failed": [],
+  "run2_failed": []
+}

@@ -1,0 +1,106 @@
+{
+  "node_counts": {
+    "Entity": 847,
+    "DecisionTrace": 383
+  },
+  "total_nodes": 1230,
+  "relationship_counts": {
+    "INVOLVES": 1271
+  },
+  "total_relationships": 1271,
+  "graph_density": 0.000841,
+  "avg_entities_per_decision": 3.36,
+  "max_entities_per_decision": 12,
+  "min_entities_per_decision": 1,
+  "std_entities_per_decision": 2.09,
+  "avg_decisions_per_entity": 1.5,
+  "max_decisions_per_entity": 17,
+  "min_decisions_per_entity": 1,
+  "std_decisions_per_entity": 1.26,
+  "top_entities": [
+    {
+      "name": "PostgreSQL",
+      "type": "technology",
+      "decisions": 17
+    },
+    {
+      "name": "Next.js",
+      "type": "technology",
+      "decisions": 15
+    },
+    {
+      "name": "Redis",
+      "type": "technology",
+      "decisions": 9
+    },
+    {
+      "name": "AWS",
+      "type": "technology",
+      "decisions": 9
+    },
+    {
+      "name": "Amazon SQS",
+      "type": "technology",
+      "decisions": 9
+    },
+    {
+      "name": "React",
+      "type": "technology",
+      "decisions": 8
+    },
+    {
+      "name": "CSP",
+      "type": "technology",
+      "decisions": 7
+    },
+    {
+      "name": "TypeScript",
+      "type": "technology",
+      "decisions": 7
+    },
+    {
+      "name": "FastAPI",
+      "type": "technology",
+      "decisions": 7
+    },
+    {
+      "name": "Rust",
+      "type": "technology",
+      "decisions": 7
+    },
+    {
+      "name": "EventBridge",
+      "type": "technology",
+      "decisions": 6
+    },
+    {
+      "name": "kubernetes",
+      "type": "technology",
+      "decisions": 6
+    },
+    {
+      "name": "React Server Components",
+      "type": "technology",
+      "decisions": 6
+    },
+    {
+      "name": "JWT",
+      "type": "technology",
+      "decisions": 6
+    },
+    {
+      "name": "dbt",
+      "type": "technology",
+      "decisions": 5
+    }
+  ],
+  "entity_type_distribution": {
+    "technology": 847
+  },
+  "avg_confidence": 0.945,
+  "isolated_entities": 0,
+  "total_entities": 847,
+  "entities_with_embeddings": 847,
+  "decisions_with_embeddings": 383,
+  "total_decisions": 383
+}

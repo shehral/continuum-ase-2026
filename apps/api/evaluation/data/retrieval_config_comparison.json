@@ -1,0 +1,26 @@
+{
+  "fulltext_only": {
+    "recall": 0.9,
+    "hits": 18,
+    "total": 20,
+    "mrr": 0.835,
+    "p50_ms": 2.4,
+    "mean_ms": 4.4
+  },
+  "hybrid_rrf": {
+    "recall": 0.9,
+    "hits": 18,
+    "total": 20,
+    "mrr": 0.835,
+    "p50_ms": 588.2,
+    "mean_ms": 489.3
+  },
+  "hybrid_rrf_expand": {
+    "recall": 0.9,
+    "hits": 18,
+    "total": 20,
+    "mrr": 0.835,
+    "p50_ms": 19.3,
+    "mean_ms": 216.4
+  }
+}

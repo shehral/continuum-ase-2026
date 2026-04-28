@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Ablation study: effect of removing each stage on resolution rate and latency. $\Delta$Resolved and $\Delta$Latency are relative to the full pipeline.}
+\label{tab:ablation}
+\small
+\begin{tabular}{@{}l rr rr@{}}
+\toprule
+\textbf{Config} & \textbf{Resolved} & \textbf{Rate} & \textbf{p50 (ms)} & \textbf{$\Delta$p50} \\
+\midrule
+Full pipeline & 854 & 100.0\% & 0.2 & -- \\
+-Cache & 854 & 100.0\% & 1.0 & +0.8 \\
+-Canonical & 854 & 100.0\% & 0.3 & +0.1 \\
+-Alias & 854 & 100.0\% & 0.3 & +0.1 \\
+-Fuzzy & 846 & 99.1\% & 0.3 & +0.1 \\
+-Embedding & 854 & 100.0\% & 0.3 & +0.1 \\
+-Canonical-Fuzzy & 846 & 99.1\% & 0.3 & +0.1 \\
+\bottomrule
+\end{tabular}
+\end{table}

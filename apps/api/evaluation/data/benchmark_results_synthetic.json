@@ -1,0 +1,43 @@
+{
+  "total_mentions": 2438,
+  "accuracy": 0.7358,
+  "bcubed_precision": 0.9918,
+  "bcubed_recall": 0.6012,
+  "bcubed_f1": 0.7487,
+  "per_stage": {
+    "canonical": {
+      "count": 79,
+      "fraction": 0.0324,
+      "accuracy": 0.9367
+    },
+    "exact": {
+      "count": 694,
+      "fraction": 0.2847,
+      "accuracy": 0.9986
+    },
+    "fuzzy": {
+      "count": 1033,
+      "fraction": 0.4237,
+      "accuracy": 0.9942
+    },
+    "unresolved": {
+      "count": 632,
+      "fraction": 0.2592,
+      "accuracy": 0.0
+    }
+  },
+  "latency": {
+    "mean_ms": 0.058,
+    "median_ms": 0.061,
+    "p95_ms": 0.085,
+    "p99_ms": 0.498
+  },
+  "enabled_stages": [
+    "alias",
+    "cache",
+    "canonical",
+    "embedding",
+    "exact",
+    "fuzzy"
+  ]
+}

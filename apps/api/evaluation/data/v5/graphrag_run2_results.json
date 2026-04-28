@@ -1,0 +1,68 @@
+{
+  "queries_generated": 40,
+  "query_types": {
+    "entity_lookup": 15,
+    "decision_search": 15,
+    "comparison": 10
+  },
+  "hybrid_metrics": {
+    "entity_recall": 1.0,
+    "entity_hits": 15,
+    "entity_total": 15,
+    "decision_recall": 1.0,
+    "decision_hits": 15,
+    "decision_total": 15,
+    "comparison_recall": 1.0,
+    "comparison_hits": 10,
+    "comparison_total": 10,
+    "mrr": 0.775,
+    "latency_p50_ms": 573.0,
+    "latency_p95_ms": 593.8,
+    "latency_mean_ms": 576.8
+  },
+  "fulltext_metrics": {
+    "entity_recall": 0.1333,
+    "entity_hits": 2,
+    "entity_total": 15,
+    "decision_recall": 1.0,
+    "decision_hits": 14,
+    "decision_total": 14,
+    "comparison_recall": 1.0,
+    "comparison_hits": 10,
+    "comparison_total": 10,
+    "mrr": 0.5478,
+    "latency_p50_ms": 2.7,
+    "latency_p95_ms": 4.0,
+    "latency_mean_ms": 2.8
+  },
+  "context_pipeline": {
+    "success_rate": 1.0,
+    "avg_nodes": 32.2,
+    "avg_edges": 33.4,
+    "avg_context_chars": 12167.0,
+    "avg_latency_ms": 16.7
+  },
+  "config_comparison": {
+    "fulltext_only": {
+      "entity_recall": 0.1333,
+      "decision_recall": 1.0,
+      "comparison_recall": 1.0,
+      "mrr": 0.5478,
+      "latency_mean_ms": 2.8
+    },
+    "hybrid_rrf": {
+      "entity_recall": 1.0,
+      "decision_recall": 1.0,
+      "comparison_recall": 1.0,
+      "mrr": 0.775,
+      "latency_mean_ms": 576.8
+    },
+    "hybrid_rrf_expansion": {
+      "success_rate": 1.0,
+      "avg_nodes": 32.2,
+      "avg_edges": 33.4,
+      "avg_context_chars": 12167.0,
+      "avg_latency_ms": 16.7
+    }
+  }
+}

@@ -1,0 +1,2439 @@
+variant,canonical,variant_type,split
+.net,.NET,lowercase,train
+.NET,.NET,uppercase,train
+dotnet,.NET,abbreviation,train
+N,.NET,abbreviation,train
+.NET 3,.NET,version_qualified,train
+.NTE,.NET,misspelling_swap,train
+.NT,.NET,misspelling_drop,train
+.NNET,.NET,misspelling_double,train
+.NET.rs,.NET,suffix_added,train
+api,API,lowercase,train
+API,API,uppercase,train
+API 1.x,API,version_qualified,train
+AIP,API,misspelling_swap,train
+API,API,misspelling_drop,train
+APPI,API,misspelling_double,train
+API.py,API,suffix_added,train
+asp.net,ASP.NET,lowercase,train
+ASP.NET,ASP.NET,uppercase,train
+AN,ASP.NET,abbreviation,train
+ASP.NET v4,ASP.NET,version_qualified,train
+ASPN.ET,ASP.NET,misspelling_swap,train
+ASP.ET,ASP.NET,misspelling_drop,train
+ASP..NET,ASP.NET,misspelling_double,train
+ASP.NET.js,ASP.NET,suffix_added,train
+asp.net core,ASP.NET Core,lowercase,test
+ASP.NET CORE,ASP.NET Core,uppercase,test
+ANC,ASP.NET Core,abbreviation,test
+ASP.NET Core 3.x,ASP.NET Core,version_qualified,test
+ASP.NET oCre,ASP.NET Core,misspelling_swap,test
+ASP.NET Coe,ASP.NET Core,misspelling_drop,test
+ASP.NET Corre,ASP.NET Core,misspelling_double,test
+ASP.NET Core.js,ASP.NET Core,suffix_added,test
+aws,AWS,lowercase,train
+AWS,AWS,uppercase,train
+AWS 2.0,AWS,version_qualified,train
+ASW,AWS,misspelling_swap,train
+AWS,AWS,misspelling_drop,train
+AWWS,AWS,misspelling_double,train
+AWS.js,AWS,suffix_added,train
+aws cdk,AWS CDK,lowercase,train
+AWS CDK,AWS CDK,uppercase,train
+CDK,AWS CDK,abbreviation,train
+AC,AWS CDK,abbreviation,train
+AWS CDK 1.x,AWS CDK,version_qualified,train
+ASW CDK,AWS CDK,misspelling_swap,train
+AW CDK,AWS CDK,misspelling_drop,train
+AWS  CDK,AWS CDK,misspelling_double,train
+AWS CDK.py,AWS CDK,suffix_added,train
+active record,Active Record,lowercase,train
+ACTIVE RECORD,Active Record,uppercase,train
+AR,Active Record,abbreviation,train
+Active Record v4,Active Record,version_qualified,train
+Active Rceord,Active Record,misspelling_swap,train
+Active Reord,Active Record,misspelling_drop,train
+Activee Record,Active Record,misspelling_double,train
+Active Record.rs,Active Record,suffix_added,train
+activemq,ActiveMQ,lowercase,train
+ACTIVEMQ,ActiveMQ,uppercase,train
+ActiveMQ v5,ActiveMQ,version_qualified,train
+ActivMeQ,ActiveMQ,misspelling_swap,train
+AtiveMQ,ActiveMQ,misspelling_drop,train
+ActiveMMQ,ActiveMQ,misspelling_double,train
+ActiveMQ.rs,ActiveMQ,suffix_added,train
+airbrake,Airbrake,lowercase,train
+AIRBRAKE,Airbrake,uppercase,train
+Airbrake 5.0,Airbrake,version_qualified,train
+Airbraek,Airbrake,misspelling_swap,train
+Arbrake,Airbrake,misspelling_drop,train
+Airrbrake,Airbrake,misspelling_double,train
+Airbrake.py,Airbrake,suffix_added,train
+akita,Akita,lowercase,train
+AKITA,Akita,uppercase,train
+Akita 2.0,Akita,version_qualified,train
+Aikta,Akita,misspelling_swap,train
+Akia,Akita,misspelling_drop,train
+Akitta,Akita,misspelling_double,train
+Akita.js,Akita,suffix_added,train
+amazon cognito,Amazon Cognito,lowercase,train
+AMAZON COGNITO,Amazon Cognito,uppercase,train
+Cognito,Amazon Cognito,abbreviation,train
+AC,Amazon Cognito,abbreviation,train
+Amazon Cognito 5.0,Amazon Cognito,version_qualified,train
+Amazo nCognito,Amazon Cognito,misspelling_swap,train
+Amazon Cogito,Amazon Cognito,misspelling_drop,train
+Amazoon Cognito,Amazon Cognito,misspelling_double,train
+Amazon Cognito.rs,Amazon Cognito,suffix_added,train
+amazon eks,Amazon EKS,lowercase,train
+AMAZON EKS,Amazon EKS,uppercase,train
+EKS,Amazon EKS,abbreviation,train
+AE,Amazon EKS,abbreviation,train
+Amazon EKS 1.x,Amazon EKS,version_qualified,train
+Amazno EKS,Amazon EKS,misspelling_swap,train
+Amazo EKS,Amazon EKS,misspelling_drop,train
+Amazon EKKS,Amazon EKS,misspelling_double,train
+Amazon EKS.py,Amazon EKS,suffix_added,train
+amazon sns,Amazon SNS,lowercase,test
+AMAZON SNS,Amazon SNS,uppercase,test
+SNS,Amazon SNS,abbreviation,test
+AS,Amazon SNS,abbreviation,test
+Amazon SNS 3.x,Amazon SNS,version_qualified,test
+Amzaon SNS,Amazon SNS,misspelling_swap,test
+Amazon NS,Amazon SNS,misspelling_drop,test
+Amazonn SNS,Amazon SNS,misspelling_double,test
+Amazon SNS.js,Amazon SNS,suffix_added,test
+amazon sqs,Amazon SQS,lowercase,test
+AMAZON SQS,Amazon SQS,uppercase,test
+SQS,Amazon SQS,abbreviation,test
+AS,Amazon SQS,abbreviation,test
+Amazon SQS 3.x,Amazon SQS,version_qualified,test
+AmazonS QS,Amazon SQS,misspelling_swap,test
+Amaon SQS,Amazon SQS,misspelling_drop,test
+Amazonn SQS,Amazon SQS,misspelling_double,test
+Amazon SQS.js,Amazon SQS,suffix_added,test
+angular,Angular,lowercase,train
+ANGULAR,Angular,uppercase,train
+ng,Angular,abbreviation,train
+AngularJS,Angular,abbreviation,train
+Angular 4,Angular,version_qualified,train
+Angulra,Angular,misspelling_swap,train
+Anguar,Angular,misspelling_drop,train
+Angulaar,Angular,misspelling_double,train
+Angular.js,Angular,suffix_added,train
+ansible,Ansible,lowercase,test
+ANSIBLE,Ansible,uppercase,test
+Ansible 2.0,Ansible,version_qualified,test
+Asnible,Ansible,misspelling_swap,test
+Anible,Ansible,misspelling_drop,test
+Ansiblle,Ansible,misspelling_double,test
+Ansible.js,Ansible,suffix_added,test
+ant design,Ant Design,lowercase,test
+ANT DESIGN,Ant Design,uppercase,test
+AD,Ant Design,abbreviation,test
+Ant Design 1.x,Ant Design,version_qualified,test
+AntD esign,Ant Design,misspelling_swap,test
+Ant Desgn,Ant Design,misspelling_drop,test
+Ant  Design,Ant Design,misspelling_double,test
+Ant Design.js,Ant Design,suffix_added,test
+anthropic,Anthropic,lowercase,train
+ANTHROPIC,Anthropic,uppercase,train
+Anthropic 5.0,Anthropic,version_qualified,train
+Antrhopic,Anthropic,misspelling_swap,train
+Anthropc,Anthropic,misspelling_drop,train
+Anthropiic,Anthropic,misspelling_double,train
+Anthropic.js,Anthropic,suffix_added,train
+apache kafka,Apache Kafka,lowercase,train
+APACHE KAFKA,Apache Kafka,uppercase,train
+Kafka,Apache Kafka,abbreviation,train
+AK,Apache Kafka,abbreviation,train
+Apache Kafka 1.x,Apache Kafka,version_qualified,train
+Apaceh Kafka,Apache Kafka,misspelling_swap,train
+Apace Kafka,Apache Kafka,misspelling_drop,train
+Apaache Kafka,Apache Kafka,misspelling_double,train
+Apache Kafka.py,Apache Kafka,suffix_added,train
+apache pulsar,Apache Pulsar,lowercase,train
+APACHE PULSAR,Apache Pulsar,uppercase,train
+AP,Apache Pulsar,abbreviation,train
+Apache Pulsar 2,Apache Pulsar,version_qualified,train
+Apache uPlsar,Apache Pulsar,misspelling_swap,train
+Apache Pular,Apache Pulsar,misspelling_drop,train
+Apacche Pulsar,Apache Pulsar,misspelling_double,train
+Apache Pulsar.js,Apache Pulsar,suffix_added,train
+argo cd,Argo CD,lowercase,train
+ARGO CD,Argo CD,uppercase,train
+AC,Argo CD,abbreviation,train
+Argo CD v4,Argo CD,version_qualified,train
+Arog CD,Argo CD,misspelling_swap,train
+ArgoCD,Argo CD,misspelling_drop,train
+Arrgo CD,Argo CD,misspelling_double,train
+Argo CD.js,Argo CD,suffix_added,train
+astro,Astro,lowercase,train
+ASTRO,Astro,uppercase,train
+Astro 1.x,Astro,version_qualified,train
+Asrto,Astro,misspelling_swap,train
+Asto,Astro,misspelling_drop,train
+Astrro,Astro,misspelling_double,train
+Astro.js,Astro,suffix_added,train
+auth0,Auth0,lowercase,test
+AUTH0,Auth0,uppercase,test
+Auth0 5.0,Auth0,version_qualified,test
+Atuh0,Auth0,misspelling_swap,test
+Aut0,Auth0,misspelling_drop,test
+Auuth0,Auth0,misspelling_double,test
+Auth0.py,Auth0,suffix_added,test
+azure,Azure,lowercase,test
+AZURE,Azure,uppercase,test
+Azure 3.x,Azure,version_qualified,test
+Azrue,Azure,misspelling_swap,test
+Aure,Azure,misspelling_drop,test
+Azzure,Azure,misspelling_double,test
+Azure.py,Azure,suffix_added,test
+azure aks,Azure AKS,lowercase,train
+AZURE AKS,Azure AKS,uppercase,train
+AKS,Azure AKS,abbreviation,train
+AA,Azure AKS,abbreviation,train
+Azure AKS 1.x,Azure AKS,version_qualified,train
+Azuer AKS,Azure AKS,misspelling_swap,train
+Azure AS,Azure AKS,misspelling_drop,train
+Azure AKKS,Azure AKS,misspelling_double,train
+Azure AKS.js,Azure AKS,suffix_added,train
+azure devops,Azure DevOps,lowercase,train
+AZURE DEVOPS,Azure DevOps,uppercase,train
+AD,Azure DevOps,abbreviation,train
+Azure DevOps v2,Azure DevOps,version_qualified,train
+Auzre DevOps,Azure DevOps,misspelling_swap,train
+Azur DevOps,Azure DevOps,misspelling_drop,train
+Azure DeevOps,Azure DevOps,misspelling_double,train
+Azure DevOps.py,Azure DevOps,suffix_added,train
+babel,Babel,lowercase,train
+BABEL,Babel,uppercase,train
+Babel 5.0,Babel,version_qualified,train
+Bbael,Babel,misspelling_swap,train
+Bael,Babel,misspelling_drop,train
+Babbel,Babel,misspelling_double,train
+Babel.rs,Babel,suffix_added,train
+bamboo,Bamboo,lowercase,train
+BAMBOO,Bamboo,uppercase,train
+Bamboo 2,Bamboo,version_qualified,train
+Bamboo,Bamboo,misspelling_swap,train
+Bamoo,Bamboo,misspelling_drop,train
+Baamboo,Bamboo,misspelling_double,train
+Bamboo.js,Bamboo,suffix_added,train
+bitbucket,Bitbucket,lowercase,train
+BITBUCKET,Bitbucket,uppercase,train
+Bitbucket 5.0,Bitbucket,version_qualified,train
+Bibtucket,Bitbucket,misspelling_swap,train
+Bitbuket,Bitbucket,misspelling_drop,train
+Bitbbucket,Bitbucket,misspelling_double,train
+Bitbucket.js,Bitbucket,suffix_added,train
+bootstrap,Bootstrap,lowercase,train
+BOOTSTRAP,Bootstrap,uppercase,train
+Bootstrap 2.0,Bootstrap,version_qualified,train
+Bootsrtap,Bootstrap,misspelling_swap,train
+Boottrap,Bootstrap,misspelling_drop,train
+Boottstrap,Bootstrap,misspelling_double,train
+Bootstrap.rs,Bootstrap,suffix_added,train
+bugsnag,Bugsnag,lowercase,train
+BUGSNAG,Bugsnag,uppercase,train
+Bugsnag 1.x,Bugsnag,version_qualified,train
+Bugsang,Bugsnag,misspelling_swap,train
+Bugsng,Bugsnag,misspelling_drop,train
+Bugsnaag,Bugsnag,misspelling_double,train
+Bugsnag.js,Bugsnag,suffix_added,train
+buildkite,Buildkite,lowercase,train
+BUILDKITE,Buildkite,uppercase,train
+Buildkite 3,Buildkite,version_qualified,train
+Buildikte,Buildkite,misspelling_swap,train
+Buldkite,Buildkite,misspelling_drop,train
+Builldkite,Buildkite,misspelling_double,train
+Buildkite.js,Buildkite,suffix_added,train
+bull,Bull,lowercase,train
+BULL,Bull,uppercase,train
+Bull 3,Bull,version_qualified,train
+Blul,Bull,misspelling_swap,train
+Bll,Bull,misspelling_drop,train
+Bulll,Bull,misspelling_double,train
+Bull.py,Bull,suffix_added,train
+bullmq,BullMQ,lowercase,train
+BULLMQ,BullMQ,uppercase,train
+BullMQ 2.0,BullMQ,version_qualified,train
+BulMlQ,BullMQ,misspelling_swap,train
+BulMQ,BullMQ,misspelling_drop,train
+BuullMQ,BullMQ,misspelling_double,train
+BullMQ.rs,BullMQ,suffix_added,train
+bulma,Bulma,lowercase,train
+BULMA,Bulma,uppercase,train
+Bulma 5.0,Bulma,version_qualified,train
+Bulam,Bulma,misspelling_swap,train
+Buma,Bulma,misspelling_drop,train
+Bulmma,Bulma,misspelling_double,train
+Bulma.py,Bulma,suffix_added,train
+bun,Bun,lowercase,test
+BUN,Bun,uppercase,test
+Bun 1.x,Bun,version_qualified,test
+Bnu,Bun,misspelling_swap,test
+Bun,Bun,misspelling_drop,test
+Buun,Bun,misspelling_double,test
+Bun.rs,Bun,suffix_added,test
+bundler,Bundler,lowercase,train
+BUNDLER,Bundler,uppercase,train
+Bundler v4,Bundler,version_qualified,train
+Budnler,Bundler,misspelling_swap,train
+Bunder,Bundler,misspelling_drop,train
+Bundller,Bundler,misspelling_double,train
+Bundler.rs,Bundler,suffix_added,train
+c,C,lowercase,train
+C,C,uppercase,train
+C v4,C,version_qualified,train
+C,C,misspelling_swap,train
+C,C,misspelling_drop,train
+C,C,misspelling_double,train
+C.rs,C,suffix_added,train
+c#,C#,lowercase,train
+C#,C#,uppercase,train
+CSharp,C#,abbreviation,train
+C# v3,C#,version_qualified,train
+C#,C#,misspelling_swap,train
+C#,C#,misspelling_drop,train
+C#,C#,misspelling_double,train
+C#.py,C#,suffix_added,train
+c++,C++,lowercase,train
+C++,C++,uppercase,train
+CPP,C++,abbreviation,train
+C++ 3,C++,version_qualified,train
+C++,C++,misspelling_swap,train
+C++,C++,misspelling_drop,train
+C+++,C++,misspelling_double,train
+C++.py,C++,suffix_added,train
+ci/cd,CI/CD,lowercase,test
+CI/CD,CI/CD,uppercase,test
+CICD,CI/CD,abbreviation,test
+CC,CI/CD,abbreviation,test
+CI/CD v2,CI/CD,version_qualified,test
+CIC/D,CI/CD,misspelling_swap,test
+CI/D,CI/CD,misspelling_drop,test
+CI/CCD,CI/CD,misspelling_double,test
+CI/CD.rs,CI/CD,suffix_added,test
+cqrs,CQRS,lowercase,train
+CQRS,CQRS,uppercase,train
+CQRS 1.x,CQRS,version_qualified,train
+CQSR,CQRS,misspelling_swap,train
+CQS,CQRS,misspelling_drop,train
+CQRRS,CQRS,misspelling_double,train
+CQRS.rs,CQRS,suffix_added,train
+cri-o,CRI-O,lowercase,train
+CRI-O,CRI-O,uppercase,train
+CO,CRI-O,abbreviation,train
+CRI-O v2,CRI-O,version_qualified,train
+CRIO-,CRI-O,misspelling_swap,train
+CR-O,CRI-O,misspelling_drop,train
+CRI--O,CRI-O,misspelling_double,train
+CRI-O.js,CRI-O,suffix_added,train
+css modules,CSS Modules,lowercase,train
+CSS MODULES,CSS Modules,uppercase,train
+CSS Mod,CSS Modules,abbreviation,train
+CM,CSS Modules,abbreviation,train
+CSS Modules v5,CSS Modules,version_qualified,train
+CS SModules,CSS Modules,misspelling_swap,train
+CSS Mdules,CSS Modules,misspelling_drop,train
+CSS Modulees,CSS Modules,misspelling_double,train
+CSS Modules.rs,CSS Modules,suffix_added,train
+cargo,Cargo,lowercase,test
+CARGO,Cargo,uppercase,test
+Cargo v5,Cargo,version_qualified,test
+Carog,Cargo,misspelling_swap,test
+Cago,Cargo,misspelling_drop,test
+Caargo,Cargo,misspelling_double,test
+Cargo.js,Cargo,suffix_added,test
+cassandra,Cassandra,lowercase,train
+CASSANDRA,Cassandra,uppercase,train
+Cassandra v5,Cassandra,version_qualified,train
+Casasndra,Cassandra,misspelling_swap,train
+Casandra,Cassandra,misspelling_drop,train
+Cassandrra,Cassandra,misspelling_double,train
+Cassandra.js,Cassandra,suffix_added,train
+catboost,CatBoost,lowercase,train
+CATBOOST,CatBoost,uppercase,train
+CatBoost v4,CatBoost,version_qualified,train
+CtaBoost,CatBoost,misspelling_swap,train
+CtBoost,CatBoost,misspelling_drop,train
+CattBoost,CatBoost,misspelling_double,train
+CatBoost.py,CatBoost,suffix_added,train
+celery,Celery,lowercase,test
+CELERY,Celery,uppercase,test
+Celery v3,Celery,version_qualified,test
+Cleery,Celery,misspelling_swap,test
+Celey,Celery,misspelling_drop,test
+Celerry,Celery,misspelling_double,test
+Celery.rs,Celery,suffix_added,test
+chakra ui,Chakra UI,lowercase,train
+CHAKRA UI,Chakra UI,uppercase,train
+CU,Chakra UI,abbreviation,train
+Chakra UI v3,Chakra UI,version_qualified,train
+Chkara UI,Chakra UI,misspelling_swap,train
+ChakraUI,Chakra UI,misspelling_drop,train
+Chakra  UI,Chakra UI,misspelling_double,train
+Chakra UI.py,Chakra UI,suffix_added,train
+chatgpt,ChatGPT,lowercase,test
+CHATGPT,ChatGPT,uppercase,test
+ChatGPT 4,ChatGPT,version_qualified,test
+ChatPGT,ChatGPT,misspelling_swap,test
+ChtGPT,ChatGPT,misspelling_drop,test
+ChaatGPT,ChatGPT,misspelling_double,test
+ChatGPT.rs,ChatGPT,suffix_added,test
+chef,Chef,lowercase,train
+CHEF,Chef,uppercase,train
+Chef 3.x,Chef,version_qualified,train
+Cehf,Chef,misspelling_swap,train
+Chf,Chef,misspelling_drop,train
+Chhef,Chef,misspelling_double,train
+Chef.js,Chef,suffix_added,train
+chroma,Chroma,lowercase,test
+CHROMA,Chroma,uppercase,test
+Chroma 2,Chroma,version_qualified,test
+Chroam,Chroma,misspelling_swap,test
+Croma,Chroma,misspelling_drop,test
+Chrroma,Chroma,misspelling_double,test
+Chroma.js,Chroma,suffix_added,test
+circleci,CircleCI,lowercase,test
+CIRCLECI,CircleCI,uppercase,test
+CircleCI 4,CircleCI,version_qualified,test
+CicrleCI,CircleCI,misspelling_swap,test
+CirceCI,CircleCI,misspelling_drop,test
+CircleCCI,CircleCI,misspelling_double,test
+CircleCI.rs,CircleCI,suffix_added,test
+claude,Claude,lowercase,train
+CLAUDE,Claude,uppercase,train
+Claude 2,Claude,version_qualified,train
+Cladue,Claude,misspelling_swap,train
+Claue,Claude,misspelling_drop,train
+Claudde,Claude,misspelling_double,train
+Claude.rs,Claude,suffix_added,train
+clean architecture,Clean Architecture,lowercase,train
+CLEAN ARCHITECTURE,Clean Architecture,uppercase,train
+CA,Clean Architecture,abbreviation,train
+Clean Architecture 4,Clean Architecture,version_qualified,train
+Clean rAchitecture,Clean Architecture,misspelling_swap,train
+Clean Architectue,Clean Architecture,misspelling_drop,train
+Clean Architectuure,Clean Architecture,misspelling_double,train
+Clean Architecture.py,Clean Architecture,suffix_added,train
+clerk,Clerk,lowercase,train
+CLERK,Clerk,uppercase,train
+Clerk v2,Clerk,version_qualified,train
+Clekr,Clerk,misspelling_swap,train
+Clrk,Clerk,misspelling_drop,train
+Clerrk,Clerk,misspelling_double,train
+Clerk.py,Clerk,suffix_added,train
+clickhouse,ClickHouse,lowercase,train
+CLICKHOUSE,ClickHouse,uppercase,train
+ClickHouse v5,ClickHouse,version_qualified,train
+ClicHkouse,ClickHouse,misspelling_swap,train
+Clickouse,ClickHouse,misspelling_drop,train
+ClickHousse,ClickHouse,misspelling_double,train
+ClickHouse.js,ClickHouse,suffix_added,train
+clojure,Clojure,lowercase,test
+CLOJURE,Clojure,uppercase,test
+Clojure 5.0,Clojure,version_qualified,test
+Cljoure,Clojure,misspelling_swap,test
+Cloure,Clojure,misspelling_drop,test
+Clojjure,Clojure,misspelling_double,test
+Clojure.py,Clojure,suffix_added,test
+cloud monitoring,Cloud Monitoring,lowercase,train
+CLOUD MONITORING,Cloud Monitoring,uppercase,train
+CM,Cloud Monitoring,abbreviation,train
+Cloud Monitoring 2,Cloud Monitoring,version_qualified,train
+Cluod Monitoring,Cloud Monitoring,misspelling_swap,train
+Clod Monitoring,Cloud Monitoring,misspelling_drop,train
+Clouud Monitoring,Cloud Monitoring,misspelling_double,train
+Cloud Monitoring.js,Cloud Monitoring,suffix_added,train
+cloudformation,CloudFormation,lowercase,train
+CLOUDFORMATION,CloudFormation,uppercase,train
+CloudFormation 3,CloudFormation,version_qualified,train
+CloudFormatino,CloudFormation,misspelling_swap,train
+ClodFormation,CloudFormation,misspelling_drop,train
+CloudFormatioon,CloudFormation,misspelling_double,train
+CloudFormation.js,CloudFormation,suffix_added,train
+cloudwatch,CloudWatch,lowercase,train
+CLOUDWATCH,CloudWatch,uppercase,train
+CloudWatch 2.0,CloudWatch,version_qualified,train
+CloudWacth,CloudWatch,misspelling_swap,train
+CloudWach,CloudWatch,misspelling_drop,train
+CloudWaatch,CloudWatch,misspelling_double,train
+CloudWatch.rs,CloudWatch,suffix_added,train
+cloudflare,Cloudflare,lowercase,train
+CLOUDFLARE,Cloudflare,uppercase,train
+Cloudflare 4,Cloudflare,version_qualified,train
+Cloudflrae,Cloudflare,misspelling_swap,train
+Coudflare,Cloudflare,misspelling_drop,train
+Clouddflare,Cloudflare,misspelling_double,train
+Cloudflare.py,Cloudflare,suffix_added,train
+cockroachdb,CockroachDB,lowercase,train
+COCKROACHDB,CockroachDB,uppercase,train
+CockroachDB 3,CockroachDB,version_qualified,train
+CcokroachDB,CockroachDB,misspelling_swap,train
+CockroahDB,CockroachDB,misspelling_drop,train
+CockroachhDB,CockroachDB,misspelling_double,train
+CockroachDB.js,CockroachDB,suffix_added,train
+cohere,Cohere,lowercase,test
+COHERE,Cohere,uppercase,test
+Cohere 1.x,Cohere,version_qualified,test
+Cohree,Cohere,misspelling_swap,test
+Cohee,Cohere,misspelling_drop,test
+Coherre,Cohere,misspelling_double,test
+Cohere.rs,Cohere,suffix_added,test
+composer,Composer,lowercase,train
+COMPOSER,Composer,uppercase,train
+Composer 2,Composer,version_qualified,train
+Compoesr,Composer,misspelling_swap,train
+Coposer,Composer,misspelling_drop,train
+Compooser,Composer,misspelling_double,train
+Composer.js,Composer,suffix_added,train
+conda,Conda,lowercase,train
+CONDA,Conda,uppercase,train
+Conda 5.0,Conda,version_qualified,train
+Codna,Conda,misspelling_swap,train
+Coda,Conda,misspelling_drop,train
+Coonda,Conda,misspelling_double,train
+Conda.py,Conda,suffix_added,train
+couchdb,CouchDB,lowercase,train
+COUCHDB,CouchDB,uppercase,train
+CouchDB 1.x,CouchDB,version_qualified,train
+CoucDhB,CouchDB,misspelling_swap,train
+CochDB,CouchDB,misspelling_drop,train
+CouchhDB,CouchDB,misspelling_double,train
+CouchDB.js,CouchDB,suffix_added,train
+crossplane,Crossplane,lowercase,train
+CROSSPLANE,Crossplane,uppercase,train
+Crossplane v3,Crossplane,version_qualified,train
+Corssplane,Crossplane,misspelling_swap,train
+Crossplne,Crossplane,misspelling_drop,train
+Crrossplane,Crossplane,misspelling_double,train
+Crossplane.js,Crossplane,suffix_added,train
+cypress,Cypress,lowercase,train
+CYPRESS,Cypress,uppercase,train
+Cypress v5,Cypress,version_qualified,train
+Cyprses,Cypress,misspelling_swap,train
+Cyress,Cypress,misspelling_drop,train
+Cypreess,Cypress,misspelling_double,train
+Cypress.js,Cypress,suffix_added,train
+daisyui,DaisyUI,lowercase,train
+DAISYUI,DaisyUI,uppercase,train
+DaisyUI 3.x,DaisyUI,version_qualified,train
+DaiysUI,DaisyUI,misspelling_swap,train
+DaisUI,DaisyUI,misspelling_drop,train
+DaissyUI,DaisyUI,misspelling_double,train
+DaisyUI.js,DaisyUI,suffix_added,train
+datadog,Datadog,lowercase,train
+DATADOG,Datadog,uppercase,train
+Datadog 4,Datadog,version_qualified,train
+Datdaog,Datadog,misspelling_swap,train
+Datdog,Datadog,misspelling_drop,train
+Dataddog,Datadog,misspelling_double,train
+Datadog.py,Datadog,suffix_added,train
+devops,DevOps,lowercase,test
+DEVOPS,DevOps,uppercase,test
+DevOps 3,DevOps,version_qualified,test
+DevpOs,DevOps,misspelling_swap,test
+DvOps,DevOps,misspelling_drop,test
+DevOpps,DevOps,misspelling_double,test
+DevOps.js,DevOps,suffix_added,test
+devsecops,DevSecOps,lowercase,train
+DEVSECOPS,DevSecOps,uppercase,train
+DevSecOps 2,DevSecOps,version_qualified,train
+DveSecOps,DevSecOps,misspelling_swap,train
+DevecOps,DevSecOps,misspelling_drop,train
+DevvSecOps,DevSecOps,misspelling_double,train
+DevSecOps.rs,DevSecOps,suffix_added,train
+digitalocean,DigitalOcean,lowercase,train
+DIGITALOCEAN,DigitalOcean,uppercase,train
+DigitalOcean 2.0,DigitalOcean,version_qualified,train
+DgiitalOcean,DigitalOcean,misspelling_swap,train
+DgitalOcean,DigitalOcean,misspelling_drop,train
+DigittalOcean,DigitalOcean,misspelling_double,train
+DigitalOcean.js,DigitalOcean,suffix_added,train
+django,Django,lowercase,train
+DJANGO,Django,uppercase,train
+Django 3.x,Django,version_qualified,train
+Djnago,Django,misspelling_swap,train
+Djngo,Django,misspelling_drop,train
+Djaango,Django,misspelling_double,train
+Django.py,Django,suffix_added,train
+django orm,Django ORM,lowercase,train
+DJANGO ORM,Django ORM,uppercase,train
+DO,Django ORM,abbreviation,train
+Django ORM v5,Django ORM,version_qualified,train
+Djnago ORM,Django ORM,misspelling_swap,train
+Djano ORM,Django ORM,misspelling_drop,train
+Django ORRM,Django ORM,misspelling_double,train
+Django ORM.rs,Django ORM,suffix_added,train
+django rest framework,Django REST Framework,lowercase,train
+DJANGO REST FRAMEWORK,Django REST Framework,uppercase,train
+DRF,Django REST Framework,abbreviation,train
+Django REST Framework 5.0,Django REST Framework,version_qualified,train
+Django REST rFamework,Django REST Framework,misspelling_swap,train
+DjangoREST Framework,Django REST Framework,misspelling_drop,train
+Djanggo REST Framework,Django REST Framework,misspelling_double,train
+Django REST Framework.js,Django REST Framework,suffix_added,train
+docker,Docker,lowercase,train
+DOCKER,Docker,uppercase,train
+Docker 5.0,Docker,version_qualified,train
+Dcoker,Docker,misspelling_swap,train
+Dcker,Docker,misspelling_drop,train
+Dockker,Docker,misspelling_double,train
+Docker.rs,Docker,suffix_added,train
+docker compose,Docker Compose,lowercase,train
+DOCKER COMPOSE,Docker Compose,uppercase,train
+dc,Docker Compose,abbreviation,train
+compose,Docker Compose,abbreviation,train
+DC,Docker Compose,abbreviation,train
+Docker Compose v5,Docker Compose,version_qualified,train
+Docker oCmpose,Docker Compose,misspelling_swap,train
+Docker ompose,Docker Compose,misspelling_drop,train
+Docker Composse,Docker Compose,misspelling_double,train
+Docker Compose.js,Docker Compose,suffix_added,train
+domain-driven design,Domain-Driven Design,lowercase,test
+DOMAIN-DRIVEN DESIGN,Domain-Driven Design,uppercase,test
+DDD,Domain-Driven Design,abbreviation,test
+Domain-Driven Design 2.0,Domain-Driven Design,version_qualified,test
+Domain-Dirven Design,Domain-Driven Design,misspelling_swap,test
+Doman-Driven Design,Domain-Driven Design,misspelling_drop,test
+Domain-Drivven Design,Domain-Driven Design,misspelling_double,test
+Domain-Driven Design.rs,Domain-Driven Design,suffix_added,test
+drizzle orm,Drizzle ORM,lowercase,train
+DRIZZLE ORM,Drizzle ORM,uppercase,train
+DO,Drizzle ORM,abbreviation,train
+Drizzle ORM v3,Drizzle ORM,version_qualified,train
+Drzizle ORM,Drizzle ORM,misspelling_swap,train
+Dizzle ORM,Drizzle ORM,misspelling_drop,train
+Drizzlee ORM,Drizzle ORM,misspelling_double,train
+Drizzle ORM.rs,Drizzle ORM,suffix_added,train
+drone ci,Drone CI,lowercase,test
+DRONE CI,Drone CI,uppercase,test
+DC,Drone CI,abbreviation,test
+Drone CI 3,Drone CI,version_qualified,test
+Drone IC,Drone CI,misspelling_swap,test
+Droe CI,Drone CI,misspelling_drop,test
+Drrone CI,Drone CI,misspelling_double,test
+Drone CI.rs,Drone CI,suffix_added,test
+dynamodb,DynamoDB,lowercase,train
+DYNAMODB,DynamoDB,uppercase,train
+DynamoDB v5,DynamoDB,version_qualified,train
+DynmaoDB,DynamoDB,misspelling_swap,train
+DnamoDB,DynamoDB,misspelling_drop,train
+DynammoDB,DynamoDB,misspelling_double,train
+DynamoDB.py,DynamoDB,suffix_added,train
+dynatrace,Dynatrace,lowercase,test
+DYNATRACE,Dynatrace,uppercase,test
+Dynatrace 2.0,Dynatrace,version_qualified,test
+Dynartace,Dynatrace,misspelling_swap,test
+Dyntrace,Dynatrace,misspelling_drop,test
+Dynatraace,Dynatrace,misspelling_double,test
+Dynatrace.py,Dynatrace,suffix_added,test
+elk stack,ELK Stack,lowercase,train
+ELK STACK,ELK Stack,uppercase,train
+ELK,ELK Stack,abbreviation,train
+ES,ELK Stack,abbreviation,train
+ELK Stack v4,ELK Stack,version_qualified,train
+ELK tSack,ELK Stack,misspelling_swap,train
+EL Stack,ELK Stack,misspelling_drop,train
+ELK Staack,ELK Stack,misspelling_double,train
+ELK Stack.rs,ELK Stack,suffix_added,train
+echo,Echo,lowercase,train
+ECHO,Echo,uppercase,train
+Echo v5,Echo,version_qualified,train
+Ecoh,Echo,misspelling_swap,train
+Eco,Echo,misspelling_drop,train
+Echho,Echo,misspelling_double,train
+Echo.py,Echo,suffix_added,train
+ecto,Ecto,lowercase,train
+ECTO,Ecto,uppercase,train
+Ecto v3,Ecto,version_qualified,train
+Ecot,Ecto,misspelling_swap,train
+Eco,Ecto,misspelling_drop,train
+Eccto,Ecto,misspelling_double,train
+Ecto.js,Ecto,suffix_added,train
+elasticsearch,Elasticsearch,lowercase,train
+ELASTICSEARCH,Elasticsearch,uppercase,train
+ES,Elasticsearch,abbreviation,train
+Elastic,Elasticsearch,abbreviation,train
+Elasticsearch 5.0,Elasticsearch,version_qualified,train
+Elasticsaerch,Elasticsearch,misspelling_swap,train
+Elasicsearch,Elasticsearch,misspelling_drop,train
+Elasticseearch,Elasticsearch,misspelling_double,train
+Elasticsearch.rs,Elasticsearch,suffix_added,train
+elixir,Elixir,lowercase,train
+ELIXIR,Elixir,uppercase,train
+Elixir v3,Elixir,version_qualified,train
+Elixri,Elixir,misspelling_swap,train
+Eliir,Elixir,misspelling_drop,train
+Ellixir,Elixir,misspelling_double,train
+Elixir.py,Elixir,suffix_added,train
+emotion,Emotion,lowercase,train
+EMOTION,Emotion,uppercase,train
+Emotion 1.x,Emotion,version_qualified,train
+Emtoion,Emotion,misspelling_swap,train
+Emoton,Emotion,misspelling_drop,train
+Emootion,Emotion,misspelling_double,train
+Emotion.py,Emotion,suffix_added,train
+entity framework,Entity Framework,lowercase,train
+ENTITY FRAMEWORK,Entity Framework,uppercase,train
+EF,Entity Framework,abbreviation,train
+Entity Framework 5.0,Entity Framework,version_qualified,train
+EntityF ramework,Entity Framework,misspelling_swap,train
+Entit Framework,Entity Framework,misspelling_drop,train
+Entity Frammework,Entity Framework,misspelling_double,train
+Entity Framework.rs,Entity Framework,suffix_added,train
+entity framework core,Entity Framework Core,lowercase,train
+ENTITY FRAMEWORK CORE,Entity Framework Core,uppercase,train
+EF Core,Entity Framework Core,abbreviation,train
+EFC,Entity Framework Core,abbreviation,train
+Entity Framework Core 5.0,Entity Framework Core,version_qualified,train
+Entity Framework Croe,Entity Framework Core,misspelling_swap,train
+Etity Framework Core,Entity Framework Core,misspelling_drop,train
+Entity Framework CCore,Entity Framework Core,misspelling_double,train
+Entity Framework Core.js,Entity Framework Core,suffix_added,train
+event sourcing,Event Sourcing,lowercase,train
+EVENT SOURCING,Event Sourcing,uppercase,train
+ES,Event Sourcing,abbreviation,train
+Event Sourcing 2.0,Event Sourcing,version_qualified,train
+Even tSourcing,Event Sourcing,misspelling_swap,train
+Event Sourcig,Event Sourcing,misspelling_drop,train
+Event Soourcing,Event Sourcing,misspelling_double,train
+Event Sourcing.py,Event Sourcing,suffix_added,train
+event-driven architecture,Event-Driven Architecture,lowercase,train
+EVENT-DRIVEN ARCHITECTURE,Event-Driven Architecture,uppercase,train
+EDA,Event-Driven Architecture,abbreviation,train
+Event-Driven Architecture 2,Event-Driven Architecture,version_qualified,train
+Event-Drvien Architecture,Event-Driven Architecture,misspelling_swap,train
+Event-Driven Architectue,Event-Driven Architecture,misspelling_drop,train
+Event-Driven Archhitecture,Event-Driven Architecture,misspelling_double,train
+Event-Driven Architecture.rs,Event-Driven Architecture,suffix_added,train
+express.js,Express.js,lowercase,train
+EXPRESS.JS,Express.js,uppercase,train
+Express,Express.js,abbreviation,train
+EJ,Express.js,abbreviation,train
+Express.js 4,Express.js,version_qualified,train
+Express.sj,Express.js,misspelling_swap,train
+Epress.js,Express.js,misspelling_drop,train
+Exppress.js,Express.js,misspelling_double,train
+Express,Express.js,suffix_removed,train
+faiss,FAISS,lowercase,train
+FAISS,FAISS,uppercase,train
+FAISS 5.0,FAISS,version_qualified,train
+FIASS,FAISS,misspelling_swap,train
+FASS,FAISS,misspelling_drop,train
+FAISSS,FAISS,misspelling_double,train
+FAISS.js,FAISS,suffix_added,train
+faas,FaaS,lowercase,train
+FAAS,FaaS,uppercase,train
+FaaS 5.0,FaaS,version_qualified,train
+FaSa,FaaS,misspelling_swap,train
+FaS,FaaS,misspelling_drop,train
+FaaaS,FaaS,misspelling_double,train
+FaaS.py,FaaS,suffix_added,train
+fastapi,FastAPI,lowercase,train
+FASTAPI,FastAPI,uppercase,train
+FastAPI 2,FastAPI,version_qualified,train
+FasAtPI,FastAPI,misspelling_swap,train
+FasAPI,FastAPI,misspelling_drop,train
+FastAAPI,FastAPI,misspelling_double,train
+FastAPI.py,FastAPI,suffix_added,train
+fiber,Fiber,lowercase,test
+FIBER,Fiber,uppercase,test
+Fiber 5.0,Fiber,version_qualified,test
+Fiebr,Fiber,misspelling_swap,test
+Fber,Fiber,misspelling_drop,test
+Fiiber,Fiber,misspelling_double,test
+Fiber.rs,Fiber,suffix_added,test
+firebase auth,Firebase Auth,lowercase,train
+FIREBASE AUTH,Firebase Auth,uppercase,train
+FA,Firebase Auth,abbreviation,train
+Firebase Auth v2,Firebase Auth,version_qualified,train
+Firebaes Auth,Firebase Auth,misspelling_swap,train
+Fiebase Auth,Firebase Auth,misspelling_drop,train
+Firebase AAuth,Firebase Auth,misspelling_double,train
+Firebase Auth.rs,Firebase Auth,suffix_added,train
+firestore,Firestore,lowercase,train
+FIRESTORE,Firestore,uppercase,train
+Firestore v4,Firestore,version_qualified,train
+Fierstore,Firestore,misspelling_swap,train
+Fiestore,Firestore,misspelling_drop,train
+Firestoore,Firestore,misspelling_double,train
+Firestore.py,Firestore,suffix_added,train
+flask,Flask,lowercase,test
+FLASK,Flask,uppercase,test
+Flask 5.0,Flask,version_qualified,test
+Flaks,Flask,misspelling_swap,test
+Flak,Flask,misspelling_drop,test
+Flassk,Flask,misspelling_double,test
+Flask.rs,Flask,suffix_added,test
+fluent bit,Fluent Bit,lowercase,train
+FLUENT BIT,Fluent Bit,uppercase,train
+FB,Fluent Bit,abbreviation,train
+Fluent Bit 5.0,Fluent Bit,version_qualified,train
+Fleunt Bit,Fluent Bit,misspelling_swap,train
+Fluet Bit,Fluent Bit,misspelling_drop,train
+Fluentt Bit,Fluent Bit,misspelling_double,train
+Fluent Bit.js,Fluent Bit,suffix_added,train
+fluentd,Fluentd,lowercase,train
+FLUENTD,Fluentd,uppercase,train
+Fluentd 1.x,Fluentd,version_qualified,train
+Fleuntd,Fluentd,misspelling_swap,train
+Fluntd,Fluentd,misspelling_drop,train
+Flluentd,Fluentd,misspelling_double,train
+Fluentd.rs,Fluentd,suffix_added,train
+flux cd,Flux CD,lowercase,train
+FLUX CD,Flux CD,uppercase,train
+FC,Flux CD,abbreviation,train
+Flux CD 2,Flux CD,version_qualified,train
+Flxu CD,Flux CD,misspelling_swap,train
+Flu CD,Flux CD,misspelling_drop,train
+Fllux CD,Flux CD,misspelling_double,train
+Flux CD.js,Flux CD,suffix_added,train
+fly.io,Fly.io,lowercase,train
+FLY.IO,Fly.io,uppercase,train
+FI,Fly.io,abbreviation,train
+Fly.io 2,Fly.io,version_qualified,train
+Flyi.o,Fly.io,misspelling_swap,train
+Fl.io,Fly.io,misspelling_drop,train
+Fly.iio,Fly.io,misspelling_double,train
+Fly.io.js,Fly.io,suffix_added,train
+foundation,Foundation,lowercase,train
+FOUNDATION,Foundation,uppercase,train
+Foundation 3.x,Foundation,version_qualified,train
+Foundtaion,Foundation,misspelling_swap,train
+Foundatin,Foundation,misspelling_drop,train
+Foundatioon,Foundation,misspelling_double,train
+Foundation.py,Foundation,suffix_added,train
+gcp,GCP,lowercase,train
+GCP,GCP,uppercase,train
+GCP 1.x,GCP,version_qualified,train
+GPC,GCP,misspelling_swap,train
+GCP,GCP,misspelling_drop,train
+GCCP,GCP,misspelling_double,train
+GCP.py,GCP,suffix_added,train
+gorm,GORM,lowercase,train
+GORM,GORM,uppercase,train
+GORM 4,GORM,version_qualified,train
+GROM,GORM,misspelling_swap,train
+GRM,GORM,misspelling_drop,train
+GORRM,GORM,misspelling_double,train
+GORM.py,GORM,suffix_added,train
+gpt,GPT,lowercase,train
+GPT,GPT,uppercase,train
+GPT 2.0,GPT,version_qualified,train
+GTP,GPT,misspelling_swap,train
+GPT,GPT,misspelling_drop,train
+GPPT,GPT,misspelling_double,train
+GPT.js,GPT,suffix_added,train
+gpt-3,GPT-3,lowercase,test
+GPT-3,GPT-3,uppercase,test
+G3,GPT-3,abbreviation,test
+GPT-3 v3,GPT-3,version_qualified,test
+GP-T3,GPT-3,misspelling_swap,test
+GT-3,GPT-3,misspelling_drop,test
+GPPT-3,GPT-3,misspelling_double,test
+GPT-3.js,GPT-3,suffix_added,test
+gpt-4,GPT-4,lowercase,test
+GPT-4,GPT-4,uppercase,test
+G4,GPT-4,abbreviation,test
+GPT-4 2,GPT-4,version_qualified,test
+GP-T4,GPT-4,misspelling_swap,test
+GPT4,GPT-4,misspelling_drop,test
+GPT--4,GPT-4,misspelling_double,test
+GPT-4.rs,GPT-4,suffix_added,test
+gemini,Gemini,lowercase,test
+GEMINI,Gemini,uppercase,test
+Gemini v2,Gemini,version_qualified,test
+Gemiin,Gemini,misspelling_swap,test
+Gemii,Gemini,misspelling_drop,test
+Geminni,Gemini,misspelling_double,test
+Gemini.py,Gemini,suffix_added,test
+gin,Gin,lowercase,train
+GIN,Gin,uppercase,train
+Gin v3,Gin,version_qualified,train
+Gni,Gin,misspelling_swap,train
+Gin,Gin,misspelling_drop,train
+Giin,Gin,misspelling_double,train
+Gin.rs,Gin,suffix_added,train
+git,Git,lowercase,test
+GIT,Git,uppercase,test
+Git v3,Git,version_qualified,test
+Gti,Git,misspelling_swap,test
+Git,Git,misspelling_drop,test
+Giit,Git,misspelling_double,test
+Git.js,Git,suffix_added,test
+github,GitHub,lowercase,train
+GITHUB,GitHub,uppercase,train
+GitHub v5,GitHub,version_qualified,train
+GiHtub,GitHub,misspelling_swap,train
+Gitub,GitHub,misspelling_drop,train
+GiitHub,GitHub,misspelling_double,train
+GitHub.js,GitHub,suffix_added,train
+github actions,GitHub Actions,lowercase,test
+GITHUB ACTIONS,GitHub Actions,uppercase,test
+GHA,GitHub Actions,abbreviation,test
+GA,GitHub Actions,abbreviation,test
+GitHub Actions v2,GitHub Actions,version_qualified,test
+GituHb Actions,GitHub Actions,misspelling_swap,test
+GitHub Acions,GitHub Actions,misspelling_drop,test
+GittHub Actions,GitHub Actions,misspelling_double,test
+GitHub Actions.js,GitHub Actions,suffix_added,test
+gitlab,GitLab,lowercase,train
+GITLAB,GitLab,uppercase,train
+GitLab 3.x,GitLab,version_qualified,train
+GitLba,GitLab,misspelling_swap,train
+GitLb,GitLab,misspelling_drop,train
+GitLaab,GitLab,misspelling_double,train
+GitLab.py,GitLab,suffix_added,train
+gitlab ci,GitLab CI,lowercase,train
+GITLAB CI,GitLab CI,uppercase,train
+GC,GitLab CI,abbreviation,train
+GitLab CI 3.x,GitLab CI,version_qualified,train
+GiLtab CI,GitLab CI,misspelling_swap,train
+Gitab CI,GitLab CI,misspelling_drop,train
+GitLab  CI,GitLab CI,misspelling_double,train
+GitLab CI.py,GitLab CI,suffix_added,train
+gitops,GitOps,lowercase,test
+GITOPS,GitOps,uppercase,test
+GitOps 4,GitOps,version_qualified,test
+GtiOps,GitOps,misspelling_swap,test
+GiOps,GitOps,misspelling_drop,test
+GitOOps,GitOps,misspelling_double,test
+GitOps.rs,GitOps,suffix_added,test
+gitea,Gitea,lowercase,train
+GITEA,Gitea,uppercase,train
+Gitea v3,Gitea,version_qualified,train
+Gitae,Gitea,misspelling_swap,train
+Gtea,Gitea,misspelling_drop,train
+Gittea,Gitea,misspelling_double,train
+Gitea.js,Gitea,suffix_added,train
+go,Go,lowercase,train
+GO,Go,uppercase,train
+Go 2,Go,version_qualified,train
+Go,Go,misspelling_swap,train
+Go,Go,misspelling_drop,train
+Go,Go,misspelling_double,train
+Go.js,Go,suffix_added,train
+go modules,Go Modules,lowercase,train
+GO MODULES,Go Modules,uppercase,train
+GM,Go Modules,abbreviation,train
+Go Modules v5,Go Modules,version_qualified,train
+Go oMdules,Go Modules,misspelling_swap,train
+Go Moules,Go Modules,misspelling_drop,train
+Go MModules,Go Modules,misspelling_double,train
+Go Modules.js,Go Modules,suffix_added,train
+gogs,Gogs,lowercase,train
+GOGS,Gogs,uppercase,train
+Gogs 3.x,Gogs,version_qualified,train
+Ggos,Gogs,misspelling_swap,train
+Gos,Gogs,misspelling_drop,train
+Goggs,Gogs,misspelling_double,train
+Gogs.py,Gogs,suffix_added,train
+google gke,Google GKE,lowercase,train
+GOOGLE GKE,Google GKE,uppercase,train
+GKE,Google GKE,abbreviation,train
+GG,Google GKE,abbreviation,train
+Google GKE 2.0,Google GKE,version_qualified,train
+Google GEK,Google GKE,misspelling_swap,train
+Googl GKE,Google GKE,misspelling_drop,train
+Google GGKE,Google GKE,misspelling_double,train
+Google GKE.py,Google GKE,suffix_added,train
+gradle,Gradle,lowercase,test
+GRADLE,Gradle,uppercase,test
+Gradle 2,Gradle,version_qualified,test
+Gradel,Gradle,misspelling_swap,test
+Grade,Gradle,misspelling_drop,test
+Grradle,Gradle,misspelling_double,test
+Gradle.rs,Gradle,suffix_added,test
+grafana,Grafana,lowercase,train
+GRAFANA,Grafana,uppercase,train
+Grafana 3.x,Grafana,version_qualified,train
+Grafnaa,Grafana,misspelling_swap,train
+Graana,Grafana,misspelling_drop,train
+Grafanna,Grafana,misspelling_double,train
+Grafana.py,Grafana,suffix_added,train
+grafana loki,Grafana Loki,lowercase,train
+GRAFANA LOKI,Grafana Loki,uppercase,train
+GL,Grafana Loki,abbreviation,train
+Grafana Loki 3.x,Grafana Loki,version_qualified,train
+Grfaana Loki,Grafana Loki,misspelling_swap,train
+Grafna Loki,Grafana Loki,misspelling_drop,train
+Grafana Lokki,Grafana Loki,misspelling_double,train
+Grafana Loki.rs,Grafana Loki,suffix_added,train
+grafana tempo,Grafana Tempo,lowercase,train
+GRAFANA TEMPO,Grafana Tempo,uppercase,train
+GT,Grafana Tempo,abbreviation,train
+Grafana Tempo 3.x,Grafana Tempo,version_qualified,train
+Grafana Temop,Grafana Tempo,misspelling_swap,train
+Grafaa Tempo,Grafana Tempo,misspelling_drop,train
+Grafana Temmpo,Grafana Tempo,misspelling_double,train
+Grafana Tempo.js,Grafana Tempo,suffix_added,train
+graphql,GraphQL,lowercase,train
+GRAPHQL,GraphQL,uppercase,train
+GQL,GraphQL,abbreviation,train
+GraphQL v4,GraphQL,version_qualified,train
+GrapQhL,GraphQL,misspelling_swap,train
+GraphL,GraphQL,misspelling_drop,train
+GraphhQL,GraphQL,misspelling_double,train
+GraphQL.py,GraphQL,suffix_added,train
+haskell,Haskell,lowercase,train
+HASKELL,Haskell,uppercase,train
+Haskell v4,Haskell,version_qualified,train
+Haskell,Haskell,misspelling_swap,train
+Haskll,Haskell,misspelling_drop,train
+Haskeell,Haskell,misspelling_double,train
+Haskell.js,Haskell,suffix_added,train
+headless ui,Headless UI,lowercase,train
+HEADLESS UI,Headless UI,uppercase,train
+HU,Headless UI,abbreviation,train
+Headless UI 4,Headless UI,version_qualified,train
+Headless UI,Headless UI,misspelling_swap,train
+Headles UI,Headless UI,misspelling_drop,train
+Headlesss UI,Headless UI,misspelling_double,train
+Headless UI.py,Headless UI,suffix_added,train
+helm,Helm,lowercase,train
+HELM,Helm,uppercase,train
+Helm v5,Helm,version_qualified,train
+Hlem,Helm,misspelling_swap,train
+Hlm,Helm,misspelling_drop,train
+Hellm,Helm,misspelling_double,train
+Helm.py,Helm,suffix_added,train
+heroku,Heroku,lowercase,train
+HEROKU,Heroku,uppercase,train
+Heroku 4,Heroku,version_qualified,train
+Herkou,Heroku,misspelling_swap,train
+Herou,Heroku,misspelling_drop,train
+Heeroku,Heroku,misspelling_double,train
+Heroku.py,Heroku,suffix_added,train
+hexagonal architecture,Hexagonal Architecture,lowercase,train
+HEXAGONAL ARCHITECTURE,Hexagonal Architecture,uppercase,train
+HA,Hexagonal Architecture,abbreviation,train
+Hexagonal Architecture 2.0,Hexagonal Architecture,version_qualified,train
+Hexagonal Acrhitecture,Hexagonal Architecture,misspelling_swap,train
+HexagonalArchitecture,Hexagonal Architecture,misspelling_drop,train
+Hexagonal Arrchitecture,Hexagonal Architecture,misspelling_double,train
+Hexagonal Architecture.js,Hexagonal Architecture,suffix_added,train
+hibernate,Hibernate,lowercase,test
+HIBERNATE,Hibernate,uppercase,test
+Hibernate 3,Hibernate,version_qualified,test
+Hibernaet,Hibernate,misspelling_swap,test
+Hiberate,Hibernate,misspelling_drop,test
+Hibernatte,Hibernate,misspelling_double,test
+Hibernate.js,Hibernate,suffix_added,test
+honeycomb,Honeycomb,lowercase,train
+HONEYCOMB,Honeycomb,uppercase,train
+Honeycomb v5,Honeycomb,version_qualified,train
+Honeycobm,Honeycomb,misspelling_swap,train
+Honeyomb,Honeycomb,misspelling_drop,train
+Honeyycomb,Honeycomb,misspelling_double,train
+Honeycomb.py,Honeycomb,suffix_added,train
+hugging face,Hugging Face,lowercase,train
+HUGGING FACE,Hugging Face,uppercase,train
+HF,Hugging Face,abbreviation,train
+Hugging Face 3.x,Hugging Face,version_qualified,train
+Huggnig Face,Hugging Face,misspelling_swap,train
+Hugging Fce,Hugging Face,misspelling_drop,train
+Huggingg Face,Hugging Face,misspelling_double,train
+Hugging Face.rs,Hugging Face,suffix_added,train
+hugging face transformers,Hugging Face Transformers,lowercase,train
+HUGGING FACE TRANSFORMERS,Hugging Face Transformers,uppercase,train
+HFT,Hugging Face Transformers,abbreviation,train
+Hugging Face Transformers 4,Hugging Face Transformers,version_qualified,train
+Hugging Face Transforemrs,Hugging Face Transformers,misspelling_swap,train
+Hugging Face Trnsformers,Hugging Face Transformers,misspelling_drop,train
+Huggging Face Transformers,Hugging Face Transformers,misspelling_double,train
+Hugging Face Transformers.js,Hugging Face Transformers,suffix_added,train
+hypothesis,Hypothesis,lowercase,train
+HYPOTHESIS,Hypothesis,uppercase,train
+Hypothesis 5.0,Hypothesis,version_qualified,train
+Hyptohesis,Hypothesis,misspelling_swap,train
+Hypotesis,Hypothesis,misspelling_drop,train
+Hypothesiis,Hypothesis,misspelling_double,train
+Hypothesis.rs,Hypothesis,suffix_added,train
+influxdb,InfluxDB,lowercase,test
+INFLUXDB,InfluxDB,uppercase,test
+InfluxDB 4,InfluxDB,version_qualified,test
+IfnluxDB,InfluxDB,misspelling_swap,test
+IfluxDB,InfluxDB,misspelling_drop,test
+InfluxDDB,InfluxDB,misspelling_double,test
+InfluxDB.rs,InfluxDB,suffix_added,test
+infrastructure as code,Infrastructure as Code,lowercase,train
+INFRASTRUCTURE AS CODE,Infrastructure as Code,uppercase,train
+IaC,Infrastructure as Code,abbreviation,train
+IAC,Infrastructure as Code,abbreviation,train
+Infrastructure as Code v2,Infrastructure as Code,version_qualified,train
+Infrasrtucture as Code,Infrastructure as Code,misspelling_swap,train
+Infrastrucure as Code,Infrastructure as Code,misspelling_drop,train
+Infrastructure as CCode,Infrastructure as Code,misspelling_double,train
+Infrastructure as Code.js,Infrastructure as Code,suffix_added,train
+jax,JAX,lowercase,test
+JAX,JAX,uppercase,test
+JAX 2,JAX,version_qualified,test
+JXA,JAX,misspelling_swap,test
+JAX,JAX,misspelling_drop,test
+JAAX,JAX,misspelling_double,test
+JAX.js,JAX,suffix_added,test
+junit,JUnit,lowercase,train
+JUNIT,JUnit,uppercase,train
+JUnit 2.0,JUnit,version_qualified,train
+JUint,JUnit,misspelling_swap,train
+Jnit,JUnit,misspelling_drop,train
+JUniit,JUnit,misspelling_double,train
+JUnit.js,JUnit,suffix_added,train
+junit 5,JUnit 5,lowercase,train
+JUNIT 5,JUnit 5,uppercase,train
+J5,JUnit 5,abbreviation,train
+JUnit 5 4,JUnit 5,version_qualified,train
+JUnti 5,JUnit 5,misspelling_swap,train
+JUnit5,JUnit 5,misspelling_drop,train
+JUniit 5,JUnit 5,misspelling_double,train
+JUnit 5.py,JUnit 5,suffix_added,train
+jwt,JWT,lowercase,train
+JWT,JWT,uppercase,train
+JWT 4,JWT,version_qualified,train
+JTW,JWT,misspelling_swap,train
+JWT,JWT,misspelling_drop,train
+JWWT,JWT,misspelling_double,train
+JWT.py,JWT,suffix_added,train
+jaeger,Jaeger,lowercase,train
+JAEGER,Jaeger,uppercase,train
+Jaeger 2,Jaeger,version_qualified,train
+Jageer,Jaeger,misspelling_swap,train
+Jaegr,Jaeger,misspelling_drop,train
+Jaeeger,Jaeger,misspelling_double,train
+Jaeger.rs,Jaeger,suffix_added,train
+java,Java,lowercase,train
+JAVA,Java,uppercase,train
+Java 2,Java,version_qualified,train
+Jvaa,Java,misspelling_swap,train
+Jva,Java,misspelling_drop,train
+Javva,Java,misspelling_double,train
+Java.py,Java,suffix_added,train
+javascript,JavaScript,lowercase,test
+JAVASCRIPT,JavaScript,uppercase,test
+JS,JavaScript,abbreviation,test
+JavaScript 1.x,JavaScript,version_qualified,test
+JavaSrcipt,JavaScript,misspelling_swap,test
+JvaScript,JavaScript,misspelling_drop,test
+JavaSccript,JavaScript,misspelling_double,test
+JavaScript.rs,JavaScript,suffix_added,test
+javascript es6,JavaScript ES6,lowercase,train
+JAVASCRIPT ES6,JavaScript ES6,uppercase,train
+JE,JavaScript ES6,abbreviation,train
+JavaScript ES6 5.0,JavaScript ES6,version_qualified,train
+JavaScriptE S6,JavaScript ES6,misspelling_swap,train
+JavaScriptES6,JavaScript ES6,misspelling_drop,train
+JavaScript EES6,JavaScript ES6,misspelling_double,train
+JavaScript ES6.py,JavaScript ES6,suffix_added,train
+jenkins,Jenkins,lowercase,test
+JENKINS,Jenkins,uppercase,test
+Jenkins v4,Jenkins,version_qualified,test
+Jenknis,Jenkins,misspelling_swap,test
+Jenkis,Jenkins,misspelling_drop,test
+Jenkiins,Jenkins,misspelling_double,test
+Jenkins.py,Jenkins,suffix_added,test
+jest,Jest,lowercase,train
+JEST,Jest,uppercase,train
+Jest 1.x,Jest,version_qualified,train
+Jets,Jest,misspelling_swap,train
+Jet,Jest,misspelling_drop,train
+Jesst,Jest,misspelling_double,train
+Jest.js,Jest,suffix_added,train
+jotai,Jotai,lowercase,train
+JOTAI,Jotai,uppercase,train
+Jotai v2,Jotai,version_qualified,train
+Jotia,Jotai,misspelling_swap,train
+Joai,Jotai,misspelling_drop,train
+Jootai,Jotai,misspelling_double,train
+Jotai.py,Jotai,suffix_added,train
+k3s,K3s,lowercase,train
+K3S,K3s,uppercase,train
+K3s 3.x,K3s,version_qualified,train
+Ks3,K3s,misspelling_swap,train
+K3s,K3s,misspelling_drop,train
+K33s,K3s,misspelling_double,train
+K3s.rs,K3s,suffix_added,train
+keras,Keras,lowercase,train
+KERAS,Keras,uppercase,train
+Keras 3,Keras,version_qualified,train
+Kears,Keras,misspelling_swap,train
+Kers,Keras,misspelling_drop,train
+Keraas,Keras,misspelling_double,train
+Keras.js,Keras,suffix_added,train
+keycloak,Keycloak,lowercase,train
+KEYCLOAK,Keycloak,uppercase,train
+Keycloak 4,Keycloak,version_qualified,train
+Kyecloak,Keycloak,misspelling_swap,train
+Kecloak,Keycloak,misspelling_drop,train
+Keyclooak,Keycloak,misspelling_double,train
+Keycloak.rs,Keycloak,suffix_added,train
+kibana,Kibana,lowercase,train
+KIBANA,Kibana,uppercase,train
+Kibana 1.x,Kibana,version_qualified,train
+Kbiana,Kibana,misspelling_swap,train
+Kibaa,Kibana,misspelling_drop,train
+Kiibana,Kibana,misspelling_double,train
+Kibana.rs,Kibana,suffix_added,train
+kind,KinD,lowercase,train
+KIND,KinD,uppercase,train
+KinD 4,KinD,version_qualified,train
+KniD,KinD,misspelling_swap,train
+KnD,KinD,misspelling_drop,train
+KinnD,KinD,misspelling_double,train
+KinD.rs,KinD,suffix_added,train
+knex.js,Knex.js,lowercase,train
+KNEX.JS,Knex.js,uppercase,train
+KJ,Knex.js,abbreviation,train
+Knex.js v4,Knex.js,version_qualified,train
+Kenx.js,Knex.js,misspelling_swap,train
+Knexjs,Knex.js,misspelling_drop,train
+Knexx.js,Knex.js,misspelling_double,train
+Knex,Knex.js,suffix_removed,train
+kotlin,Kotlin,lowercase,train
+KOTLIN,Kotlin,uppercase,train
+Kotlin 1.x,Kotlin,version_qualified,train
+Kotlni,Kotlin,misspelling_swap,train
+Ktlin,Kotlin,misspelling_drop,train
+Kotllin,Kotlin,misspelling_double,train
+Kotlin.rs,Kotlin,suffix_added,train
+kubernetes,Kubernetes,lowercase,train
+KUBERNETES,Kubernetes,uppercase,train
+K8s,Kubernetes,abbreviation,train
+Kube,Kubernetes,abbreviation,train
+Kubernetes 2,Kubernetes,version_qualified,train
+Kuberneets,Kubernetes,misspelling_swap,train
+Kuberntes,Kubernetes,misspelling_drop,train
+Kubernetees,Kubernetes,misspelling_double,train
+Kubernetes.rs,Kubernetes,suffix_added,train
+llama,LLaMA,lowercase,train
+LLAMA,LLaMA,uppercase,train
+LLaMA 3.x,LLaMA,version_qualified,train
+LLaAM,LLaMA,misspelling_swap,train
+LaMA,LLaMA,misspelling_drop,train
+LLLaMA,LLaMA,misspelling_double,train
+LLaMA.rs,LLaMA,suffix_added,train
+llama 2,LLaMA 2,lowercase,train
+LLAMA 2,LLaMA 2,uppercase,train
+L2,LLaMA 2,abbreviation,train
+LLaMA 2 v5,LLaMA 2,version_qualified,train
+LLaAM 2,LLaMA 2,misspelling_swap,train
+LLMA 2,LLaMA 2,misspelling_drop,train
+LLLaMA 2,LLaMA 2,misspelling_double,train
+LLaMA 2.py,LLaMA 2,suffix_added,train
+langchain,LangChain,lowercase,train
+LANGCHAIN,LangChain,uppercase,train
+LangChain 2.0,LangChain,version_qualified,train
+LangChani,LangChain,misspelling_swap,train
+LangChin,LangChain,misspelling_drop,train
+LangChaain,LangChain,misspelling_double,train
+LangChain.js,LangChain,suffix_added,train
+laravel,Laravel,lowercase,train
+LARAVEL,Laravel,uppercase,train
+Laravel 4,Laravel,version_qualified,train
+Laarvel,Laravel,misspelling_swap,train
+Larvel,Laravel,misspelling_drop,train
+Laaravel,Laravel,misspelling_double,train
+Laravel.js,Laravel,suffix_added,train
+less,Less,lowercase,train
+LESS,Less,uppercase,train
+Less 1.x,Less,version_qualified,train
+Lses,Less,misspelling_swap,train
+Les,Less,misspelling_drop,train
+Lesss,Less,misspelling_double,train
+Less.py,Less,suffix_added,train
+lightgbm,LightGBM,lowercase,train
+LIGHTGBM,LightGBM,uppercase,train
+LightGBM 3,LightGBM,version_qualified,train
+LihgtGBM,LightGBM,misspelling_swap,train
+LihtGBM,LightGBM,misspelling_drop,train
+LightGGBM,LightGBM,misspelling_double,train
+LightGBM.py,LightGBM,suffix_added,train
+lightstep,Lightstep,lowercase,train
+LIGHTSTEP,Lightstep,uppercase,train
+Lightstep v3,Lightstep,version_qualified,train
+Lightsetp,Lightstep,misspelling_swap,train
+Lightstp,Lightstep,misspelling_drop,train
+Ligghtstep,Lightstep,misspelling_double,train
+Lightstep.js,Lightstep,suffix_added,train
+linode,Linode,lowercase,train
+LINODE,Linode,uppercase,train
+Linode v4,Linode,version_qualified,train
+Lniode,Linode,misspelling_swap,train
+Linoe,Linode,misspelling_drop,train
+Linnode,Linode,misspelling_double,train
+Linode.py,Linode,suffix_added,train
+llamaindex,LlamaIndex,lowercase,train
+LLAMAINDEX,LlamaIndex,uppercase,train
+LlamaIndex v3,LlamaIndex,version_qualified,train
+LlaamIndex,LlamaIndex,misspelling_swap,train
+LlamIndex,LlamaIndex,misspelling_drop,train
+LlamaIndeex,LlamaIndex,misspelling_double,train
+LlamaIndex.rs,LlamaIndex,suffix_added,train
+loggly,Loggly,lowercase,train
+LOGGLY,Loggly,uppercase,train
+Loggly 5.0,Loggly,version_qualified,train
+Loggyl,Loggly,misspelling_swap,train
+Logly,Loggly,misspelling_drop,train
+Looggly,Loggly,misspelling_double,train
+Loggly.py,Loggly,suffix_added,train
+logstash,Logstash,lowercase,train
+LOGSTASH,Logstash,uppercase,train
+Logstash 5.0,Logstash,version_qualified,train
+Logstahs,Logstash,misspelling_swap,train
+Logstsh,Logstash,misspelling_drop,train
+Loggstash,Logstash,misspelling_double,train
+Logstash.js,Logstash,suffix_added,train
+mlflow,MLflow,lowercase,test
+MLFLOW,MLflow,uppercase,test
+MLflow 4,MLflow,version_qualified,test
+MLfolw,MLflow,misspelling_swap,test
+MLfow,MLflow,misspelling_drop,test
+MLfloow,MLflow,misspelling_double,test
+MLflow.rs,MLflow,suffix_added,test
+mantine,Mantine,lowercase,train
+MANTINE,Mantine,uppercase,train
+Mantine 5.0,Mantine,version_qualified,train
+Mantnie,Mantine,misspelling_swap,train
+Manine,Mantine,misspelling_drop,train
+Manntine,Mantine,misspelling_double,train
+Mantine.py,Mantine,suffix_added,train
+mariadb,MariaDB,lowercase,test
+MARIADB,MariaDB,uppercase,test
+MariaDB 4,MariaDB,version_qualified,test
+MraiaDB,MariaDB,misspelling_swap,test
+MaiaDB,MariaDB,misspelling_drop,test
+MariaaDB,MariaDB,misspelling_double,test
+MariaDB.rs,MariaDB,suffix_added,test
+material ui,Material UI,lowercase,train
+MATERIAL UI,Material UI,uppercase,train
+MUI,Material UI,abbreviation,train
+MU,Material UI,abbreviation,train
+Material UI 1.x,Material UI,version_qualified,train
+Materail UI,Material UI,misspelling_swap,train
+Materal UI,Material UI,misspelling_drop,train
+Maaterial UI,Material UI,misspelling_double,train
+Material UI.rs,Material UI,suffix_added,train
+maven,Maven,lowercase,test
+MAVEN,Maven,uppercase,test
+Maven 3,Maven,version_qualified,test
+Maevn,Maven,misspelling_swap,test
+Mven,Maven,misspelling_drop,test
+Maveen,Maven,misspelling_double,test
+Maven.rs,Maven,suffix_added,test
+microservices,Microservices,lowercase,train
+MICROSERVICES,Microservices,uppercase,train
+Microservices 3.x,Microservices,version_qualified,train
+Microserviecs,Microservices,misspelling_swap,train
+Microserices,Microservices,misspelling_drop,train
+Microsservices,Microservices,misspelling_double,train
+Microservices.js,Microservices,suffix_added,train
+milvus,Milvus,lowercase,train
+MILVUS,Milvus,uppercase,train
+Milvus v3,Milvus,version_qualified,train
+Miluvs,Milvus,misspelling_swap,train
+Mivus,Milvus,misspelling_drop,train
+Millvus,Milvus,misspelling_double,train
+Milvus.rs,Milvus,suffix_added,train
+minikube,Minikube,lowercase,train
+MINIKUBE,Minikube,uppercase,train
+Minikube 5.0,Minikube,version_qualified,train
+Minikueb,Minikube,misspelling_swap,train
+Minikue,Minikube,misspelling_drop,train
+Minikubbe,Minikube,misspelling_double,train
+Minikube.rs,Minikube,suffix_added,train
+minitest,Minitest,lowercase,train
+MINITEST,Minitest,uppercase,train
+Minitest v4,Minitest,version_qualified,train
+Minitets,Minitest,misspelling_swap,train
+Mnitest,Minitest,misspelling_drop,train
+Minitesst,Minitest,misspelling_double,train
+Minitest.rs,Minitest,suffix_added,train
+mistral,Mistral,lowercase,test
+MISTRAL,Mistral,uppercase,test
+Mistral 3.x,Mistral,version_qualified,test
+Misrtal,Mistral,misspelling_swap,test
+Mistal,Mistral,misspelling_drop,test
+Miistral,Mistral,misspelling_double,test
+Mistral.rs,Mistral,suffix_added,test
+mixtral,Mixtral,lowercase,train
+MIXTRAL,Mixtral,uppercase,train
+Mixtral 1.x,Mixtral,version_qualified,train
+Mitxral,Mixtral,misspelling_swap,train
+Mxtral,Mixtral,misspelling_drop,train
+Mixttral,Mixtral,misspelling_double,train
+Mixtral.py,Mixtral,suffix_added,train
+mobx,MobX,lowercase,test
+MOBX,MobX,uppercase,test
+MobX 3,MobX,version_qualified,test
+MboX,MobX,misspelling_swap,test
+MbX,MobX,misspelling_drop,test
+MoobX,MobX,misspelling_double,test
+MobX.rs,MobX,suffix_added,test
+mocha,Mocha,lowercase,train
+MOCHA,Mocha,uppercase,train
+Mocha 1.x,Mocha,version_qualified,train
+Mocah,Mocha,misspelling_swap,train
+Moca,Mocha,misspelling_drop,train
+Moccha,Mocha,misspelling_double,train
+Mocha.js,Mocha,suffix_added,train
+mongodb,MongoDB,lowercase,test
+MONGODB,MongoDB,uppercase,test
+Mongo,MongoDB,abbreviation,test
+MongoDB 5.0,MongoDB,version_qualified,test
+MongDoB,MongoDB,misspelling_swap,test
+MonoDB,MongoDB,misspelling_drop,test
+MonggoDB,MongoDB,misspelling_double,test
+MongoDB.js,MongoDB,suffix_added,test
+mongoose,Mongoose,lowercase,test
+MONGOOSE,Mongoose,uppercase,test
+Mongoose 4,Mongoose,version_qualified,test
+Mnogoose,Mongoose,misspelling_swap,test
+Mogoose,Mongoose,misspelling_drop,test
+Monngoose,Mongoose,misspelling_double,test
+Mongoose.rs,Mongoose,suffix_added,test
+monolith,Monolith,lowercase,train
+MONOLITH,Monolith,uppercase,train
+Monolith v5,Monolith,version_qualified,train
+Monoilth,Monolith,misspelling_swap,train
+Monolth,Monolith,misspelling_drop,train
+Monoolith,Monolith,misspelling_double,train
+Monolith.js,Monolith,suffix_added,train
+mysql,MySQL,lowercase,train
+MYSQL,MySQL,uppercase,train
+MySQL 3,MySQL,version_qualified,train
+MSyQL,MySQL,misspelling_swap,train
+MyQL,MySQL,misspelling_drop,train
+MySQQL,MySQL,misspelling_double,train
+MySQL.js,MySQL,suffix_added,train
+nats,NATS,lowercase,test
+NATS,NATS,uppercase,test
+NATS 4,NATS,version_qualified,test
+NAST,NATS,misspelling_swap,test
+NAS,NATS,misspelling_drop,test
+NATTS,NATS,misspelling_double,test
+NATS.rs,NATS,suffix_added,test
+neo4j,Neo4j,lowercase,train
+NEO4J,Neo4j,uppercase,train
+Neo4j 1.x,Neo4j,version_qualified,train
+Noe4j,Neo4j,misspelling_swap,train
+Neoj,Neo4j,misspelling_drop,train
+Neeo4j,Neo4j,misspelling_double,train
+Neo4j.py,Neo4j,suffix_added,train
+neon,Neon,lowercase,train
+NEON,Neon,uppercase,train
+Neon 3.x,Neon,version_qualified,train
+Neno,Neon,misspelling_swap,train
+Non,Neon,misspelling_drop,train
+Neeon,Neon,misspelling_double,train
+Neon.rs,Neon,suffix_added,train
+nestjs,NestJS,lowercase,train
+NESTJS,NestJS,uppercase,train
+NestJS 4,NestJS,version_qualified,train
+NesJtS,NestJS,misspelling_swap,train
+NestS,NestJS,misspelling_drop,train
+NeestJS,NestJS,misspelling_double,train
+Nest,NestJS,suffix_removed,train
+netlify,Netlify,lowercase,test
+NETLIFY,Netlify,uppercase,test
+Netlify v4,Netlify,version_qualified,test
+Ntelify,Netlify,misspelling_swap,test
+Ntlify,Netlify,misspelling_drop,test
+Netllify,Netlify,misspelling_double,test
+Netlify.py,Netlify,suffix_added,test
+new relic,New Relic,lowercase,test
+NEW RELIC,New Relic,uppercase,test
+NR,New Relic,abbreviation,test
+New Relic 2.0,New Relic,version_qualified,test
+Nwe Relic,New Relic,misspelling_swap,test
+Ne Relic,New Relic,misspelling_drop,test
+New Reelic,New Relic,misspelling_double,test
+New Relic.js,New Relic,suffix_added,test
+next.js,Next.js,lowercase,train
+NEXT.JS,Next.js,uppercase,train
+Next,Next.js,abbreviation,train
+NJ,Next.js,abbreviation,train
+Next.js 3,Next.js,version_qualified,train
+Nextj.s,Next.js,misspelling_swap,train
+Nex.js,Next.js,misspelling_drop,train
+Next.jjs,Next.js,misspelling_double,train
+Next,Next.js,suffix_removed,train
+nextauth.js,NextAuth.js,lowercase,train
+NEXTAUTH.JS,NextAuth.js,uppercase,train
+NJ,NextAuth.js,abbreviation,train
+NextAuth.js 3,NextAuth.js,version_qualified,train
+NexAtuth.js,NextAuth.js,misspelling_swap,train
+NextAut.js,NextAuth.js,misspelling_drop,train
+NexxtAuth.js,NextAuth.js,misspelling_double,train
+NextAuth,NextAuth.js,suffix_removed,train
+ngrx,NgRx,lowercase,train
+NGRX,NgRx,uppercase,train
+NgRx 4,NgRx,version_qualified,train
+NgxR,NgRx,misspelling_swap,train
+Ngx,NgRx,misspelling_drop,train
+NggRx,NgRx,misspelling_double,train
+NgRx.rs,NgRx,suffix_added,train
+nuxt.js,Nuxt.js,lowercase,train
+NUXT.JS,Nuxt.js,uppercase,train
+NJ,Nuxt.js,abbreviation,train
+Nuxt.js 1.x,Nuxt.js,version_qualified,train
+Nutx.js,Nuxt.js,misspelling_swap,train
+Nuxtjs,Nuxt.js,misspelling_drop,train
+Nuxt..js,Nuxt.js,misspelling_double,train
+Nuxt,Nuxt.js,suffix_removed,train
+oauth,OAuth,lowercase,train
+OAUTH,OAuth,uppercase,train
+OAuth v2,OAuth,version_qualified,train
+OAtuh,OAuth,misspelling_swap,train
+Outh,OAuth,misspelling_drop,train
+OAutth,OAuth,misspelling_double,train
+OAuth.py,OAuth,suffix_added,train
+oauth 2.0,OAuth 2.0,lowercase,train
+OAUTH 2.0,OAuth 2.0,uppercase,train
+OAuth2,OAuth 2.0,abbreviation,train
+O20,OAuth 2.0,abbreviation,train
+OAuth 2.0 2,OAuth 2.0,version_qualified,train
+OAuth .20,OAuth 2.0,misspelling_swap,train
+OAuh 2.0,OAuth 2.0,misspelling_drop,train
+OAAuth 2.0,OAuth 2.0,misspelling_double,train
+OAuth 2.0.py,OAuth 2.0,suffix_added,train
+okta,Okta,lowercase,train
+OKTA,Okta,uppercase,train
+Okta 5.0,Okta,version_qualified,train
+Otka,Okta,misspelling_swap,train
+Ota,Okta,misspelling_drop,train
+Oktta,Okta,misspelling_double,train
+Okta.js,Okta,suffix_added,train
+ollama,Ollama,lowercase,train
+OLLAMA,Ollama,uppercase,train
+Ollama v5,Ollama,version_qualified,train
+Olalma,Ollama,misspelling_swap,train
+Olama,Ollama,misspelling_drop,train
+Olllama,Ollama,misspelling_double,train
+Ollama.py,Ollama,suffix_added,train
+openai,OpenAI,lowercase,train
+OPENAI,OpenAI,uppercase,train
+OpenAI v2,OpenAI,version_qualified,train
+OpneAI,OpenAI,misspelling_swap,train
+OpnAI,OpenAI,misspelling_drop,train
+OppenAI,OpenAI,misspelling_double,train
+OpenAI.rs,OpenAI,suffix_added,train
+openapi,OpenAPI,lowercase,train
+OPENAPI,OpenAPI,uppercase,train
+OpenAPI v2,OpenAPI,version_qualified,train
+OpenAIP,OpenAPI,misspelling_swap,train
+OpnAPI,OpenAPI,misspelling_drop,train
+OpeenAPI,OpenAPI,misspelling_double,train
+OpenAPI.py,OpenAPI,suffix_added,train
+openid connect,OpenID Connect,lowercase,train
+OPENID CONNECT,OpenID Connect,uppercase,train
+OIDC,OpenID Connect,abbreviation,train
+OC,OpenID Connect,abbreviation,train
+OpenID Connect v4,OpenID Connect,version_qualified,train
+OpenID Conenct,OpenID Connect,misspelling_swap,train
+OenID Connect,OpenID Connect,misspelling_drop,train
+OpenIDD Connect,OpenID Connect,misspelling_double,train
+OpenID Connect.js,OpenID Connect,suffix_added,train
+openllm,OpenLLM,lowercase,train
+OPENLLM,OpenLLM,uppercase,train
+OpenLLM v4,OpenLLM,version_qualified,train
+OpenLML,OpenLLM,misspelling_swap,train
+OpeLLM,OpenLLM,misspelling_drop,train
+OpeenLLM,OpenLLM,misspelling_double,train
+OpenLLM.js,OpenLLM,suffix_added,train
+opensearch,OpenSearch,lowercase,train
+OPENSEARCH,OpenSearch,uppercase,train
+OpenSearch v5,OpenSearch,version_qualified,train
+OepnSearch,OpenSearch,misspelling_swap,train
+OpeSearch,OpenSearch,misspelling_drop,train
+OppenSearch,OpenSearch,misspelling_double,train
+OpenSearch.py,OpenSearch,suffix_added,train
+openshift,OpenShift,lowercase,train
+OPENSHIFT,OpenShift,uppercase,train
+OpenShift v2,OpenShift,version_qualified,train
+OpenSihft,OpenShift,misspelling_swap,train
+OpeShift,OpenShift,misspelling_drop,train
+OppenShift,OpenShift,misspelling_double,train
+OpenShift.js,OpenShift,suffix_added,train
+opentelemetry,OpenTelemetry,lowercase,train
+OPENTELEMETRY,OpenTelemetry,uppercase,train
+OTel,OpenTelemetry,abbreviation,train
+OpenTelemetry 5.0,OpenTelemetry,version_qualified,train
+OepnTelemetry,OpenTelemetry,misspelling_swap,train
+OpeTelemetry,OpenTelemetry,misspelling_drop,train
+OpenTeleemetry,OpenTelemetry,misspelling_double,train
+OpenTelemetry.rs,OpenTelemetry,suffix_added,train
+php,PHP,lowercase,train
+PHP,PHP,uppercase,train
+PHP 2.0,PHP,version_qualified,train
+PPH,PHP,misspelling_swap,train
+PHP,PHP,misspelling_drop,train
+PHHP,PHP,misspelling_double,train
+PHP.py,PHP,suffix_added,train
+phpunit,PHPUnit,lowercase,train
+PHPUNIT,PHPUnit,uppercase,train
+PHPUnit 1.x,PHPUnit,version_qualified,train
+PHPUnti,PHPUnit,misspelling_swap,train
+PHPUnt,PHPUnit,misspelling_drop,train
+PHHPUnit,PHPUnit,misspelling_double,train
+PHPUnit.py,PHPUnit,suffix_added,train
+palm,PaLM,lowercase,train
+PALM,PaLM,uppercase,train
+PaLM 2,PaLM,version_qualified,train
+PLaM,PaLM,misspelling_swap,train
+PLM,PaLM,misspelling_drop,train
+PaLLM,PaLM,misspelling_double,train
+PaLM.py,PaLM,suffix_added,train
+palm 2,PaLM 2,lowercase,train
+PALM 2,PaLM 2,uppercase,train
+P2,PaLM 2,abbreviation,train
+PaLM 2 v5,PaLM 2,version_qualified,train
+PLaM 2,PaLM 2,misspelling_swap,train
+PLM 2,PaLM 2,misspelling_drop,train
+PaLM  2,PaLM 2,misspelling_double,train
+PaLM 2.py,PaLM 2,suffix_added,train
+papertrail,Papertrail,lowercase,test
+PAPERTRAIL,Papertrail,uppercase,test
+Papertrail 3,Papertrail,version_qualified,test
+Paeprtrail,Papertrail,misspelling_swap,test
+Papertral,Papertrail,misspelling_drop,test
+Papertraiil,Papertrail,misspelling_double,test
+Papertrail.js,Papertrail,suffix_added,test
+parcel,Parcel,lowercase,train
+PARCEL,Parcel,uppercase,train
+Parcel 2.0,Parcel,version_qualified,train
+Parecl,Parcel,misspelling_swap,train
+Pacel,Parcel,misspelling_drop,train
+Paarcel,Parcel,misspelling_double,train
+Parcel.js,Parcel,suffix_added,train
+passport.js,Passport.js,lowercase,test
+PASSPORT.JS,Passport.js,uppercase,test
+PJ,Passport.js,abbreviation,test
+Passport.js 5.0,Passport.js,version_qualified,test
+Passport.sj,Passport.js,misspelling_swap,test
+Passpot.js,Passport.js,misspelling_drop,test
+Passportt.js,Passport.js,misspelling_double,test
+Passport,Passport.js,suffix_removed,test
+peewee,Peewee,lowercase,train
+PEEWEE,Peewee,uppercase,train
+Peewee v3,Peewee,version_qualified,train
+Peeewe,Peewee,misspelling_swap,train
+Peewe,Peewee,misspelling_drop,train
+Peeweee,Peewee,misspelling_double,train
+Peewee.js,Peewee,suffix_added,train
+phoenix,Phoenix,lowercase,train
+PHOENIX,Phoenix,uppercase,train
+Phoenix 2.0,Phoenix,version_qualified,train
+Phoenxi,Phoenix,misspelling_swap,train
+Phenix,Phoenix,misspelling_drop,train
+Phoennix,Phoenix,misspelling_double,train
+Phoenix.py,Phoenix,suffix_added,train
+pinecone,Pinecone,lowercase,train
+PINECONE,Pinecone,uppercase,train
+Pinecone v2,Pinecone,version_qualified,train
+Pineocne,Pinecone,misspelling_swap,train
+Pincone,Pinecone,misspelling_drop,train
+Pineccone,Pinecone,misspelling_double,train
+Pinecone.py,Pinecone,suffix_added,train
+pinia,Pinia,lowercase,train
+PINIA,Pinia,uppercase,train
+Pinia 3,Pinia,version_qualified,train
+Pinai,Pinia,misspelling_swap,train
+Pnia,Pinia,misspelling_drop,train
+Pinnia,Pinia,misspelling_double,train
+Pinia.py,Pinia,suffix_added,train
+pipenv,Pipenv,lowercase,train
+PIPENV,Pipenv,uppercase,train
+Pipenv 1.x,Pipenv,version_qualified,train
+Pipnev,Pipenv,misspelling_swap,train
+Pipnv,Pipenv,misspelling_drop,train
+Pippenv,Pipenv,misspelling_double,train
+Pipenv.rs,Pipenv,suffix_added,train
+planetscale,PlanetScale,lowercase,train
+PLANETSCALE,PlanetScale,uppercase,train
+PlanetScale 4,PlanetScale,version_qualified,train
+PlnaetScale,PlanetScale,misspelling_swap,train
+PlnetScale,PlanetScale,misspelling_drop,train
+PlaanetScale,PlanetScale,misspelling_double,train
+PlanetScale.js,PlanetScale,suffix_added,train
+playwright,Playwright,lowercase,train
+PLAYWRIGHT,Playwright,uppercase,train
+Playwright 3,Playwright,version_qualified,train
+Plyawright,Playwright,misspelling_swap,train
+Playwrght,Playwright,misspelling_drop,train
+Playywright,Playwright,misspelling_double,train
+Playwright.rs,Playwright,suffix_added,train
+podman,Podman,lowercase,train
+PODMAN,Podman,uppercase,train
+Podman 3.x,Podman,version_qualified,train
+Podamn,Podman,misspelling_swap,train
+Pdman,Podman,misspelling_drop,train
+Podmaan,Podman,misspelling_double,train
+Podman.py,Podman,suffix_added,train
+poetry,Poetry,lowercase,train
+POETRY,Poetry,uppercase,train
+Poetry v5,Poetry,version_qualified,train
+Poetyr,Poetry,misspelling_swap,train
+Petry,Poetry,misspelling_drop,train
+Poettry,Poetry,misspelling_double,train
+Poetry.rs,Poetry,suffix_added,train
+postgresql,PostgreSQL,lowercase,train
+POSTGRESQL,PostgreSQL,uppercase,train
+PG,PostgreSQL,abbreviation,train
+PSQL,PostgreSQL,abbreviation,train
+Postgres,PostgreSQL,abbreviation,train
+PostgreSQL 5.0,PostgreSQL,version_qualified,train
+PostgrSeQL,PostgreSQL,misspelling_swap,train
+PotgreSQL,PostgreSQL,misspelling_drop,train
+PostggreSQL,PostgreSQL,misspelling_double,train
+PostgreSQL.js,PostgreSQL,suffix_added,train
+prisma,Prisma,lowercase,train
+PRISMA,Prisma,uppercase,train
+Prisma v5,Prisma,version_qualified,train
+Prisam,Prisma,misspelling_swap,train
+Prsma,Prisma,misspelling_drop,train
+Prrisma,Prisma,misspelling_double,train
+Prisma.py,Prisma,suffix_added,train
+prometheus,Prometheus,lowercase,train
+PROMETHEUS,Prometheus,uppercase,train
+Prometheus 2,Prometheus,version_qualified,train
+Prometehus,Prometheus,misspelling_swap,train
+Prmetheus,Prometheus,misspelling_drop,train
+Promettheus,Prometheus,misspelling_double,train
+Prometheus.rs,Prometheus,suffix_added,train
+pulumi,Pulumi,lowercase,test
+PULUMI,Pulumi,uppercase,test
+Pulumi v2,Pulumi,version_qualified,test
+Puluim,Pulumi,misspelling_swap,test
+Plumi,Pulumi,misspelling_drop,test
+Puluumi,Pulumi,misspelling_double,test
+Pulumi.js,Pulumi,suffix_added,test
+puppet,Puppet,lowercase,train
+PUPPET,Puppet,uppercase,train
+Puppet v4,Puppet,version_qualified,train
+Pupept,Puppet,misspelling_swap,train
+Pupet,Puppet,misspelling_drop,train
+Pupppet,Puppet,misspelling_double,train
+Puppet.py,Puppet,suffix_added,train
+puppeteer,Puppeteer,lowercase,train
+PUPPETEER,Puppeteer,uppercase,train
+Puppeteer 3.x,Puppeteer,version_qualified,train
+Puppeteer,Puppeteer,misspelling_swap,train
+Puppeter,Puppeteer,misspelling_drop,train
+Pupppeteer,Puppeteer,misspelling_double,train
+Puppeteer.rs,Puppeteer,suffix_added,train
+pytorch,PyTorch,lowercase,test
+PYTORCH,PyTorch,uppercase,test
+Torch,PyTorch,abbreviation,test
+PyTorch v5,PyTorch,version_qualified,test
+PyTocrh,PyTorch,misspelling_swap,test
+PTorch,PyTorch,misspelling_drop,test
+PyTTorch,PyTorch,misspelling_double,test
+PyTorch.rs,PyTorch,suffix_added,test
+python,Python,lowercase,train
+PYTHON,Python,uppercase,train
+Py,Python,abbreviation,train
+Python v5,Python,version_qualified,train
+Ptyhon,Python,misspelling_swap,train
+Pthon,Python,misspelling_drop,train
+Pytthon,Python,misspelling_double,train
+Python.py,Python,suffix_added,train
+python 2,Python 2,lowercase,train
+PYTHON 2,Python 2,uppercase,train
+P2,Python 2,abbreviation,train
+Python 2 3,Python 2,version_qualified,train
+Pythno 2,Python 2,misspelling_swap,train
+Pyton 2,Python 2,misspelling_drop,train
+Pytthon 2,Python 2,misspelling_double,train
+Python 2.py,Python 2,suffix_added,train
+qdrant,Qdrant,lowercase,test
+QDRANT,Qdrant,uppercase,test
+Qdrant 5.0,Qdrant,version_qualified,test
+Qdrnat,Qdrant,misspelling_swap,test
+Qrant,Qdrant,misspelling_drop,test
+Qddrant,Qdrant,misspelling_double,test
+Qdrant.js,Qdrant,suffix_added,test
+qwik,Qwik,lowercase,train
+QWIK,Qwik,uppercase,train
+Qwik v4,Qwik,version_qualified,train
+Qiwk,Qwik,misspelling_swap,train
+Qik,Qwik,misspelling_drop,train
+Qwiik,Qwik,misspelling_double,train
+Qwik.py,Qwik,suffix_added,train
+rest api,REST API,lowercase,train
+REST API,REST API,uppercase,train
+REST,REST API,abbreviation,train
+RESTful,REST API,abbreviation,train
+RA,REST API,abbreviation,train
+REST API v5,REST API,version_qualified,train
+RESTA PI,REST API,misspelling_swap,train
+RESTAPI,REST API,misspelling_drop,train
+REST AAPI,REST API,misspelling_double,train
+REST API.py,REST API,suffix_added,train
+rspec,RSpec,lowercase,train
+RSPEC,RSpec,uppercase,train
+RSpec 3,RSpec,version_qualified,train
+RSepc,RSpec,misspelling_swap,train
+Rpec,RSpec,misspelling_drop,train
+RSpeec,RSpec,misspelling_double,train
+RSpec.js,RSpec,suffix_added,train
+rabbitmq,RabbitMQ,lowercase,train
+RABBITMQ,RabbitMQ,uppercase,train
+RabbitMQ 1.x,RabbitMQ,version_qualified,train
+RabbtiMQ,RabbitMQ,misspelling_swap,train
+RbbitMQ,RabbitMQ,misspelling_drop,train
+RabbbitMQ,RabbitMQ,misspelling_double,train
+RabbitMQ.rs,RabbitMQ,suffix_added,train
+radix ui,Radix UI,lowercase,train
+RADIX UI,Radix UI,uppercase,train
+RU,Radix UI,abbreviation,train
+Radix UI v5,Radix UI,version_qualified,train
+RadixU I,Radix UI,misspelling_swap,train
+Radi UI,Radix UI,misspelling_drop,train
+Radix  UI,Radix UI,misspelling_double,train
+Radix UI.rs,Radix UI,suffix_added,train
+railway,Railway,lowercase,train
+RAILWAY,Railway,uppercase,train
+Railway 5.0,Railway,version_qualified,train
+Rialway,Railway,misspelling_swap,train
+Ralway,Railway,misspelling_drop,train
+Railwway,Railway,misspelling_double,train
+Railway.rs,Railway,suffix_added,train
+rancher,Rancher,lowercase,train
+RANCHER,Rancher,uppercase,train
+Rancher 3.x,Rancher,version_qualified,train
+Rnacher,Rancher,misspelling_swap,train
+Racher,Rancher,misspelling_drop,train
+Ranccher,Rancher,misspelling_double,train
+Rancher.js,Rancher,suffix_added,train
+react,React,lowercase,train
+REACT,React,uppercase,train
+ReactJS,React,abbreviation,train
+React v4,React,version_qualified,train
+Recat,React,misspelling_swap,train
+Rect,React,misspelling_drop,train
+Reaact,React,misspelling_double,train
+React.js,React,suffix_added,train
+react testing library,React Testing Library,lowercase,train
+REACT TESTING LIBRARY,React Testing Library,uppercase,train
+RTL,React Testing Library,abbreviation,train
+React Testing Library 3.x,React Testing Library,version_qualified,train
+React Testing Lirbary,React Testing Library,misspelling_swap,train
+React Testing ibrary,React Testing Library,misspelling_drop,train
+React TTesting Library,React Testing Library,misspelling_double,train
+React Testing Library.js,React Testing Library,suffix_added,train
+recoil,Recoil,lowercase,train
+RECOIL,Recoil,uppercase,train
+Recoil 3,Recoil,version_qualified,train
+Reocil,Recoil,misspelling_swap,train
+Recil,Recoil,misspelling_drop,train
+Reecoil,Recoil,misspelling_double,train
+Recoil.py,Recoil,suffix_added,train
+redis,Redis,lowercase,train
+REDIS,Redis,uppercase,train
+Redis 3.x,Redis,version_qualified,train
+Reids,Redis,misspelling_swap,train
+Rdis,Redis,misspelling_drop,train
+Reddis,Redis,misspelling_double,train
+Redis.js,Redis,suffix_added,train
+redux,Redux,lowercase,train
+REDUX,Redux,uppercase,train
+Redux 1.x,Redux,version_qualified,train
+Redxu,Redux,misspelling_swap,train
+Reux,Redux,misspelling_drop,train
+Reduux,Redux,misspelling_double,train
+Redux.py,Redux,suffix_added,train
+redux toolkit,Redux Toolkit,lowercase,train
+REDUX TOOLKIT,Redux Toolkit,uppercase,train
+RTK,Redux Toolkit,abbreviation,train
+RT,Redux Toolkit,abbreviation,train
+Redux Toolkit v5,Redux Toolkit,version_qualified,train
+Redux Toolkit,Redux Toolkit,misspelling_swap,train
+ReduxToolkit,Redux Toolkit,misspelling_drop,train
+Reddux Toolkit,Redux Toolkit,misspelling_double,train
+Redux Toolkit.py,Redux Toolkit,suffix_added,train
+remix,Remix,lowercase,train
+REMIX,Remix,uppercase,train
+Remix 3.x,Remix,version_qualified,train
+Reimx,Remix,misspelling_swap,train
+Rmix,Remix,misspelling_drop,train
+Remiix,Remix,misspelling_double,train
+Remix.py,Remix,suffix_added,train
+render,Render,lowercase,train
+RENDER,Render,uppercase,train
+Render 1.x,Render,version_qualified,train
+Rneder,Render,misspelling_swap,train
+Rendr,Render,misspelling_drop,train
+Reender,Render,misspelling_double,train
+Render.js,Render,suffix_added,train
+rollbar,Rollbar,lowercase,train
+ROLLBAR,Rollbar,uppercase,train
+Rollbar 3,Rollbar,version_qualified,train
+Rollbra,Rollbar,misspelling_swap,train
+Rollar,Rollbar,misspelling_drop,train
+Rollbaar,Rollbar,misspelling_double,train
+Rollbar.js,Rollbar,suffix_added,train
+rollup,Rollup,lowercase,train
+ROLLUP,Rollup,uppercase,train
+Rollup 3,Rollup,version_qualified,train
+Rolulp,Rollup,misspelling_swap,train
+Rolup,Rollup,misspelling_drop,train
+Rolllup,Rollup,misspelling_double,train
+Rollup.py,Rollup,suffix_added,train
+ruby,Ruby,lowercase,train
+RUBY,Ruby,uppercase,train
+Ruby v4,Ruby,version_qualified,train
+Rbuy,Ruby,misspelling_swap,train
+Rby,Ruby,misspelling_drop,train
+Ruuby,Ruby,misspelling_double,train
+Ruby.py,Ruby,suffix_added,train
+ruby on rails,Ruby on Rails,lowercase,train
+RUBY ON RAILS,Ruby on Rails,uppercase,train
+Rails,Ruby on Rails,abbreviation,train
+RoR,Ruby on Rails,abbreviation,train
+ROR,Ruby on Rails,abbreviation,train
+Ruby on Rails 1.x,Ruby on Rails,version_qualified,train
+Ruby on Raisl,Ruby on Rails,misspelling_swap,train
+Rub on Rails,Ruby on Rails,misspelling_drop,train
+Ruby  on Rails,Ruby on Rails,misspelling_double,train
+Ruby on Rails.js,Ruby on Rails,suffix_added,train
+rubygems,RubyGems,lowercase,train
+RUBYGEMS,RubyGems,uppercase,train
+RubyGems v4,RubyGems,version_qualified,train
+RubGyems,RubyGems,misspelling_swap,train
+RuyGems,RubyGems,misspelling_drop,train
+RubbyGems,RubyGems,misspelling_double,train
+RubyGems.rs,RubyGems,suffix_added,train
+rust,Rust,lowercase,train
+RUST,Rust,uppercase,train
+Rust v4,Rust,version_qualified,train
+Rsut,Rust,misspelling_swap,train
+Rst,Rust,misspelling_drop,train
+Russt,Rust,misspelling_double,train
+Rust.py,Rust,suffix_added,train
+saml,SAML,lowercase,train
+SAML,SAML,uppercase,train
+SAML v3,SAML,version_qualified,train
+SALM,SAML,misspelling_swap,train
+SAL,SAML,misspelling_drop,train
+SAMML,SAML,misspelling_double,train
+SAML.js,SAML,suffix_added,train
+soap,SOAP,lowercase,test
+SOAP,SOAP,uppercase,test
+SOAP 4,SOAP,version_qualified,test
+SAOP,SOAP,misspelling_swap,test
+SOP,SOAP,misspelling_drop,test
+SOAAP,SOAP,misspelling_double,test
+SOAP.rs,SOAP,suffix_added,test
+sqlalchemy,SQLAlchemy,lowercase,train
+SQLALCHEMY,SQLAlchemy,uppercase,train
+SQLAlchemy 5.0,SQLAlchemy,version_qualified,train
+SQLAlhcemy,SQLAlchemy,misspelling_swap,train
+SLAlchemy,SQLAlchemy,misspelling_drop,train
+SQLAlchhemy,SQLAlchemy,misspelling_double,train
+SQLAlchemy.rs,SQLAlchemy,suffix_added,train
+sqlmodel,SQLModel,lowercase,train
+SQLMODEL,SQLModel,uppercase,train
+SQLModel 2.0,SQLModel,version_qualified,train
+SQLoMdel,SQLModel,misspelling_swap,train
+SQLMdel,SQLModel,misspelling_drop,train
+SQLMoodel,SQLModel,misspelling_double,train
+SQLModel.js,SQLModel,suffix_added,train
+sqlite,SQLite,lowercase,train
+SQLITE,SQLite,uppercase,train
+SQLite 3.x,SQLite,version_qualified,train
+SQLtie,SQLite,misspelling_swap,train
+SQLte,SQLite,misspelling_drop,train
+SQQLite,SQLite,misspelling_double,train
+SQLite.rs,SQLite,suffix_added,train
+swc,SWC,lowercase,train
+SWC,SWC,uppercase,train
+SWC 2.0,SWC,version_qualified,train
+SCW,SWC,misspelling_swap,train
+SWC,SWC,misspelling_drop,train
+SWWC,SWC,misspelling_double,train
+SWC.rs,SWC,suffix_added,train
+saltstack,SaltStack,lowercase,train
+SALTSTACK,SaltStack,uppercase,train
+SaltStack 2,SaltStack,version_qualified,train
+SaltStakc,SaltStack,misspelling_swap,train
+SaltStck,SaltStack,misspelling_drop,train
+SaaltStack,SaltStack,misspelling_double,train
+SaltStack.py,SaltStack,suffix_added,train
+sass,Sass,lowercase,train
+SASS,Sass,uppercase,train
+Sass v3,Sass,version_qualified,train
+Ssas,Sass,misspelling_swap,train
+Sas,Sass,misspelling_drop,train
+Sasss,Sass,misspelling_double,train
+Sass.rs,Sass,suffix_added,train
+scala,Scala,lowercase,train
+SCALA,Scala,uppercase,train
+Scala v4,Scala,version_qualified,train
+Sacla,Scala,misspelling_swap,train
+Scla,Scala,misspelling_drop,train
+Sccala,Scala,misspelling_double,train
+Scala.py,Scala,suffix_added,train
+semaphore,Semaphore,lowercase,train
+SEMAPHORE,Semaphore,uppercase,train
+Semaphore 2.0,Semaphore,version_qualified,train
+Semapohre,Semaphore,misspelling_swap,train
+Semaphre,Semaphore,misspelling_drop,train
+Semmaphore,Semaphore,misspelling_double,train
+Semaphore.js,Semaphore,suffix_added,train
+sentry,Sentry,lowercase,train
+SENTRY,Sentry,uppercase,train
+Sentry v2,Sentry,version_qualified,train
+Sentyr,Sentry,misspelling_swap,train
+Senty,Sentry,misspelling_drop,train
+Senntry,Sentry,misspelling_double,train
+Sentry.py,Sentry,suffix_added,train
+sequelize,Sequelize,lowercase,train
+SEQUELIZE,Sequelize,uppercase,train
+Sequelize 1.x,Sequelize,version_qualified,train
+Seqeulize,Sequelize,misspelling_swap,train
+Sequlize,Sequelize,misspelling_drop,train
+Sequeelize,Sequelize,misspelling_double,train
+Sequelize.py,Sequelize,suffix_added,train
+serverless,Serverless,lowercase,train
+SERVERLESS,Serverless,uppercase,train
+Serverless v5,Serverless,version_qualified,train
+Sreverless,Serverless,misspelling_swap,train
+Serveress,Serverless,misspelling_drop,train
+Serrverless,Serverless,misspelling_double,train
+Serverless.py,Serverless,suffix_added,train
+solidjs,SolidJS,lowercase,train
+SOLIDJS,SolidJS,uppercase,train
+SolidJS 2.0,SolidJS,version_qualified,train
+SolidSJ,SolidJS,misspelling_swap,train
+SoliJS,SolidJS,misspelling_drop,train
+SoliidJS,SolidJS,misspelling_double,train
+Solid,SolidJS,suffix_removed,train
+spinnaker,Spinnaker,lowercase,train
+SPINNAKER,Spinnaker,uppercase,train
+Spinnaker 5.0,Spinnaker,version_qualified,train
+Spinnaekr,Spinnaker,misspelling_swap,train
+Spinnakr,Spinnaker,misspelling_drop,train
+Spinnakker,Spinnaker,misspelling_double,train
+Spinnaker.rs,Spinnaker,suffix_added,train
+splunk,Splunk,lowercase,train
+SPLUNK,Splunk,uppercase,train
+Splunk v4,Splunk,version_qualified,train
+Splnuk,Splunk,misspelling_swap,train
+Slunk,Splunk,misspelling_drop,train
+Spllunk,Splunk,misspelling_double,train
+Splunk.py,Splunk,suffix_added,train
+spring,Spring,lowercase,train
+SPRING,Spring,uppercase,train
+Spring 5.0,Spring,version_qualified,train
+Sprign,Spring,misspelling_swap,train
+Sping,Spring,misspelling_drop,train
+Sppring,Spring,misspelling_double,train
+Spring.py,Spring,suffix_added,train
+spring boot,Spring Boot,lowercase,test
+SPRING BOOT,Spring Boot,uppercase,test
+SB,Spring Boot,abbreviation,test
+Spring Boot 2,Spring Boot,version_qualified,test
+Spring oBot,Spring Boot,misspelling_swap,test
+SpringBoot,Spring Boot,misspelling_drop,test
+Spriing Boot,Spring Boot,misspelling_double,test
+Spring Boot.rs,Spring Boot,suffix_added,test
+supabase,Supabase,lowercase,train
+SUPABASE,Supabase,uppercase,train
+Supabase v5,Supabase,version_qualified,train
+Supabsae,Supabase,misspelling_swap,train
+Spabase,Supabase,misspelling_drop,train
+Supabasse,Supabase,misspelling_double,train
+Supabase.rs,Supabase,suffix_added,train
+supertokens,SuperTokens,lowercase,train
+SUPERTOKENS,SuperTokens,uppercase,train
+SuperTokens 3,SuperTokens,version_qualified,train
+SuperTokesn,SuperTokens,misspelling_swap,train
+SuperTkens,SuperTokens,misspelling_drop,train
+SuuperTokens,SuperTokens,misspelling_double,train
+SuperTokens.py,SuperTokens,suffix_added,train
+svelte,Svelte,lowercase,train
+SVELTE,Svelte,uppercase,train
+Svelte 5.0,Svelte,version_qualified,train
+Svlete,Svelte,misspelling_swap,train
+Svlte,Svelte,misspelling_drop,train
+Svellte,Svelte,misspelling_double,train
+Svelte.py,Svelte,suffix_added,train
+sveltekit,SvelteKit,lowercase,train
+SVELTEKIT,SvelteKit,uppercase,train
+SvelteKit v2,SvelteKit,version_qualified,train
+SvleteKit,SvelteKit,misspelling_swap,train
+SvlteKit,SvelteKit,misspelling_drop,train
+SveelteKit,SvelteKit,misspelling_double,train
+SvelteKit.js,SvelteKit,suffix_added,train
+swift,Swift,lowercase,test
+SWIFT,Swift,uppercase,test
+Swift 5.0,Swift,version_qualified,test
+Siwft,Swift,misspelling_swap,test
+Swit,Swift,misspelling_drop,test
+Swifft,Swift,misspelling_double,test
+Swift.rs,Swift,suffix_added,test
+tailwind css,Tailwind CSS,lowercase,test
+TAILWIND CSS,Tailwind CSS,uppercase,test
+TW,Tailwind CSS,abbreviation,test
+Tailwind,Tailwind CSS,abbreviation,test
+TC,Tailwind CSS,abbreviation,test
+Tailwind CSS 2,Tailwind CSS,version_qualified,test
+Tialwind CSS,Tailwind CSS,misspelling_swap,test
+Tailwid CSS,Tailwind CSS,misspelling_drop,test
+Tailwind CSSS,Tailwind CSS,misspelling_double,test
+Tailwind CSS.js,Tailwind CSS,suffix_added,test
+teamcity,TeamCity,lowercase,train
+TEAMCITY,TeamCity,uppercase,train
+TeamCity v3,TeamCity,version_qualified,train
+TeamiCty,TeamCity,misspelling_swap,train
+TemCity,TeamCity,misspelling_drop,train
+TeaamCity,TeamCity,misspelling_double,train
+TeamCity.js,TeamCity,suffix_added,train
+tensorflow,TensorFlow,lowercase,train
+TENSORFLOW,TensorFlow,uppercase,train
+TF,TensorFlow,abbreviation,train
+TensorFlow v3,TensorFlow,version_qualified,train
+TenosrFlow,TensorFlow,misspelling_swap,train
+TensorFlw,TensorFlow,misspelling_drop,train
+TeensorFlow,TensorFlow,misspelling_double,train
+TensorFlow.py,TensorFlow,suffix_added,train
+terraform,Terraform,lowercase,train
+TERRAFORM,Terraform,uppercase,train
+Terraform 1.x,Terraform,version_qualified,train
+Terrafrom,Terraform,misspelling_swap,train
+Terrafrm,Terraform,misspelling_drop,train
+Terrraform,Terraform,misspelling_double,train
+Terraform.py,Terraform,suffix_added,train
+testng,TestNG,lowercase,train
+TESTNG,TestNG,uppercase,train
+TestNG v3,TestNG,version_qualified,train
+TesNtG,TestNG,misspelling_swap,train
+TestG,TestNG,misspelling_drop,train
+TesstNG,TestNG,misspelling_double,train
+TestNG.rs,TestNG,suffix_added,train
+testing library,Testing Library,lowercase,train
+TESTING LIBRARY,Testing Library,uppercase,train
+TL,Testing Library,abbreviation,train
+Testing Library v2,Testing Library,version_qualified,train
+Testign Library,Testing Library,misspelling_swap,train
+Testing Libray,Testing Library,misspelling_drop,train
+Testing Librarry,Testing Library,misspelling_double,train
+Testing Library.py,Testing Library,suffix_added,train
+timescaledb,TimescaleDB,lowercase,train
+TIMESCALEDB,TimescaleDB,uppercase,train
+TimescaleDB v2,TimescaleDB,version_qualified,train
+TimesclaeDB,TimescaleDB,misspelling_swap,train
+TimescalDB,TimescaleDB,misspelling_drop,train
+TimescaleeDB,TimescaleDB,misspelling_double,train
+TimescaleDB.py,TimescaleDB,suffix_added,train
+tortoise orm,Tortoise ORM,lowercase,test
+TORTOISE ORM,Tortoise ORM,uppercase,test
+TO,Tortoise ORM,abbreviation,test
+Tortoise ORM 3,Tortoise ORM,version_qualified,test
+Tortoise ROM,Tortoise ORM,misspelling_swap,test
+Tortoise RM,Tortoise ORM,misspelling_drop,test
+Tortoisee ORM,Tortoise ORM,misspelling_double,test
+Tortoise ORM.js,Tortoise ORM,suffix_added,test
+travis ci,Travis CI,lowercase,train
+TRAVIS CI,Travis CI,uppercase,train
+TC,Travis CI,abbreviation,train
+Travis CI v2,Travis CI,version_qualified,train
+Travis IC,Travis CI,misspelling_swap,train
+Travi CI,Travis CI,misspelling_drop,train
+Traavis CI,Travis CI,misspelling_double,train
+Travis CI.py,Travis CI,suffix_added,train
+turbopack,Turbopack,lowercase,train
+TURBOPACK,Turbopack,uppercase,train
+Turbopack 3.x,Turbopack,version_qualified,train
+Turbopcak,Turbopack,misspelling_swap,train
+Turbpack,Turbopack,misspelling_drop,train
+Turbopacck,Turbopack,misspelling_double,train
+Turbopack.py,Turbopack,suffix_added,train
+twelve-factor app,Twelve-Factor App,lowercase,test
+TWELVE-FACTOR APP,Twelve-Factor App,uppercase,test
+12-factor,Twelve-Factor App,abbreviation,test
+TFA,Twelve-Factor App,abbreviation,test
+Twelve-Factor App 2,Twelve-Factor App,version_qualified,test
+Twelve-Factor App,Twelve-Factor App,misspelling_swap,test
+Twlve-Factor App,Twelve-Factor App,misspelling_drop,test
+Twelve-Factorr App,Twelve-Factor App,misspelling_double,test
+Twelve-Factor App.rs,Twelve-Factor App,suffix_added,test
+typeorm,TypeORM,lowercase,train
+TYPEORM,TypeORM,uppercase,train
+TypeORM 2.0,TypeORM,version_qualified,train
+TypOeRM,TypeORM,misspelling_swap,train
+TpeORM,TypeORM,misspelling_drop,train
+TyppeORM,TypeORM,misspelling_double,train
+TypeORM.py,TypeORM,suffix_added,train
+typescript,TypeScript,lowercase,train
+TYPESCRIPT,TypeScript,uppercase,train
+TS,TypeScript,abbreviation,train
+TypeScript 4,TypeScript,version_qualified,train
+TypSecript,TypeScript,misspelling_swap,train
+TypeScrpt,TypeScript,misspelling_drop,train
+TyppeScript,TypeScript,misspelling_double,train
+TypeScript.js,TypeScript,suffix_added,train
+typescript compiler,TypeScript Compiler,lowercase,train
+TYPESCRIPT COMPILER,TypeScript Compiler,uppercase,train
+TC,TypeScript Compiler,abbreviation,train
+TypeScript Compiler 4,TypeScript Compiler,version_qualified,train
+TypeScript Cmopiler,TypeScript Compiler,misspelling_swap,train
+TpeScript Compiler,TypeScript Compiler,misspelling_drop,train
+TypeScript Comppiler,TypeScript Compiler,misspelling_double,train
+TypeScript Compiler.js,TypeScript Compiler,suffix_added,train
+valtio,Valtio,lowercase,train
+VALTIO,Valtio,uppercase,train
+Valtio 3,Valtio,version_qualified,train
+Valito,Valtio,misspelling_swap,train
+Vatio,Valtio,misspelling_drop,train
+Valtiio,Valtio,misspelling_double,train
+Valtio.js,Valtio,suffix_added,train
+vercel,Vercel,lowercase,train
+VERCEL,Vercel,uppercase,train
+Vercel 1.x,Vercel,version_qualified,train
+Vecrel,Vercel,misspelling_swap,train
+Vrcel,Vercel,misspelling_drop,train
+Verccel,Vercel,misspelling_double,train
+Vercel.js,Vercel,suffix_added,train
+vite,Vite,lowercase,test
+VITE,Vite,uppercase,test
+Vite v5,Vite,version_qualified,test
+Viet,Vite,misspelling_swap,test
+Vte,Vite,misspelling_drop,test
+Viite,Vite,misspelling_double,test
+Vite.js,Vite,suffix_added,test
+vitest,Vitest,lowercase,train
+VITEST,Vitest,uppercase,train
+Vitest 5.0,Vitest,version_qualified,train
+Vitets,Vitest,misspelling_swap,train
+Viest,Vitest,misspelling_drop,train
+Vitesst,Vitest,misspelling_double,train
+Vitest.py,Vitest,suffix_added,train
+vue.js,Vue.js,lowercase,train
+VUE.JS,Vue.js,uppercase,train
+Vue,Vue.js,abbreviation,train
+VJ,Vue.js,abbreviation,train
+Vue.js v3,Vue.js,version_qualified,train
+Veu.js,Vue.js,misspelling_swap,train
+Ve.js,Vue.js,misspelling_drop,train
+Vuue.js,Vue.js,misspelling_double,train
+Vue,Vue.js,suffix_removed,train
+vuex,Vuex,lowercase,train
+VUEX,Vuex,uppercase,train
+Vuex 5.0,Vuex,version_qualified,train
+Veux,Vuex,misspelling_swap,train
+Vex,Vuex,misspelling_drop,train
+Vueex,Vuex,misspelling_double,train
+Vuex.js,Vuex,suffix_added,train
+vultr,Vultr,lowercase,train
+VULTR,Vultr,uppercase,train
+Vultr 5.0,Vultr,version_qualified,train
+Vlutr,Vultr,misspelling_swap,train
+Vutr,Vultr,misspelling_drop,train
+Vuultr,Vultr,misspelling_double,train
+Vultr.js,Vultr,suffix_added,train
+weaviate,Weaviate,lowercase,test
+WEAVIATE,Weaviate,uppercase,test
+Weaviate v2,Weaviate,version_qualified,test
+Weavaite,Weaviate,misspelling_swap,test
+Weaviae,Weaviate,misspelling_drop,test
+Weaviaate,Weaviate,misspelling_double,test
+Weaviate.py,Weaviate,suffix_added,test
+websocket,WebSocket,lowercase,test
+WEBSOCKET,WebSocket,uppercase,test
+WS,WebSocket,abbreviation,test
+WebSocket 2.0,WebSocket,version_qualified,test
+WbeSocket,WebSocket,misspelling_swap,test
+WebSockt,WebSocket,misspelling_drop,test
+WebSoocket,WebSocket,misspelling_double,test
+WebSocket.rs,WebSocket,suffix_added,test
+webpack,Webpack,lowercase,train
+WEBPACK,Webpack,uppercase,train
+Webpack 2,Webpack,version_qualified,train
+Wbepack,Webpack,misspelling_swap,train
+Webpak,Webpack,misspelling_drop,train
+Webpacck,Webpack,misspelling_double,train
+Webpack.js,Webpack,suffix_added,train
+weights & biases,Weights & Biases,lowercase,train
+WEIGHTS & BIASES,Weights & Biases,uppercase,train
+W&B,Weights & Biases,abbreviation,train
+wandb,Weights & Biases,abbreviation,train
+Weights & Biases v4,Weights & Biases,version_qualified,train
+Weighst & Biases,Weights & Biases,misspelling_swap,train
+Weights& Biases,Weights & Biases,misspelling_drop,train
+Weeights & Biases,Weights & Biases,misspelling_double,train
+Weights & Biases.rs,Weights & Biases,suffix_added,train
+xgboost,XGBoost,lowercase,train
+XGBOOST,XGBoost,uppercase,train
+XGBoost 1.x,XGBoost,version_qualified,train
+XGoBost,XGBoost,misspelling_swap,train
+XGBoot,XGBoost,misspelling_drop,train
+XGBooost,XGBoost,misspelling_double,train
+XGBoost.js,XGBoost,suffix_added,train
+xstate,XState,lowercase,train
+XSTATE,XState,uppercase,train
+XState v5,XState,version_qualified,train
+XtSate,XState,misspelling_swap,train
+XStte,XState,misspelling_drop,train
+XSState,XState,misspelling_double,train
+XState.rs,XState,suffix_added,train
+yarn,Yarn,lowercase,train
+YARN,Yarn,uppercase,train
+Yarn 2,Yarn,version_qualified,train
+Yran,Yarn,misspelling_swap,train
+Yan,Yarn,misspelling_drop,train
+Yarrn,Yarn,misspelling_double,train
+Yarn.js,Yarn,suffix_added,train
+zeromq,ZeroMQ,lowercase,test
+ZEROMQ,ZeroMQ,uppercase,test
+ZeroMQ v5,ZeroMQ,version_qualified,test
+ZeroQM,ZeroMQ,misspelling_swap,test
+ZerMQ,ZeroMQ,misspelling_drop,test
+ZerooMQ,ZeroMQ,misspelling_double,test
+ZeroMQ.rs,ZeroMQ,suffix_added,test
+zipkin,Zipkin,lowercase,train
+ZIPKIN,Zipkin,uppercase,train
+Zipkin 3.x,Zipkin,version_qualified,train
+Zipikn,Zipkin,misspelling_swap,train
+Zpkin,Zipkin,misspelling_drop,train
+Zipkkin,Zipkin,misspelling_double,train
+Zipkin.js,Zipkin,suffix_added,train
+zustand,Zustand,lowercase,train
+ZUSTAND,Zustand,uppercase,train
+Zustand v5,Zustand,version_qualified,train
+Zsutand,Zustand,misspelling_swap,train
+Zustad,Zustand,misspelling_drop,train
+Zusttand,Zustand,misspelling_double,train
+Zustand.js,Zustand,suffix_added,train
+containerd,containerd,lowercase,train
+CONTAINERD,containerd,uppercase,train
+containerd 3.x,containerd,version_qualified,train
+contaienrd,containerd,misspelling_swap,train
+contaierd,containerd,misspelling_drop,train
+conttainerd,containerd,misspelling_double,train
+containerd.rs,containerd,suffix_added,train
+esbuild,esbuild,lowercase,test
+ESBUILD,esbuild,uppercase,test
+esbuild 4,esbuild,version_qualified,test
+esbulid,esbuild,misspelling_swap,test
+esuild,esbuild,misspelling_drop,test
+esbbuild,esbuild,misspelling_double,test
+esbuild.js,esbuild,suffix_added,test
+grpc,gRPC,lowercase,train
+GRPC,gRPC,uppercase,train
+gRPC 4,gRPC,version_qualified,train
+gPRC,gRPC,misspelling_swap,train
+gRC,gRPC,misspelling_drop,train
+gRRPC,gRPC,misspelling_double,train
+gRPC.js,gRPC,suffix_added,train
+nose,nose,lowercase,test
+NOSE,nose,uppercase,test
+nose v2,nose,version_qualified,test
+nsoe,nose,misspelling_swap,test
+noe,nose,misspelling_drop,test
+nosse,nose,misspelling_double,test
+nose.rs,nose,suffix_added,test
+npm,npm,lowercase,train
+NPM,npm,uppercase,train
+npm 3,npm,version_qualified,train
+nmp,npm,misspelling_swap,train
+npm,npm,misspelling_drop,train
+nppm,npm,misspelling_double,train
+npm.js,npm,suffix_added,train
+pgvector,pgvector,lowercase,train
+PGVECTOR,pgvector,uppercase,train
+pgvector v5,pgvector,version_qualified,train
+pgevctor,pgvector,misspelling_swap,train
+pgvctor,pgvector,misspelling_drop,train
+pgveector,pgvector,misspelling_double,train
+pgvector.js,pgvector,suffix_added,train
+pip,pip,lowercase,test
+PIP,pip,uppercase,test
+pip v5,pip,version_qualified,test
+ppi,pip,misspelling_swap,test
+pip,pip,misspelling_drop,test
+piip,pip,misspelling_double,test
+pip.js,pip,suffix_added,test
+pnpm,pnpm,lowercase,test
+PNPM,pnpm,uppercase,test
+pnpm 1.x,pnpm,version_qualified,test
+pnmp,pnpm,misspelling_swap,test
+pnm,pnpm,misspelling_drop,test
+pnppm,pnpm,misspelling_double,test
+pnpm.py,pnpm,suffix_added,test
+pytest,pytest,lowercase,train
+PYTEST,pytest,uppercase,train
+pytest 1.x,pytest,version_qualified,train
+pyetst,pytest,misspelling_swap,train
+pytet,pytest,misspelling_drop,train
+pytesst,pytest,misspelling_double,train
+pytest.py,pytest,suffix_added,train
+scikit-learn,scikit-learn,lowercase,test
+SCIKIT-LEARN,scikit-learn,uppercase,test
+sklearn,scikit-learn,abbreviation,test
+SL,scikit-learn,abbreviation,test
+scikit-learn 2,scikit-learn,version_qualified,test
+sciki-tlearn,scikit-learn,misspelling_swap,test
+sckit-learn,scikit-learn,misspelling_drop,test
+scikit-llearn,scikit-learn,misspelling_double,test
+scikit-learn.js,scikit-learn,suffix_added,test
+shadcn/ui,shadcn/ui,lowercase,test
+SHADCN/UI,shadcn/ui,uppercase,test
+SU,shadcn/ui,abbreviation,test
+shadcn/ui 3,shadcn/ui,version_qualified,test
+shadc/nui,shadcn/ui,misspelling_swap,test
+shadcn/i,shadcn/ui,misspelling_drop,test
+shaadcn/ui,shadcn/ui,misspelling_double,test
+shadcn/ui.rs,shadcn/ui,suffix_added,test
+styled-components,styled-components,lowercase,train
+STYLED-COMPONENTS,styled-components,uppercase,train
+SC,styled-components,abbreviation,train
+styled-components 5.0,styled-components,version_qualified,train
+styledc-omponents,styled-components,misspelling_swap,train
+stled-components,styled-components,misspelling_drop,train
+styyled-components,styled-components,misspelling_double,train
+styled-components.py,styled-components,suffix_added,train
+trpc,tRPC,lowercase,train
+TRPC,tRPC,uppercase,train
+tRPC v5,tRPC,version_qualified,train
+tRCP,tRPC,misspelling_swap,train
+tRC,tRPC,misspelling_drop,train
+tRPPC,tRPC,misspelling_double,train
+tRPC.rs,tRPC,suffix_added,train
+tsup,tsup,lowercase,train
+TSUP,tsup,uppercase,train
+tsup 3,tsup,version_qualified,train
+tusp,tsup,misspelling_swap,train
+tsp,tsup,misspelling_drop,train
+tsuup,tsup,misspelling_double,train
+tsup.py,tsup,suffix_added,train
+unbuild,unbuild,lowercase,train
+UNBUILD,unbuild,uppercase,train
+unbuild 3.x,unbuild,version_qualified,train
+unbiuld,unbuild,misspelling_swap,train
+unbuid,unbuild,misspelling_drop,train
+unbuiild,unbuild,misspelling_double,train
+unbuild.py,unbuild,suffix_added,train
+unittest,unittest,lowercase,train
+UNITTEST,unittest,uppercase,train
+unittest v5,unittest,version_qualified,train
+uinttest,unittest,misspelling_swap,train
+uittest,unittest,misspelling_drop,train
+unittesst,unittest,misspelling_double,train
+unittest.rs,unittest,suffix_added,train
+uv,uv,lowercase,test
+UV,uv,uppercase,test
+uv 3,uv,version_qualified,test
+uv,uv,misspelling_swap,test
+uv,uv,misspelling_drop,test
+uv,uv,misspelling_double,test
+uv.py,uv,suffix_added,test
+vllm,vLLM,lowercase,train
+VLLM,vLLM,uppercase,train
+vLLM 2,vLLM,version_qualified,train
+vLLM,vLLM,misspelling_swap,train
+vLM,vLLM,misspelling_drop,train
+vLLLM,vLLM,misspelling_double,train
+vLLM.rs,vLLM,suffix_added,train
