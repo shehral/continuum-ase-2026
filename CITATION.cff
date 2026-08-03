@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the paper below."
+title: "Continuum: Replication Package (ASE 2026 Industry Showcase)"
+authors:
+  - family-names: Shehral
+    given-names: Mohammad Ali
+    orcid: "https://orcid.org/0009-0000-9545-6243"
+  - family-names: Ravi
+    given-names: Karthik
+    orcid: "https://orcid.org/0009-0008-9328-2858"
+  - family-names: Trivedi
+    given-names: Nikhil
+    orcid: "https://orcid.org/0009-0005-0561-4030"
+  - family-names: Bayat
+    given-names: Akram
+    orcid: "https://orcid.org/0009-0006-4697-470X"
+license: MIT
+repository-code: "https://github.com/shehral/continuum-ase-2026"
+preferred-citation:
+  type: conference-paper
+  title: "Continuum: Automated Construction and Retrieval of Software Decision Knowledge Graphs from Developer-AI Conversations"
+  authors:
+    - family-names: Shehral
+      given-names: Mohammad Ali
+    - family-names: Ravi
+      given-names: Karthik
+    - family-names: Trivedi
+      given-names: Nikhil
+    - family-names: Bayat
+      given-names: Akram
+  collection-title: "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE '26)"
+  year: 2026
+  doi: "10.1145/3832783.3834535"

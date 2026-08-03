@@ -2049,7 +2049,7 @@ Results and datasets stored in `apps/api/evaluation/data/`:
 ## Quick Reference: Privacy Constraints
 
 - ONLY Continuum project logs (`~/.claude/projects/-Users-shehral-continuum/`) may be used for research
-- All other project logs (CS6120, CS5330, Resume, etc.) are private -- never access them
+- All other project logs are private -- never access them
 - Evaluation data uses synthetic conversations (generated, not real logs)
 - `extract_from_logs.py` has an `ALLOWED_PROJECT_DIRS` safeguard -- respect it
 

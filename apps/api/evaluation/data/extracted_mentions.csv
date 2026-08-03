@@ -311,30 +311,8 @@ Your `~/.claude/projects/` directory should contain JSONL files from every Claud
 One more clarifying question, then I'll propose concrete approaches:
 
 **How many Claude Code conversation logs do you personally have from",953,canonical_match:DigitalOcean
-965b9305-940b-483c-894b-fb43e339e08d,Neo4j,"This is excellent data. Here's what we're working with:
-
-`★ Insight ─────────────────────────────────────`
-**You have a goldmine of real conversation data:**
-
-- **Continuum project**: 428 JSONL files (13 main sessions + 41 session directories with subagents), **103MB** of real developer-AI conversation data about building this very system
-- **Nexus project**: 104 files, 77MB
-- **CS6120**: 37 files, 144MB  
-- **CS5330**: 29 files, 88MB
-- **Total across all projects**: 967 JSONL files
-
-The Continu",571,canonical_match:Neo4j
-965b9305-940b-483c-894b-fb43e339e08d,kind,"This is excellent data. Here's what we're working with:
-
-`★ Insight ─────────────────────────────────────`
-**You have a goldmine of real conversation data:**
-
-- **Continuum project**: 428 JSONL files (13 main sessions + 41 session directories with subagents), **103MB** of real developer-AI conversation data about building this very system
-- **Nexus project**: 104 files, 77MB
-- **CS6120**: 37 files, 144MB  
-- **CS5330**: 29 files, 88MB
-- **Total across all projects**: 967 JSONL files
-
-The Continu",655,canonical_match:KinD
+965b9305-940b-483c-894b-fb43e339e08d,Neo4j,[context redacted: personal/employer-related content removed for privacy],571,canonical_match:Neo4j
+965b9305-940b-483c-894b-fb43e339e08d,kind,[context redacted: personal/employer-related content removed for privacy],655,canonical_match:KinD
 965b9305-940b-483c-894b-fb43e339e08d,PostgreSQL,"**Evaluation (doable in ~5 days)**:
 1. Extract entities from your 428 Continuum JSONL logs using the existing extractor
 2. **You** manually verify/correct a sample of ~500-1,000 entity clusterings (this IS the annotation — grouping ""postgres"" with ""PostgreSQL"" etc.)
@@ -7922,264 +7900,65 @@ Routers in `/Users/shehral/continuum/apps/api/routers/`:
 
 1. **Subagent-Driven (this session)** — I dispatch parallel agent teams per task, review between phases. Good for interactive oversight.",320,canonical_match:DigitalOcean
 3dff2078-8001-4938-8584-09ae7806b009,next,Using **brainstorming** to structure the next steps for Continuum v2 execution. We already have the completed design doc and implementation plan from the previous session. Let me quickly review where we left off and what's already been decided.,43,canonical_match:Next.js
-3dff2078-8001-4938-8584-09ae7806b009,do,"details on the website here: https://nanonets.com/ my friend is going to be working at this company on some OCR stuff and he pitched me as a potential FDE etc. but I'm also thinking about talking to them about the continuum project and I see that since they're anyway in the business of document processing for clients, maybe a product like continuum could also be made as a separate offering to their existing customers. What do you think? Think hard and do a deep research on the company and tell m",688,canonical_match:DigitalOcean
+3dff2078-8001-4938-8584-09ae7806b009,do,[context redacted: personal/employer-related content removed for privacy],688,canonical_match:DigitalOcean
 3dff2078-8001-4938-8584-09ae7806b009,do,"but I'm also thinking about talking to them about the continuum project and I see that since they're anyway in the business of document processing for clients, maybe a product like continuum could also be made as a separate offering to their existing customers. What do you think? Think hard and do a deep research on the company and tell me what all I could discuss in the 25 minute call I have with him this Friday",717,canonical_match:DigitalOcean
-3dff2078-8001-4938-8584-09ae7806b009,do,"The user wants me to research Nanonets and find overlaps with Continuum, then prepare talking points for a 25-minute call with their CTO. Let me fetch the Nanonets website and do deep research.",176,canonical_match:DigitalOcean
-3dff2078-8001-4938-8584-09ae7806b009,Hugging Face,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",676,canonical_match:Hugging Face
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"**Workflow Automation** — No-code AP automation, reconciliation, email workflows
-3. **Turing AI Agents** — Autonomous agents for sales/growth (lead sourcing, cold calling, qualification)
-
-**Open source:** [docext](https://github.com/NanoNets/docext) (document extraction toolkit), [Nanonets-OCR-s](https://huggingface.co/nanonets/Nanonets-OCR-s) (3.75B param VLM for document understanding)
-
-**CTO background:** Prathamesh is an IIT-Gandhinagar gold medalist, did research at Caltech, previously co-f",1431,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"**Turing AI Agents** — Autonomous agents for sales/growth (lead sourcing, cold calling, qualification)
-
-**Open source:** [docext](https://github.com/NanoNets/docext) (document extraction toolkit), [Nanonets-OCR-s](https://huggingface.co/nanonets/Nanonets-OCR-s) (3.75B param VLM for document understanding)
-
-**CTO background:** Prathamesh is an IIT-Gandhinagar gold medalist, did research at Caltech, previously co-founded Cubeit (sold to Myntra). Technically deep — moved from CNNs → graph neural ne",1506,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"A paper on ""End-to-end multimodal document understanding to knowledge graph construction"" using Nanonets OCR-s + Continuum's ER pipeline would be novel and publishable. The CTO has a research background (Caltech), so this angle could resonate. ### Frame C: ""Your Role as an FDE/Intern""
-
-Given the overlaps, you could pitch yourself as someone who:
-- Understands their document extraction pipeline AND the next layer (knowledge graphs)
-- Has built production-grade entity resolution (8-stage, which th",5499,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"summer internship preferences
-- What team/project you'd work on
-- Timeline for decision
-
----
-
-## Key Things To Know About Prathamesh Specifically
-
-1. **He's technically deep** — gold medalist, Caltech research, hands-on with model architecture decisions
-2. **He values accuracy over hype** — chose specialized transformers over LLMs specifically to avoid hallucinations
-3. **He's pragmatic about architecture** — tested CNNs → GNNs → transformers, picked whatever worked best
-4. **He's seen graph neu",7459,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"**He's technically deep** — gold medalist, Caltech research, hands-on with model architecture decisions
-2. **He values accuracy over hype** — chose specialized transformers over LLMs specifically to avoid hallucinations
-3. **He's pragmatic about architecture** — tested CNNs → GNNs → transformers, picked whatever worked best
-4. **He's seen graph neural networks** — considered them for Nanonets but moved to transformers (ask him about this! Good conversation starter and shows you understand the de",7583,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"**He values accuracy over hype** — chose specialized transformers over LLMs specifically to avoid hallucinations
-3. **He's pragmatic about architecture** — tested CNNs → GNNs → transformers, picked whatever worked best
-4. **He's seen graph neural networks** — considered them for Nanonets but moved to transformers (ask him about this! Good conversation starter and shows you understand the design space)
-
-**Suggested ice-breaker question:** ""I saw you considered graph neural networks before moving ",7708,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"**He's pragmatic about architecture** — tested CNNs → GNNs → transformers, picked whatever worked best
-4. **He's seen graph neural networks** — considered them for Nanonets but moved to transformers (ask him about this! Good conversation starter and shows you understand the design space)
-
-**Suggested ice-breaker question:** ""I saw you considered graph neural networks before moving to transformers for document understanding — what drove that decision? I've been working with Neo4j for knowledge gr",7909,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,huggingface,"**IDP (core)** — Document processing OCR + extraction (invoices, POs, contracts)
-2. **Workflow Automation** — No-code AP automation, reconciliation, email workflows
-3. **Turing AI Agents** — Autonomous agents for sales/growth (lead sourcing, cold calling, qualification)
-
-**Open source:** [docext](https://github.com/NanoNets/docext) (document extraction toolkit), [Nanonets-OCR-s](https://huggingface.co/nanonets/Nanonets-OCR-s) (3.75B param VLM for document understanding)
-
-**CTO background:** Prat",1144,canonical_match:Hugging Face
-3dff2078-8001-4938-8584-09ae7806b009,HuggingFace,"Continuum currently relies on LLM extraction (single-stage). In the call, acknowledge this difference as a strength: ""Your approach of specialized models for extraction accuracy is exactly what should handle the first stage. The LLM layer is better suited for the higher-level reasoning — connecting decisions, inferring relationships, identifying contradictions — where some hallucination tolerance is acceptable because it's validated against the graph.""
-
-Sources:
-- [Nanonets Homepage](https://nan",8983,canonical_match:Hugging Face
-3dff2078-8001-4938-8584-09ae7806b009,huggingface,"Continuum currently relies on LLM extraction (single-stage). In the call, acknowledge this difference as a strength: ""Your approach of specialized models for extraction accuracy is exactly what should handle the first stage. The LLM layer is better suited for the higher-level reasoning — connecting decisions, inferring relationships, identifying contradictions — where some hallucination tolerance is acceptable because it's validated against the graph.""
-
-Sources:
-- [Nanonets Homepage](https://nan",9004,canonical_match:Hugging Face
-3dff2078-8001-4938-8584-09ae7806b009,Kubernetes,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",664,canonical_match:Kubernetes
-3dff2078-8001-4938-8584-09ae7806b009,PostgreSQL,"There's no understanding of *relationships between* extracted information across documents. **Continuum fills this:** Your 8-stage entity resolution + knowledge graph can take Nanonets' extracted document data and turn it into **connected organizational knowledge**. A contract mentioning ""PostgreSQL"" and an architecture diagram showing ""postgres"" and a meeting transcript saying ""our database"" — Continuum resolves these to a single entity and maps the decision trail. **Pitch angle:** ""You're alre",2195,canonical_match:PostgreSQL
+3dff2078-8001-4938-8584-09ae7806b009,do,[context redacted: personal/employer-related content removed for privacy],176,canonical_match:DigitalOcean
+3dff2078-8001-4938-8584-09ae7806b009,Hugging Face,[context redacted: personal/employer-related content removed for privacy],676,canonical_match:Hugging Face
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],1431,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],1506,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],5499,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],7459,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],7583,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],7708,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],7909,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,huggingface,[context redacted: personal/employer-related content removed for privacy],1144,canonical_match:Hugging Face
+3dff2078-8001-4938-8584-09ae7806b009,HuggingFace,[context redacted: personal/employer-related content removed for privacy],8983,canonical_match:Hugging Face
+3dff2078-8001-4938-8584-09ae7806b009,huggingface,[context redacted: personal/employer-related content removed for privacy],9004,canonical_match:Hugging Face
+3dff2078-8001-4938-8584-09ae7806b009,Kubernetes,[context redacted: personal/employer-related content removed for privacy],664,canonical_match:Kubernetes
+3dff2078-8001-4938-8584-09ae7806b009,PostgreSQL,[context redacted: personal/employer-related content removed for privacy],2195,canonical_match:PostgreSQL
 3dff2078-8001-4938-8584-09ae7806b009,PostgreSQL,"The pattern I see is moving up the value chain — from extracting data to understanding what it means. One gap I notice is that extracted document data ends up flat in ERPs. There's no connected understanding across documents.""
 
 ### Minutes 8-15: Demo/Explain Continuum (Keep It Concise)
 - 30 seconds on what it is: ""An organizational context graph that captures decisions from any source — conversations, documents, diagrams, meetings""
 - 30 seconds on the hard engineering: ""8-stage entity resolution",6389,canonical_match:PostgreSQL
-3dff2078-8001-4938-8584-09ae7806b009,postgres,"There's no understanding of *relationships between* extracted information across documents. **Continuum fills this:** Your 8-stage entity resolution + knowledge graph can take Nanonets' extracted document data and turn it into **connected organizational knowledge**. A contract mentioning ""PostgreSQL"" and an architecture diagram showing ""postgres"" and a meeting transcript saying ""our database"" — Continuum resolves these to a single entity and maps the decision trail. **Pitch angle:** ""You're alre",2244,canonical_match:PostgreSQL
+3dff2078-8001-4938-8584-09ae7806b009,postgres,[context redacted: personal/employer-related content removed for privacy],2244,canonical_match:PostgreSQL
 3dff2078-8001-4938-8584-09ae7806b009,postgres,"The pattern I see is moving up the value chain — from extracting data to understanding what it means. One gap I notice is that extracted document data ends up flat in ERPs. There's no connected understanding across documents.""
 
 ### Minutes 8-15: Demo/Explain Continuum (Keep It Concise)
 - 30 seconds on what it is: ""An organizational context graph that captures decisions from any source — conversations, documents, diagrams, meetings""
 - 30 seconds on the hard engineering: ""8-stage entity resolution",6403,canonical_match:PostgreSQL
-3dff2078-8001-4938-8584-09ae7806b009,FastAPI,"A paper on ""End-to-end multimodal document understanding to knowledge graph construction"" using Nanonets OCR-s + Continuum's ER pipeline would be novel and publishable. The CTO has a research background (Caltech), so this angle could resonate. ### Frame C: ""Your Role as an FDE/Intern""
-
-Given the overlaps, you could pitch yourself as someone who:
-- Understands their document extraction pipeline AND the next layer (knowledge graphs)
-- Has built production-grade entity resolution (8-stage, which th",5483,canonical_match:FastAPI
-3dff2078-8001-4938-8584-09ae7806b009,PyTorch,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",655,canonical_match:PyTorch
-3dff2078-8001-4938-8584-09ae7806b009,Python,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",647,canonical_match:Python
-3dff2078-8001-4938-8584-09ae7806b009,Python,"A paper on ""End-to-end multimodal document understanding to knowledge graph construction"" using Nanonets OCR-s + Continuum's ER pipeline would be novel and publishable. The CTO has a research background (Caltech), so this angle could resonate. ### Frame C: ""Your Role as an FDE/Intern""
-
-Given the overlaps, you could pitch yourself as someone who:
-- Understands their document extraction pipeline AND the next layer (knowledge graphs)
-- Has built production-grade entity resolution (8-stage, which th",5475,canonical_match:Python
-3dff2078-8001-4938-8584-09ae7806b009,github,"**IDP (core)** — Document processing OCR + extraction (invoices, POs, contracts)
-2. **Workflow Automation** — No-code AP automation, reconciliation, email workflows
-3. **Turing AI Agents** — Autonomous agents for sales/growth (lead sourcing, cold calling, qualification)
-
-**Open source:** [docext](https://github.com/NanoNets/docext) (document extraction toolkit), [Nanonets-OCR-s](https://huggingface.co/nanonets/Nanonets-OCR-s) (3.75B param VLM for document understanding)
-
-**CTO background:** Prat",1060,canonical_match:GitHub
-3dff2078-8001-4938-8584-09ae7806b009,GitHub,"Continuum currently relies on LLM extraction (single-stage). In the call, acknowledge this difference as a strength: ""Your approach of specialized models for extraction accuracy is exactly what should handle the first stage. The LLM layer is better suited for the higher-level reasoning — connecting decisions, inferring relationships, identifying contradictions — where some hallucination tolerance is acceptable because it's validated against the graph.""
-
-Sources:
-- [Nanonets Homepage](https://nan",9057,canonical_match:GitHub
-3dff2078-8001-4938-8584-09ae7806b009,Golang,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",690,canonical_match:Go
-3dff2078-8001-4938-8584-09ae7806b009,Neo4j,"A paper on ""End-to-end multimodal document understanding to knowledge graph construction"" using Nanonets OCR-s + Continuum's ER pipeline would be novel and publishable. The CTO has a research background (Caltech), so this angle could resonate. ### Frame C: ""Your Role as an FDE/Intern""
-
-Given the overlaps, you could pitch yourself as someone who:
-- Understands their document extraction pipeline AND the next layer (knowledge graphs)
-- Has built production-grade entity resolution (8-stage, which th",5492,canonical_match:Neo4j
-3dff2078-8001-4938-8584-09ae7806b009,Neo4j,"**He's seen graph neural networks** — considered them for Nanonets but moved to transformers (ask him about this! Good conversation starter and shows you understand the design space)
-
-**Suggested ice-breaker question:** ""I saw you considered graph neural networks before moving to transformers for document understanding — what drove that decision? I've been working with Neo4j for knowledge graph construction and I'm curious about the GNN angle.""
-
----
-
-## One Risk To Manage
-
-Nanonets' CTO explicit",8000,canonical_match:Neo4j
-3dff2078-8001-4938-8584-09ae7806b009,React,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",708,canonical_match:React
-3dff2078-8001-4938-8584-09ae7806b009,React,"A paper on ""End-to-end multimodal document understanding to knowledge graph construction"" using Nanonets OCR-s + Continuum's ER pipeline would be novel and publishable. The CTO has a research background (Caltech), so this angle could resonate. ### Frame C: ""Your Role as an FDE/Intern""
-
-Given the overlaps, you could pitch yourself as someone who:
-- Understands their document extraction pipeline AND the next layer (knowledge graphs)
-- Has built production-grade entity resolution (8-stage, which th",5513,canonical_match:React
-3dff2078-8001-4938-8584-09ae7806b009,next,"A contract mentioning ""PostgreSQL"" and an architecture diagram showing ""postgres"" and a meeting transcript saying ""our database"" — Continuum resolves these to a single entity and maps the decision trail. **Pitch angle:** ""You're already extracting the data. The next layer is *understanding* it — connecting entities across documents into an organizational knowledge graph.""
-
-### 2. ""Learnable Decision Engines"" ↔ Decision Trace Extraction
-
-Nanonets already has the concept of ""learnable decision eng",2435,canonical_match:Next.js
-3dff2078-8001-4938-8584-09ae7806b009,next,"A paper on ""End-to-end multimodal document understanding to knowledge graph construction"" using Nanonets OCR-s + Continuum's ER pipeline would be novel and publishable. The CTO has a research background (Caltech), so this angle could resonate. ### Frame C: ""Your Role as an FDE/Intern""
-
-Given the overlaps, you could pitch yourself as someone who:
-- Understands their document extraction pipeline AND the next layer (knowledge graphs)
-- Has built production-grade entity resolution (8-stage, which th",5244,canonical_match:Next.js
+3dff2078-8001-4938-8584-09ae7806b009,FastAPI,[context redacted: personal/employer-related content removed for privacy],5483,canonical_match:FastAPI
+3dff2078-8001-4938-8584-09ae7806b009,PyTorch,[context redacted: personal/employer-related content removed for privacy],655,canonical_match:PyTorch
+3dff2078-8001-4938-8584-09ae7806b009,Python,[context redacted: personal/employer-related content removed for privacy],647,canonical_match:Python
+3dff2078-8001-4938-8584-09ae7806b009,Python,[context redacted: personal/employer-related content removed for privacy],5475,canonical_match:Python
+3dff2078-8001-4938-8584-09ae7806b009,github,[context redacted: personal/employer-related content removed for privacy],1060,canonical_match:GitHub
+3dff2078-8001-4938-8584-09ae7806b009,GitHub,[context redacted: personal/employer-related content removed for privacy],9057,canonical_match:GitHub
+3dff2078-8001-4938-8584-09ae7806b009,Golang,[context redacted: personal/employer-related content removed for privacy],690,canonical_match:Go
+3dff2078-8001-4938-8584-09ae7806b009,Neo4j,[context redacted: personal/employer-related content removed for privacy],5492,canonical_match:Neo4j
+3dff2078-8001-4938-8584-09ae7806b009,Neo4j,[context redacted: personal/employer-related content removed for privacy],8000,canonical_match:Neo4j
+3dff2078-8001-4938-8584-09ae7806b009,React,[context redacted: personal/employer-related content removed for privacy],708,canonical_match:React
+3dff2078-8001-4938-8584-09ae7806b009,React,[context redacted: personal/employer-related content removed for privacy],5513,canonical_match:React
+3dff2078-8001-4938-8584-09ae7806b009,next,[context redacted: personal/employer-related content removed for privacy],2435,canonical_match:Next.js
+3dff2078-8001-4938-8584-09ae7806b009,next,[context redacted: personal/employer-related content removed for privacy],5244,canonical_match:Next.js
 3dff2078-8001-4938-8584-09ae7806b009,Next,"There's no connected understanding across documents.""
 
 ### Minutes 8-15: Demo/Explain Continuum (Keep It Concise)
 - 30 seconds on what it is: ""An organizational context graph that captures decisions from any source — conversations, documents, diagrams, meetings""
 - 30 seconds on the hard engineering: ""8-stage entity resolution that merges 'PostgreSQL', 'postgres', and 'our database' into a single entity with full provenance""
 - 1 minute on the overlap: ""This is the layer above document extraction.",7126,canonical_match:Next.js
-3dff2078-8001-4938-8584-09ae7806b009,go,"---
-
-## Three Ways To Frame The Conversation
-
-### Frame A: ""Continuum as a Product Extension for Nanonets Customers""
-
-Nanonets extracts data from documents. Continuum connects that data into a knowledge graph. Together, they go from **data extraction → knowledge management**. For Nanonets' existing enterprise customers, this is a natural upsell: ""You're already automating AP — now understand the decision patterns across your entire document corpus.""
-
-**Why this works for Nanonets:** Increases st",4248,canonical_match:Go
-3dff2078-8001-4938-8584-09ae7806b009,do,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",299,canonical_match:DigitalOcean
-3dff2078-8001-4938-8584-09ae7806b009,do,"Let me synthesize the overlaps and build your call strategy. `─────────────────────────────────────────────────`
-
-Here's my deep analysis. This is a **surprisingly strong overlap** — much stronger than just ""they do OCR, you do knowledge graphs.""
-
----
-
-## Nanonets Company Profile
-
-**Founded:** 2017 by Sarthak Jain (CEO) & Prathamesh Juvatkar (CTO)
-**Funding:** $42M total ($29M Series B led by Accel India, Mar 2024)
-**HQ:** San Francisco, team across US/India/Europe
-**Customers:** 34% of Fortune ",311,canonical_match:DigitalOcean
-3dff2078-8001-4938-8584-09ae7806b009,C,"A paper on ""End-to-end multimodal document understanding to knowledge graph construction"" using Nanonets OCR-s + Continuum's ER pipeline would be novel and publishable. The CTO has a research background (Caltech), so this angle could resonate. ### Frame C: ""Your Role as an FDE/Intern""
-
-Given the overlaps, you could pitch yourself as someone who:
-- Understands their document extraction pipeline AND the next layer (knowledge graphs)
-- Has built production-grade entity resolution (8-stage, which th",5093,canonical_match:C
+3dff2078-8001-4938-8584-09ae7806b009,go,[context redacted: personal/employer-related content removed for privacy],4248,canonical_match:Go
+3dff2078-8001-4938-8584-09ae7806b009,do,[context redacted: personal/employer-related content removed for privacy],299,canonical_match:DigitalOcean
+3dff2078-8001-4938-8584-09ae7806b009,do,[context redacted: personal/employer-related content removed for privacy],311,canonical_match:DigitalOcean
+3dff2078-8001-4938-8584-09ae7806b009,C,[context redacted: personal/employer-related content removed for privacy],5093,canonical_match:C
 3dff2078-8001-4938-8584-09ae7806b009,C,"There's no connected understanding across documents.""
 
 ### Minutes 8-15: Demo/Explain Continuum (Keep It Concise)
 - 30 seconds on what it is: ""An organizational context graph that captures decisions from any source — conversations, documents, diagrams, meetings""
 - 30 seconds on the hard engineering: ""8-stage entity resolution that merges 'PostgreSQL', 'postgres', and 'our database' into a single entity with full provenance""
 - 1 minute on the overlap: ""This is the layer above document extraction.",7043,canonical_match:C
-3dff2078-8001-4938-8584-09ae7806b009,NanoNets,"**IDP (core)** — Document processing OCR + extraction (invoices, POs, contracts)
-2. **Workflow Automation** — No-code AP automation, reconciliation, email workflows
-3. **Turing AI Agents** — Autonomous agents for sales/growth (lead sourcing, cold calling, qualification)
-
-**Open source:** [docext](https://github.com/NanoNets/docext) (document extraction toolkit), [Nanonets-OCR-s](https://huggingface.co/nanonets/Nanonets-OCR-s) (3.75B param VLM for document understanding)
-
-**CTO background:** Prat",1071,camel_case
-3dff2078-8001-4938-8584-09ae7806b009,TechCrunch,"Continuum currently relies on LLM extraction (single-stage). In the call, acknowledge this difference as a strength: ""Your approach of specialized models for extraction accuracy is exactly what should handle the first stage. The LLM layer is better suited for the higher-level reasoning — connecting decisions, inferring relationships, identifying contradictions — where some hallucination tolerance is acceptable because it's validated against the graph.""
-
-Sources:
-- [Nanonets Homepage](https://nan",8802,camel_case
-3dff2078-8001-4938-8584-09ae7806b009,NanoNets,"Continuum currently relies on LLM extraction (single-stage). In the call, acknowledge this difference as a strength: ""Your approach of specialized models for extraction accuracy is exactly what should handle the first stage. The LLM layer is better suited for the higher-level reasoning — connecting decisions, inferring relationships, identifying contradictions — where some hallucination tolerance is acceptable because it's validated against the graph.""
-
-Sources:
-- [Nanonets Homepage](https://nan",9084,camel_case
+3dff2078-8001-4938-8584-09ae7806b009,NanoNets,[context redacted: personal/employer-related content removed for privacy],1071,camel_case
+3dff2078-8001-4938-8584-09ae7806b009,TechCrunch,[context redacted: personal/employer-related content removed for privacy],8802,camel_case
+3dff2078-8001-4938-8584-09ae7806b009,NanoNets,[context redacted: personal/employer-related content removed for privacy],9084,camel_case
 3dff2078-8001-4938-8584-09ae7806b009,DecisionTrace,"`★ Insight ─────────────────────────────────────`
 The review queue is based on a simple but effective criterion:
 
@@ -8230,411 +8009,58 @@ Here's the full pipeline — no manual entry involved:
 3dff2078-8001-4938-8584-09ae7806b009,DecisionTrace,"**Parser:** `ClaudeLogParser` reads the JSONL files and structures them into conversations
 3. **Extractor:** `DecisionExtractor` sends each conversation to an LLM (NVIDIA Nemotron or Bedrock Claude) with a structured prompt that extracts decision traces — trigger, context, options, decision, rationale
 4. **Storage:** Each extracted decision is saved to Neo4j as a `DecisionTrace` node with entities and relationships. The LLM fills `agent_decision` and `agent_rationale`. The fields `human_decision",685,camel_case
-3dff2078-8001-4938-8584-09ae7806b009,Next,Good — standalone product that gets superpowers with Nanonets integration. Next question:,75,canonical_match:Next.js
+3dff2078-8001-4938-8584-09ae7806b009,Next,[context redacted: personal/employer-related content removed for privacy],75,canonical_match:Next.js
 3dff2078-8001-4938-8584-09ae7806b009,foundation,"It can — these are actually layers of the same product. Organizational memory is the foundation, decision intelligence is a specialized lens into it, document understanding is the ingestion method, and AI context backbone is the delivery mechanism. They compose naturally. Next question:",85,canonical_match:Foundation
 3dff2078-8001-4938-8584-09ae7806b009,compose,"It can — these are actually layers of the same product. Organizational memory is the foundation, decision intelligence is a specialized lens into it, document understanding is the ingestion method, and AI context backbone is the delivery mechanism. They compose naturally. Next question:",254,canonical_match:Docker Compose
 3dff2078-8001-4938-8584-09ae7806b009,Next,"Organizational memory is the foundation, decision intelligence is a specialized lens into it, document understanding is the ingestion method, and AI context backbone is the delivery mechanism. They compose naturally. Next question:",274,canonical_match:Next.js
-3dff2078-8001-4938-8584-09ae7806b009,next,"A plugin feels too small, and a standalone companion product wastes their distribution advantage. What Prathamesh would want is a platform with connectors where Nanonets becomes the first and best connector — that's the real product line play. The pitch becomes: Nanonets already extracts data from documents, so the natural next step is connecting that data into organizational knowledge. I've already built the core tech — the entity resolution, knowledge graph, decision traces. This should be inc",1232,canonical_match:Next.js
-3dff2078-8001-4938-8584-09ae7806b009,next,"`★ Insight ─────────────────────────────────────`
-**What the CTO would want:** Nanonets already expanded from IDP into Turing AI Agents — showing appetite for new product lines. Their strategic gap is: they extract data beautifully but it goes flat into ERPs. The obvious next product in their portfolio is **connecting** that data. A knowledge graph product that sits on top of their extraction layer would:
-- Increase customer stickiness (extracted data becomes more valuable connected)
-- Create a ",369,canonical_match:Next.js
-3dff2078-8001-4938-8584-09ae7806b009,transformers,"Slightly abstract. ---
-
-**My recommendation: Concept B — Cortex.** Here's why:
-
-1. The brain metaphor is *perfect* for pitching to Prathamesh — he's a technical founder who moved through CNNs → GNNs → transformers. ""Cortex"" is where pattern recognition becomes understanding, which is exactly what this product does to extracted data. 2.",2587,canonical_match:Hugging Face Transformers
-3dff2078-8001-4938-8584-09ae7806b009,C,"Clear separation from IDP. **Weakness:** ""Cortex"" is used by a few other products (Palo Alto Cortex, etc.), though not in this space. ---
-
-### Concept C: **Fabric** — ""Nanonets Fabric""
-
-**Tagline:** ""The connective tissue of organizational knowledge.""
-
-Fabric weaves together information from every source — documents, conversations, meetings, code — into a unified knowledge layer. Every entity, decision, and relationship is threaded together. AI agents query the Fabric to understand organizationa",1672,canonical_match:C
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"Good question. The user wants to understand the build effort difference between the two concepts. Let me think about this:
-
-**Nexus (IDP-first, document-to-knowledge graph):**
-- Core pipeline: Nanonets IDP output → entity extraction → 8-stage ER → knowledge graph
-- Main work: Build a connector to Nanonets' extraction API, adapt entity resolution for document-extracted entities (invoice fields, vendor names, contract terms, etc.), build the knowledge graph layer
-- What we already have: 8-stage ER",794,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,Neo4j,"Good question. The user wants to understand the build effort difference between the two concepts. Let me think about this:
-
-**Nexus (IDP-first, document-to-knowledge graph):**
-- Core pipeline: Nanonets IDP output → entity extraction → 8-stage ER → knowledge graph
-- Main work: Build a connector to Nanonets' extraction API, adapt entity resolution for document-extracted entities (invoice fields, vendor names, contract terms, etc.), build the knowledge graph layer
-- What we already have: 8-stage ER",511,canonical_match:Neo4j
-3dff2078-8001-4938-8584-09ae7806b009,API,"Good question. The user wants to understand the build effort difference between the two concepts. Let me think about this:
-
-**Nexus (IDP-first, document-to-knowledge graph):**
-- Core pipeline: Nanonets IDP output → entity extraction → 8-stage ER → knowledge graph
-- Main work: Build a connector to Nanonets' extraction API, adapt entity resolution for document-extracted entities (invoice fields, vendor names, contract terms, etc.), build the knowledge graph layer
-- What we already have: 8-stage ER",319,canonical_match:API
-3dff2078-8001-4938-8584-09ae7806b009,API,"Good question. The user wants to understand the build effort difference between the two concepts. Let me think about this:
-
-**Nexus (IDP-first, document-to-knowledge graph):**
-- Core pipeline: Nanonets IDP output → entity extraction → 8-stage ER → knowledge graph
-- Main work: Build a connector to Nanonets' extraction API, adapt entity resolution for document-extracted entities (invoice fields, vendor names, contract terms, etc.), build the knowledge graph layer
-- What we already have: 8-stage ER",601,canonical_match:API
-3dff2078-8001-4938-8584-09ae7806b009,OAuth,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",1467,canonical_match:OAuth
-3dff2078-8001-4938-8584-09ae7806b009,Neo4j,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",1070,canonical_match:Neo4j
-3dff2078-8001-4938-8584-09ae7806b009,React,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",1078,canonical_match:React
-3dff2078-8001-4938-8584-09ae7806b009,REST,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",706,canonical_match:REST API
-3dff2078-8001-4938-8584-09ae7806b009,API,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",629,canonical_match:API
-3dff2078-8001-4938-8584-09ae7806b009,API,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",1827,canonical_match:API
-3dff2078-8001-4938-8584-09ae7806b009,js,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",1442,canonical_match:JavaScript
-3dff2078-8001-4938-8584-09ae7806b009,GitPython,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",1941,camel_case
-3dff2078-8001-4938-8584-09ae7806b009,Auth.js,"This is exactly how Nanonets itself evolved: IDP → Workflow Automation → Turing Agents. Same playbook. `─────────────────────────────────────────────────`
-
-## Build Effort Comparison
-
-### Nexus Scope (IDP-first, ~2-3 weeks)
-
-| Component | Effort | What We Already Have |
-|-----------|--------|---------------------|
-| Nanonets IDP connector (webhook/API to receive extracted doc data) | **New** — ~2 days | Nothing, but simple REST/webhook integration |
-| Document entity types (vendor, invoice, cont",1437,tech_suffix
-3dff2078-8001-4938-8584-09ae7806b009,AWS,"Cortex makes it *useful*. Turing agents query Cortex for context. **Go-to-market wedge:** Finance & Compliance (Nanonets' biggest vertical)
-- ""Which vendor changed payment terms last quarter?""
-- ""Show me every approval decision that contradicts our procurement policy""
-- ""What decisions has this team made about AWS spending?""
-
-**Expansion path:** Finance → Legal → Engineering → Horizontal
-
-Does this positioning feel right so far?",943,canonical_match:AWS
-3dff2078-8001-4938-8584-09ae7806b009,Go,"Cortex makes it *useful*. Turing agents query Cortex for context. **Go-to-market wedge:** Finance & Compliance (Nanonets' biggest vertical)
-- ""Which vendor changed payment terms last quarter?""
-- ""Show me every approval decision that contradicts our procurement policy""
-- ""What decisions has this team made about AWS spending?""
-
-**Expansion path:** Finance → Legal → Engineering → Horizontal
-
-Does this positioning feel right so far?",699,canonical_match:Go
-3dff2078-8001-4938-8584-09ae7806b009,go,"I think we can name it all Nanonets Nexus, and the tagline also would match their website, which has ""from document to decision, automated"" and we add the word ""connected"" somewhere or replace automated or something. Also the prototype we're building would have to match Nanonet's existing UI and design choices, so let me know how we can go about using the continuum code, we fork the repository, copy the code and build a new one or what? I want to show him what's possible tomorrow itself and I wa",339,canonical_match:Go
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"With a clean repo, you'd spend time wiring up boilerplate (Docker, project structure, auth, database migrations) that already works in Continuum. Since you want to demo *tomorrow*, fork is fastest. But there's a real downside: a fork carries all the Continuum-specific code (Claude log parser, interview system, SE-specific ontology) that isn't relevant to Nexus. It looks messy if Prathamesh browses the repo. **Better approach actually:** Copy the repo (not git fork — just copy the files), initial",401,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,Docker,"Fair question. A fork keeps the full git history and gives you a working app from minute zero — you just rename and rebrand. With a clean repo, you'd spend time wiring up boilerplate (Docker, project structure, auth, database migrations) that already works in Continuum. Since you want to demo *tomorrow*, fork is fastest. But there's a real downside: a fork carries all the Continuum-specific code (Claude log parser, interview system, SE-specific ontology) that isn't relevant to Nexus.",184,canonical_match:Docker
+3dff2078-8001-4938-8584-09ae7806b009,next,[context redacted: personal/employer-related content removed for privacy],1232,canonical_match:Next.js
+3dff2078-8001-4938-8584-09ae7806b009,next,[context redacted: personal/employer-related content removed for privacy],369,canonical_match:Next.js
+3dff2078-8001-4938-8584-09ae7806b009,transformers,[context redacted: personal/employer-related content removed for privacy],2587,canonical_match:Hugging Face Transformers
+3dff2078-8001-4938-8584-09ae7806b009,C,[context redacted: personal/employer-related content removed for privacy],1672,canonical_match:C
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],794,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,Neo4j,[context redacted: personal/employer-related content removed for privacy],511,canonical_match:Neo4j
+3dff2078-8001-4938-8584-09ae7806b009,API,[context redacted: personal/employer-related content removed for privacy],319,canonical_match:API
+3dff2078-8001-4938-8584-09ae7806b009,API,[context redacted: personal/employer-related content removed for privacy],601,canonical_match:API
+3dff2078-8001-4938-8584-09ae7806b009,OAuth,[context redacted: personal/employer-related content removed for privacy],1467,canonical_match:OAuth
+3dff2078-8001-4938-8584-09ae7806b009,Neo4j,[context redacted: personal/employer-related content removed for privacy],1070,canonical_match:Neo4j
+3dff2078-8001-4938-8584-09ae7806b009,React,[context redacted: personal/employer-related content removed for privacy],1078,canonical_match:React
+3dff2078-8001-4938-8584-09ae7806b009,REST,[context redacted: personal/employer-related content removed for privacy],706,canonical_match:REST API
+3dff2078-8001-4938-8584-09ae7806b009,API,[context redacted: personal/employer-related content removed for privacy],629,canonical_match:API
+3dff2078-8001-4938-8584-09ae7806b009,API,[context redacted: personal/employer-related content removed for privacy],1827,canonical_match:API
+3dff2078-8001-4938-8584-09ae7806b009,js,[context redacted: personal/employer-related content removed for privacy],1442,canonical_match:JavaScript
+3dff2078-8001-4938-8584-09ae7806b009,GitPython,[context redacted: personal/employer-related content removed for privacy],1941,camel_case
+3dff2078-8001-4938-8584-09ae7806b009,Auth.js,[context redacted: personal/employer-related content removed for privacy],1437,tech_suffix
+3dff2078-8001-4938-8584-09ae7806b009,AWS,[context redacted: personal/employer-related content removed for privacy],943,canonical_match:AWS
+3dff2078-8001-4938-8584-09ae7806b009,Go,[context redacted: personal/employer-related content removed for privacy],699,canonical_match:Go
+3dff2078-8001-4938-8584-09ae7806b009,go,[context redacted: personal/employer-related content removed for privacy],339,canonical_match:Go
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],401,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,Docker,[context redacted: personal/employer-related content removed for privacy],184,canonical_match:Docker
 3dff2078-8001-4938-8584-09ae7806b009,git,"Fair question. A fork keeps the full git history and gives you a working app from minute zero — you just rename and rebrand. With a clean repo, you'd spend time wiring up boilerplate (Docker, project structure, auth, database migrations) that already works in Continuum. Since you want to demo *tomorrow*, fork is fastest.",37,canonical_match:Git
-3dff2078-8001-4938-8584-09ae7806b009,git,"But there's a real downside: a fork carries all the Continuum-specific code (Claude log parser, interview system, SE-specific ontology) that isn't relevant to Nexus. It looks messy if Prathamesh browses the repo. **Better approach actually:** Copy the repo (not git fork — just copy the files), initialize a fresh git repo, and strip out the irrelevant parts. You get the working codebase without the baggage. The agent team can do the cleanup + rebrand in parallel.",587,canonical_match:Git
-3dff2078-8001-4938-8584-09ae7806b009,git,"But there's a real downside: a fork carries all the Continuum-specific code (Claude log parser, interview system, SE-specific ontology) that isn't relevant to Nexus. It looks messy if Prathamesh browses the repo. **Better approach actually:** Copy the repo (not git fork — just copy the files), initialize a fresh git repo, and strip out the irrelevant parts. You get the working codebase without the baggage. The agent team can do the cleanup + rebrand in parallel.",639,canonical_match:Git
+3dff2078-8001-4938-8584-09ae7806b009,git,[context redacted: personal/employer-related content removed for privacy],587,canonical_match:Git
+3dff2078-8001-4938-8584-09ae7806b009,git,[context redacted: personal/employer-related content removed for privacy],639,canonical_match:Git
 3dff2078-8001-4938-8584-09ae7806b009,do,"**Better approach actually:** Copy the repo (not git fork — just copy the files), initialize a fresh git repo, and strip out the irrelevant parts. You get the working codebase without the baggage. The agent team can do the cleanup + rebrand in parallel.",754,canonical_match:DigitalOcean
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"Good. Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-",202,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2584,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2967,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,Neo4j,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",1598,canonical_match:Neo4j
-3dff2078-8001-4938-8584-09ae7806b009,Neo4j,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2294,canonical_match:Neo4j
-3dff2078-8001-4938-8584-09ae7806b009,React,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2017,canonical_match:React
-3dff2078-8001-4938-8584-09ae7806b009,React,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2499,canonical_match:React
-3dff2078-8001-4938-8584-09ae7806b009,Redis,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2408,canonical_match:Redis
-3dff2078-8001-4938-8584-09ae7806b009,API,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",518,canonical_match:API
-3dff2078-8001-4938-8584-09ae7806b009,API,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",1987,canonical_match:API
-3dff2078-8001-4938-8584-09ae7806b009,py,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",3008,canonical_match:Python
-3dff2078-8001-4938-8584-09ae7806b009,js,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2937,canonical_match:JavaScript
-3dff2078-8001-4938-8584-09ae7806b009,Auth.js,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",2932,tech_suffix
-3dff2078-8001-4938-8584-09ae7806b009,parser.py,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",3001,tech_suffix
-3dff2078-8001-4938-8584-09ae7806b009,agent_context.py,"Continuing the design. ---
-
-## Section 2: Architecture & Data Flow
-
-**Core insight:** Nexus is Continuum's backend with a Nanonets-shaped frontend and a document-first ingestion layer instead of Claude Code logs. ```
-                     NANONETS NEXUS ARCHITECTURE
-
-    ┌─────────────────────────────────────────────────┐
-    │              INGESTION LAYER                     │
-    │                                                  │
-    │  Nanonets IDP    Manual Upload    Future:        │
-    │ ",3043,tech_suffix
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"We repurpose the engineering but reskin the content. **Landing page plan:**
-
-**Hero section:** Keep the scroll-driven developer-to-graph transformation animation, but change the narrative:
-- Instead of ""developer typing → knowledge graph forms"" 
-- It becomes ""documents flowing in → knowledge graph forms""
-- The animated graph nodes become document types (invoices, contracts, POs) connecting to entities (vendors, amounts, policies)
-
-**Product suite section:** Show how Nexus fits in the Nanonets ec",1187,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,React,"We repurpose the engineering but reskin the content. **Landing page plan:**
-
-**Hero section:** Keep the scroll-driven developer-to-graph transformation animation, but change the narrative:
-- Instead of ""developer typing → knowledge graph forms"" 
-- It becomes ""documents flowing in → knowledge graph forms""
-- The animated graph nodes become document types (invoices, contracts, POs) connecting to entities (vendors, amounts, policies)
-
-**Product suite section:** Show how Nexus fits in the Nanonets ec",1083,canonical_match:React
-3dff2078-8001-4938-8584-09ae7806b009,YouTube,"We repurpose the engineering but reskin the content. **Landing page plan:**
-
-**Hero section:** Keep the scroll-driven developer-to-graph transformation animation, but change the narrative:
-- Instead of ""developer typing → knowledge graph forms"" 
-- It becomes ""documents flowing in → knowledge graph forms""
-- The animated graph nodes become document types (invoices, contracts, POs) connecting to entities (vendors, amounts, policies)
-
-**Product suite section:** Show how Nexus fits in the Nanonets ec",1220,camel_case
-3dff2078-8001-4938-8584-09ae7806b009,JetBrains,"Let me continue to the UI design section. ---
-
-## Section 3: UI Design — Nanonets Visual Alignment
-
-**Design token mapping (Continuum → Nexus):**
-
-| Token | Continuum (dark) | Nexus (light) |
-|-------|-----------------|---------------|
-| Background | Space 250/20%/6% | White #FFFFFF |
-| Card surface | Glass 252/20%/10% | White with subtle gray border |
-| Primary | Violet #7C3AED | Nanonets Blue #546FFF |
-| Accent | Rose #EC4899 | Light blue rgba(84,111,255,20%) |
-| Text primary | White | Dark gr",2259,camel_case
-3dff2078-8001-4938-8584-09ae7806b009,Foundation,"**A polished landing page** that positions Nexus within Nanonets' ecosystem
-2. **A working knowledge graph** with finance-domain entities (even if seeded with sample data)
-3. **The review queue** showing extracted decisions from sample documents
-
-**What the agent team builds (prioritized):**
-
-| Priority | Task | Why |
-|----------|------|-----|
-| P0 | Copy repo, fresh git, strip Continuum branding from codebase | Foundation |
-| P0 | Reskin entire UI: light mode, blue (#546FFF), DM Sans, clean car",529,canonical_match:Foundation
-3dff2078-8001-4938-8584-09ae7806b009,git,"**A polished landing page** that positions Nexus within Nanonets' ecosystem
-2. **A working knowledge graph** with finance-domain entities (even if seeded with sample data)
-3. **The review queue** showing extracted decisions from sample documents
-
-**What the agent team builds (prioritized):**
-
-| Priority | Task | Why |
-|----------|------|-----|
-| P0 | Copy repo, fresh git, strip Continuum branding from codebase | Foundation |
-| P0 | Reskin entire UI: light mode, blue (#546FFF), DM Sans, clean car",483,canonical_match:Git
-3dff2078-8001-4938-8584-09ae7806b009,API,"**A polished landing page** that positions Nexus within Nanonets' ecosystem
-2. **A working knowledge graph** with finance-domain entities (even if seeded with sample data)
-3. **The review queue** showing extracted decisions from sample documents
-
-**What the agent team builds (prioritized):**
-
-| Priority | Task | Why |
-|----------|------|-----|
-| P0 | Copy repo, fresh git, strip Continuum branding from codebase | Foundation |
-| P0 | Reskin entire UI: light mode, blue (#546FFF), DM Sans, clean car",1286,canonical_match:API
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],202,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],2584,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],2967,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,Neo4j,[context redacted: personal/employer-related content removed for privacy],1598,canonical_match:Neo4j
+3dff2078-8001-4938-8584-09ae7806b009,Neo4j,[context redacted: personal/employer-related content removed for privacy],2294,canonical_match:Neo4j
+3dff2078-8001-4938-8584-09ae7806b009,React,[context redacted: personal/employer-related content removed for privacy],2017,canonical_match:React
+3dff2078-8001-4938-8584-09ae7806b009,React,[context redacted: personal/employer-related content removed for privacy],2499,canonical_match:React
+3dff2078-8001-4938-8584-09ae7806b009,Redis,[context redacted: personal/employer-related content removed for privacy],2408,canonical_match:Redis
+3dff2078-8001-4938-8584-09ae7806b009,API,[context redacted: personal/employer-related content removed for privacy],518,canonical_match:API
+3dff2078-8001-4938-8584-09ae7806b009,API,[context redacted: personal/employer-related content removed for privacy],1987,canonical_match:API
+3dff2078-8001-4938-8584-09ae7806b009,py,[context redacted: personal/employer-related content removed for privacy],3008,canonical_match:Python
+3dff2078-8001-4938-8584-09ae7806b009,js,[context redacted: personal/employer-related content removed for privacy],2937,canonical_match:JavaScript
+3dff2078-8001-4938-8584-09ae7806b009,Auth.js,[context redacted: personal/employer-related content removed for privacy],2932,tech_suffix
+3dff2078-8001-4938-8584-09ae7806b009,parser.py,[context redacted: personal/employer-related content removed for privacy],3001,tech_suffix
+3dff2078-8001-4938-8584-09ae7806b009,agent_context.py,[context redacted: personal/employer-related content removed for privacy],3043,tech_suffix
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],1187,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,React,[context redacted: personal/employer-related content removed for privacy],1083,canonical_match:React
+3dff2078-8001-4938-8584-09ae7806b009,YouTube,[context redacted: personal/employer-related content removed for privacy],1220,camel_case
+3dff2078-8001-4938-8584-09ae7806b009,JetBrains,[context redacted: personal/employer-related content removed for privacy],2259,camel_case
+3dff2078-8001-4938-8584-09ae7806b009,Foundation,[context redacted: personal/employer-related content removed for privacy],529,canonical_match:Foundation
+3dff2078-8001-4938-8584-09ae7806b009,git,[context redacted: personal/employer-related content removed for privacy],483,canonical_match:Git
+3dff2078-8001-4938-8584-09ae7806b009,API,[context redacted: personal/employer-related content removed for privacy],1286,canonical_match:API
 3dff2078-8001-4938-8584-09ae7806b009,PostgreSQL,"At a more conservative 15x multiple, it's still **$150M in enterprise value** from a product built by a small team on existing infrastructure. ### Why This Is Nearly Free Revenue
 
 - **Zero new customer acquisition cost** — upsell to existing customers
@@ -8658,17 +8084,7 @@ Does this positioning feel right so far?",699,canonical_match:Go
 3dff2078-8001-4938-8584-09ae7806b009,solid,"The user can switch between verticals on the landing page to see different knowledge graph visualizations. This shows the horizontal potential without building vertical-specific features. ---
 
 Does this business case and expanded vision feel solid enough for the call?",4735,canonical_match:SolidJS
-3dff2078-8001-4938-8584-09ae7806b009,Neo4j,"### Revenue Model for Nexus
-
-**Pricing:** Add-on to existing Nanonets IDP subscriptions
-
-| Tier | Price | Target |
-|------|-------|--------|
-| Nexus Starter | +$500/mo per team | SMB — basic knowledge graph from IDP output |
-| Nexus Business | +$2,000/mo per dept | Mid-market — cross-department knowledge, contradiction alerts |
-| Nexus Enterprise | +$5,000-10,000/mo | Fortune 500 — full multi-source ingestion, MCP server for agents, compliance audit trail |
-
-**Conservative revenue projection (Ye",2567,canonical_match:Neo4j
+3dff2078-8001-4938-8584-09ae7806b009,Neo4j,[context redacted: personal/employer-related content removed for privacy],2567,canonical_match:Neo4j
 3dff2078-8001-4938-8584-09ae7806b009,AWS,"At a more conservative 15x multiple, it's still **$150M in enterprise value** from a product built by a small team on existing infrastructure. ### Why This Is Nearly Free Revenue
 
 - **Zero new customer acquisition cost** — upsell to existing customers
@@ -8687,11 +8103,7 @@ Let me:
 1. Create the new repo directory
 2. Copy Continuum files
 3.",217,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,"Write the design doc
-5. Write the implementation plan
-6. Create a CLAUDE.md for the new repo
-
-Let me think about where to put the repo. Probably `/Users/shehral/nexus` or `/Users/shehral/nanonets-nexus`. I'll start by setting up the directory structure and copying over the Continuum files, then move on to drafting the design and implementation documentation.",434,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,[context redacted: personal/employer-related content removed for privacy],434,canonical_match:Claude
 3dff2078-8001-4938-8584-09ae7806b009,git,"The user wants me to:
 
 1. Create the new repo (copy Continuum, fresh git init)
@@ -8743,26 +8155,23 @@ Rippletide moved to deterministic neuro-symbolic reasoning precisely because LLM
 
 | Approach | Cost per 1K docs | Accuracy | Complexity |
 |----------|-------------------|----",1307,canonical_match:GPT
-3dff2078-8001-4938-8584-09ae7806b009,do,"`★ Insight ─────────────────────────────────────`
-**Great strategic question.** Using Nanonets' own models (OCR-s, OCR-2) exclusively would be a strong signal to Prathamesh — ""we eat our own dogfood."" But there's a nuance:
-
-**Nanonets OCR-s/OCR-2** are VLMs that turn documents into structured markdown. They're excellent for *document understanding* (layout, tables, equations). But they're NOT general-purpose LLMs — they can't do *decision extraction* (reading markdown and identifying trigger/con",541,canonical_match:DigitalOcean
-3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,The `.gitignore` is ignoring `docs/` and `CLAUDE.md` — we need to track both for the Nexus repo since the implementation plan and CLAUDE.md are essential for agent execution.,42,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,The `.gitignore` is ignoring `docs/` and `CLAUDE.md` — we need to track both for the Nexus repo since the implementation plan and CLAUDE.md are essential for agent execution.,130,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,do,[context redacted: personal/employer-related content removed for privacy],541,canonical_match:DigitalOcean
+3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,[context redacted: personal/employer-related content removed for privacy],42,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,[context redacted: personal/employer-related content removed for privacy],130,canonical_match:Claude
 3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,"Good point — you don't want the implementation plan and CLAUDE.md visible in a public repo. You want them tracked in git for agent execution but not exposed publicly. Two options:
 
 1.",56,canonical_match:Claude
 3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,"You want them tracked in git for agent execution but not exposed publicly. Two options:
 
 1. **Keep the gitignore as-is** (docs/ and CLAUDE.md ignored) — agent teams read them from disk but they don't get pushed. You'd need to pass context in the agent prompt instead. 2.",225,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,"2. **Track them in git but add them to a separate branch** that stays local — messy. The simplest approach: **keep docs/ and CLAUDE.md gitignored.** They exist on disk for agents to read. When you open a Claude Code session in the `/Users/shehral/nexus` directory, Claude automatically loads `CLAUDE.md` from the working directory regardless of git tracking. The implementation plan is referenced in the prompt you give to agents.",488,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"**Track them in git but add them to a separate branch** that stays local — messy. The simplest approach: **keep docs/ and CLAUDE.md gitignored.** They exist on disk for agents to read. When you open a Claude Code session in the `/Users/shehral/nexus` directory, Claude automatically loads `CLAUDE.md` from the working directory regardless of git tracking. The implementation plan is referenced in the prompt you give to agents. So the `.gitignore` stays as-is.",567,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,Claude,"**Track them in git but add them to a separate branch** that stays local — messy. The simplest approach: **keep docs/ and CLAUDE.md gitignored.** They exist on disk for agents to read. When you open a Claude Code session in the `/Users/shehral/nexus` directory, Claude automatically loads `CLAUDE.md` from the working directory regardless of git tracking. The implementation plan is referenced in the prompt you give to agents. So the `.gitignore` stays as-is.",628,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,[context redacted: personal/employer-related content removed for privacy],488,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],567,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,Claude,[context redacted: personal/employer-related content removed for privacy],628,canonical_match:Claude
 3dff2078-8001-4938-8584-09ae7806b009,git,"Good point — you don't want the implementation plan and CLAUDE.md visible in a public repo. You want them tracked in git for agent execution but not exposed publicly. Two options:
 
 1. **Keep the gitignore as-is** (docs/ and CLAUDE.md ignored) — agent teams read them from disk but they don't get pushed.",117,canonical_match:Git
-3dff2078-8001-4938-8584-09ae7806b009,git,"You'd need to pass context in the agent prompt instead. 2. **Track them in git but add them to a separate branch** that stays local — messy. The simplest approach: **keep docs/ and CLAUDE.md gitignored.** They exist on disk for agents to read. When you open a Claude Code session in the `/Users/shehral/nexus` directory, Claude automatically loads `CLAUDE.md` from the working directory regardless of git tracking.",381,canonical_match:Git
-3dff2078-8001-4938-8584-09ae7806b009,git,"**Track them in git but add them to a separate branch** that stays local — messy. The simplest approach: **keep docs/ and CLAUDE.md gitignored.** They exist on disk for agents to read. When you open a Claude Code session in the `/Users/shehral/nexus` directory, Claude automatically loads `CLAUDE.md` from the working directory regardless of git tracking. The implementation plan is referenced in the prompt you give to agents. So the `.gitignore` stays as-is.",708,canonical_match:Git
+3dff2078-8001-4938-8584-09ae7806b009,git,[context redacted: personal/employer-related content removed for privacy],381,canonical_match:Git
+3dff2078-8001-4938-8584-09ae7806b009,git,[context redacted: personal/employer-related content removed for privacy],708,canonical_match:Git
 3dff2078-8001-4938-8584-09ae7806b009,docker-compose,"The `.gitignore` already ignores `CLAUDE.md` and `docs/`, so those won't be committed. But there are still ""continuum"" references in files that WILL be committed: `.env.example`, `docker-compose.yml`, `README.md`, `SECURITY.md`, and the `apps/mcp/` directory (which is Continuum's MCP server). These are all things the agent team will fix as Task A1 (global rebrand). But let me check — is there anything actually sensitive that should NOT be in a public repo?",180,canonical_match:Docker Compose
 3dff2078-8001-4938-8584-09ae7806b009,compose,"The `.gitignore` already ignores `CLAUDE.md` and `docs/`, so those won't be committed. But there are still ""continuum"" references in files that WILL be committed: `.env.example`, `docker-compose.yml`, `README.md`, `SECURITY.md`, and the `apps/mcp/` directory (which is Continuum's MCP server). These are all things the agent team will fix as Task A1 (global rebrand). But let me check — is there anything actually sensitive that should NOT be in a public repo?",187,canonical_match:Docker Compose
 3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,"The `.gitignore` already ignores `CLAUDE.md` and `docs/`, so those won't be committed. But there are still ""continuum"" references in files that WILL be committed: `.env.example`, `docker-compose.yml`, `README.md`, `SECURITY.md`, and the `apps/mcp/` directory (which is Continuum's MCP server). These are all things the agent team will fix as Task A1 (global rebrand).",34,canonical_match:Claude
@@ -8827,24 +8236,8 @@ Rippletide moved to deterministic neuro-symbolic reasoning precisely because LLM
 - Total size: 3.1MB (just code + pnpm-lock)
 
 **Things with ""continuum"" in them** (will be fixed by agent team in Task ",288,canonical_match:API
-3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,"Done. Here's what's ready:
-
-**Nexus repo at `/Users/shehral/nexus`:**
-- Initial commit with 251 files (clean — no secrets, no media, no archive)
-- `CLAUDE.md` — Full design system, entity types, what to strip/keep (on disk, gitignored)
-- `docs/plans/2026-03-05-nanonets-nexus-design.md` — Product design doc (on disk, gitignored)
-- `docs/plans/2026-03-05-nanonets-nexus-implementation-plan.md` — 10 tasks across 2 phases with exact files and code (on disk, gitignored)
-
-**To start building, open a ne",148,canonical_match:Claude
-3dff2078-8001-4938-8584-09ae7806b009,claude,"Done. Here's what's ready:
-
-**Nexus repo at `/Users/shehral/nexus`:**
-- Initial commit with 251 files (clean — no secrets, no media, no archive)
-- `CLAUDE.md` — Full design system, entity types, what to strip/keep (on disk, gitignored)
-- `docs/plans/2026-03-05-nanonets-nexus-design.md` — Product design doc (on disk, gitignored)
-- `docs/plans/2026-03-05-nanonets-nexus-implementation-plan.md` — 10 tasks across 2 phases with exact files and code (on disk, gitignored)
-
-**To start building, open a ne",555,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,CLAUDE,[context redacted: personal/employer-related content removed for privacy],148,canonical_match:Claude
+3dff2078-8001-4938-8584-09ae7806b009,claude,[context redacted: personal/employer-related content removed for privacy],555,canonical_match:Claude
 3dff2078-8001-4938-8584-09ae7806b009,claude,"so i did run the claude in another terminal with skip permissions, i also enabled sandbox with auto-allow – what does that do?",17,canonical_match:Claude
 3dff2078-8001-4938-8584-09ae7806b009,do,"so i did run the claude in another terminal with skip permissions, i also enabled sandbox with auto-allow – what does that do?",123,canonical_match:DigitalOcean
 3dff2078-8001-4938-8584-09ae7806b009,Claude,"Fast but risky (hence ""dangerously""). **Sandbox with auto-allow** is a safer alternative. It runs commands inside a macOS sandbox (using `sandbox-exec`) that restricts what processes can do:
