@@ -1,6 +1,6 @@
 # Contributing
 
-This repository is the replication package for an ASE 2026 Industry Showcase paper. We are not actively soliciting external contributions during the review period (Apr–Jun 2026), but bug reports and replication-quality issues are welcome.
+This repository is the replication package for an ASE 2026 Industry Showcase paper. The paper has been accepted at the ASE 2026 Industry Showcase; bug reports and replication-quality issues are welcome.
 
 ## Running the system locally
 
@@ -50,4 +50,4 @@ If you find a discrepancy between a number in the paper and a number you compute
 - The number you got
 - The script you ran and any environment details
 
-We aim to respond within 5 business days during the review period.
+We aim to respond within 5 business days.

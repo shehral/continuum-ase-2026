@@ -23,6 +23,7 @@ Run from apps/api/ after activating the venv:
 from __future__ import annotations
 
 import json
+import os
 import re
 from collections import Counter
 from datetime import datetime
@@ -67,37 +68,44 @@ _USER_HOME_RE = re.compile(r"/Users/shehral(?=/|\b)")
 
 # Bare project names / personal domains that appear in prose and need redaction.
 # Keep "vibe" (and "Vibe Voyager") intact because the project is public.
-PRIVATE_PROJECT_NAMES = [
-    "cs5008-guide", "cs5008", "CS5008", "CS5008-guide",
-    "CS6120", "cs6120",
-    "CS5330", "cs5330", "CS5330-Su25",
-    "CS5001",
-    "signatureassignment",
-    "continuum-nlp", "continuum-guide",
-    # NOTE: "continuum" itself is the host project -- not redacted because
-    # the paper's repo is named continuum and will be public at submission.
-    "theoria-web", "theoria-private",
-    "research-posters",
-    "my-website",
-    "nexus",
-    "aria",
-    "CTCD", "ctcd",
-    "Resume",
-    "eid",
-    "wpm",
-    "Forge",
-    "Desktop-SV-Courses-5330",
-]
+def _load_private_names() -> list:
+    """Load the private-identifier blocklist from an untracked local file.
+
+    The concrete list of private project names and coursework identifiers is
+    itself sensitive, so it is NOT shipped with this artifact. To reproduce
+    the scrub, create `private_names.txt` next to this script: one name per
+    line; a `domain:<regex>` line supplies the personal-domain pattern.
+    """
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "private_names.txt")
+    names = []
+    if os.path.exists(path):
+        for line in open(path, encoding="utf-8"):
+            line = line.strip()
+            if line and not line.startswith("#") and not line.startswith("domain:"):
+                names.append(line)
+    return names
+
+
+def _load_private_domain_re():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "private_names.txt")
+    if os.path.exists(path):
+        for line in open(path, encoding="utf-8"):
+            if line.startswith("domain:"):
+                return re.compile(line.split(":", 1)[1].strip(), re.IGNORECASE)
+    return re.compile(r"(?!x)x")  # never matches without the private file
+
+
+PRIVATE_PROJECT_NAMES = _load_private_names()
 
 # Build a single-pass regex for project-name occurrences in prose.
 # Matches the name as a whole word (or with common suffixes like .com, /, etc.).
 # Ordered longest-first so longer names take precedence over shorter prefixes.
-_NAME_RE = re.compile(
+_NAME_RE = (re.compile(
     r"\b(" + "|".join(sorted((re.escape(n) for n in PRIVATE_PROJECT_NAMES), key=len, reverse=True)) + r")\b"
-)
+) if PRIVATE_PROJECT_NAMES else re.compile(r"(?!x)x"))
 
-# Author's personal domain -- redact any subdomain-or-root reference.
-_SHEHRAL_DOMAIN_RE = re.compile(r"\b(?:[a-z0-9-]+\.)?shehral\.com\b", re.IGNORECASE)
+# Author's personal domain -- pattern loaded from the untracked private file.
+_SHEHRAL_DOMAIN_RE = _load_private_domain_re()
 
 # GitHub URLs under github.com/shehral/<repo> -- redact all except /vibe.
 _GITHUB_RE = re.compile(r"\bgithub\.com/shehral/([A-Za-z0-9._-]+)", re.IGNORECASE)
@@ -119,7 +127,7 @@ def scrub_paths(text: str) -> str:
     def _other(m: re.Match[str]) -> str:
         project = m.group(1)
         # A handful of things under ~/ are not private-project names.
-        if project in {"vibe", "Downloads", "Desktop"}:
+        if project == "vibe":
             tail = m.group(2) or ""
             return f"/home/dev/{project}{tail}"
         # Everything else becomes a redacted project.
@@ -128,7 +136,7 @@ def scrub_paths(text: str) -> str:
     text = _OTHER_PROJECT_RE.sub(_other, text)
     text = _USER_HOME_RE.sub("/home/dev", text)
 
-    # Personal domain (e.g., cs5008.shehral.com) -> [REDACTED_DOMAIN]
+    # Personal-domain subdomains -> [REDACTED_DOMAIN]
     text = _SHEHRAL_DOMAIN_RE.sub("[REDACTED_DOMAIN]", text)
 
     # GitHub repos under github.com/shehral/ -> keep vibe only, redact others
@@ -140,9 +148,9 @@ def scrub_paths(text: str) -> str:
 
     text = _GITHUB_RE.sub(_gh, text)
 
-    # Bare private-project-name references in prose (e.g., "cs5008-guide",
-    # "nexus") -> [REDACTED_PROJECT]. Keeps the reasoning intact but strips
-    # the identifiers.
+    # Bare private-project-name references in prose (e.g., "some-course-guide",
+    # "some-internal-project") -> [REDACTED_PROJECT]. Keeps the reasoning
+    # intact but strips the identifiers.
     text = _NAME_RE.sub("[REDACTED_PROJECT]", text)
 
     return text
@@ -165,7 +173,7 @@ SECRET_PATTERNS: list[tuple[re.Pattern[str], str]] = [
     # Bearer tokens in headers or strings
     (re.compile(r"(?i)bearer\s+[A-Za-z0-9\-_.=]{20,}"), "Bearer [REDACTED_BEARER]"),
     # Explicit key/secret/password assignments
-    (re.compile(r"(?i)(api[_-]?key|secret[_-]?key|access[_-]?token|auth[_-]?token|password|passwd|pwd|token)\s*[:=]\s*[\"']?[^\s\"']{6,}[\"']?"),
+    (re.compile(r"(?i)(api[_-]?key|secret[_-]?key|access[_-]?token|auth[_-]?token|password|passwd|pwd|token)\s*[:=]\s*[\"']?[^\s\"']{4,}[\"']?"),
      lambda m: f"{m.group(1)}=[REDACTED]"),
     # .env-style lines with an = assignment and an uppercase-snake-case key
     (re.compile(r"\b([A-Z][A-Z0-9_]{4,}_(?:KEY|SECRET|TOKEN|PASSWORD|PWD))\s*=\s*\S+"),

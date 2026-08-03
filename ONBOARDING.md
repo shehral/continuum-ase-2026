@@ -1,6 +1,6 @@
 # Continuum Onboarding Guide
 
-> Quick reference companion to the full onboarding book (`guide/main.pdf`).
+> Quick reference for the Continuum system.
 > Designed for fast lookup and AI agent context.
 
 ## Table of Contents

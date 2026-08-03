@@ -448,7 +448,7 @@ async def trigger_ingestion(
 
     Examples:
     - /api/ingest/trigger?project=continuum - Only import from continuum project
-    - /api/ingest/trigger?exclude=CS5330,CS6120 - Exclude coursework
+    - /api/ingest/trigger?exclude=projA,projB - Exclude specific projects
     """
     # Check if import is already running
     progress = await get_import_progress()

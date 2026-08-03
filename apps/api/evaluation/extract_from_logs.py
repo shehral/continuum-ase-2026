@@ -41,7 +41,7 @@ _ABBREV_RE = re.compile(r"\b[A-Z]{2,6}\b")
 _HYPHEN_TECH_RE = re.compile(r"\b[a-zA-Z]+-[a-zA-Z]+(?:-[a-zA-Z]+)*\b")
 
 # Default logs directory — ONLY Continuum project logs are permitted.
-# Other project logs (CS6120, CS5330, etc.) are private and must NOT be used.
+# Logs from any other project are private and must NOT be used.
 DEFAULT_LOGS_DIR = os.path.expanduser(
     "~/.claude/projects/-Users-shehral-continuum"
 )

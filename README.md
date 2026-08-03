@@ -14,11 +14,11 @@ This repository is the replication package for the paper above. It contains:
 
 - The full source code for the **Continuum** system (FastAPI backend, Next.js frontend, MCP server, polyglot persistence)
 - The synthetic conversation dataset used for entity-resolution and decision-extraction evaluation (200 generated developer-AI conversations across 9 technical domains)
-- The evaluation scripts that produce every number reported in the paper
+- The evaluation scripts for the pipeline results, plus cached result files for every number reported in the paper
 - The two-annotator inter-annotator agreement data (Karthik Ravi and Nikhil Trivedi as annotators A and B respectively)
 - The 77 scrubbed conversation chunks from the **Vibe Voyager** real-log case study, plus the 379 extracted decision traces
 
-The paper PDF and a 30-second demo video link are in the paper's archived snapshot on Zenodo (DOI to be added at camera-ready).
+This repository is archived on Zenodo; the archive record links the paper PDF and a 30-second demo video.
 
 ## Repository layout
 
@@ -29,7 +29,6 @@ apps/
       data/
         synthetic_conversations/   200 generated dev-AI conversations
         v5/
-          synthetic_conversations/ Same 200, run-2 snapshot
           vibe_chunks/             77 scrubbed real-log chunks
           vibe_extraction_results.json
           annotator_a/             Karthik's annotation labels
@@ -95,7 +94,7 @@ All evaluation scripts run from `apps/api/` with the venv active. Cached result 
 | RQ1 | Decision extraction yield | `evaluation/run_end_to_end.py` | `data/v5/e2e_run2_results.json` |
 | RQ2 | Decision extraction precision (two-reviewer) | `evaluation/compute_agreement.py` | `data/v5/agreement_results.json` |
 | RQ3 | Entity resolution accuracy + ablation | `evaluation/run_full_pipeline.py`, `evaluation/run_full_ablation.py` | `data/v5/{train_test,ablation,bcubed,significance}_results.json` |
-| RQ3 | Baselines (SBERT, SpaCy NER, fuzzy, exact) | `evaluation/{sbert,spacy}_baseline.py` | `data/v5/{sbert,spacy}_baseline_results.json` |
+| RQ3 | Baselines (SBERT, SpaCy NER) | cached results only — the one-off scripts were not retained; method described in the paper (RQ3) | `data/v5/{sbert,spacy}_baseline_results.json` |
 | RQ4 | Knowledge graph topology | `evaluation/run_full_pipeline.py` | `data/v5/graph_topology_run2.json` |
 | RQ5 | GraphRAG retrieval | `evaluation/test_graphrag.py`, `evaluation/judge_graphrag.py` | `data/v5/graphrag_run2_results.json` |
 | RQ6 | MCP tool integration | `evaluation/test_mcp.py` | `data/v5/mcp_eval_results.json` |

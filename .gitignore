@@ -74,3 +74,6 @@ papers/
 
 # Lock files (optional - uncomment if you want to track these)
 # pnpm-lock.yaml
+
+# local-only redaction blocklist
+apps/api/evaluation/private_names.txt
